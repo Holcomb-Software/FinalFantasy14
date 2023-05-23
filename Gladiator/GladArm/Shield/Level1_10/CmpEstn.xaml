@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.CmpEstn"
+             Title="CmpEstn">
+    <VerticalStackLayout>
+        <Label 
+            Text="Company Escutcheon"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ee/eec74bc13991ccffcef05832fdbfd3cea33d193e.png?n6.38"/>
+
+        <Label Text="Item Level 1"/>
+
+        <Label Text="Block Strength   |  Block Rate   |"/>
+        <Label Text="      33         |       33      |"/>
+
+        <Label Text="GLA CNJ THM PLD WHM BLM"/>
+        <Label Text="Level 1"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Armorer Lv. 1"/>
+        <Label Text="Materials        Grade 1 Dark Matter"/>
+
+        <Label Text="Extractable: Yes      Projectable: Yes"/>
+        <Label Text="Desynthesizable: No   Dyeable: No"/>
+
+        <Label Text="Available for Purchase: No"/>
+        <Label Text="Unsellable"/>
+
+        <Label Text="Crafting Log:"/>
+        <Label Text="Title      |   Recipe Level      |   Item Level      |"/>
+        <Label Text="Armorer    |        55           |       1           |"/>
+        <Label Text="Master Armorer III"/>
+
+
+    </VerticalStackLayout>
+</ContentPage>

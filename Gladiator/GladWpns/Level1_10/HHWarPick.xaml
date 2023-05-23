@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Gladiator.GladWpns.Level1_10.HHWarPick"
+             Title="HHWarPick">
+    <VerticalStackLayout>
+        <Label 
+            Text="Radiance"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/01/018e1f9b1b642a132b0b20459e5846e7316ed370.png?n6.31"/>
+
+        <Label Text="Item Level 1"/>
+
+        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+        <Label Text="      9          |       6.72    |    2.24 |"/>
+
+        <Label Text="GLA PLD"/>
+        <Label Text="Level 1"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Blacksmith Lv. 1"/>
+        <Label Text="Materials        Grade 1 Dark Matter"/>
+
+        <Label Text="Extractable: Yes      Projectable: Yes"/>
+        <Label Text="Desynthesizable: No   Dyeable: Yes"/>
+
+        <Label Text="Available for Purchase: Yes"/>
+        <Label Text="Unsellable Market Prohibited"/>
+
+        <Label Text="Obtained From:"/>
+        <Label Text="Required Items    |   Selling NPC"/>
+        <Label Text="Wolf Collar       |   Collar Quartermaster"/>
+        <Label Text="10                |   Wolves' Den Pier (X4.4, Y6.2)"/>
+    </VerticalStackLayout>
+</ContentPage>

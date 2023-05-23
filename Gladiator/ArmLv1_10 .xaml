@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Gladiator.ArmLv1_10"
+             Title="ArmLv1_10">
+    <VerticalStackLayout>
+       
+        <Label 
+            Text="Welcome to Levels 1-10 Armor List for Gladiators!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"/>
+
+        <Button
+            Text="Company Escutcheon"
+            Clicked="Button_Clicked"/>
+
+        <Button
+            Text="Square Maple Shield"
+            Clicked="Button_Clicked_1"/>
+
+        <Button
+            Text="Ward Knight's Shield"
+            Clicked="Button_Clicked_2"/>
+
+        <Button
+            Text="Divine Beast Shield"
+            Clicked="Button_Clicked_3"/>
+
+        <Button
+            Text="House Fortemps Kite Shield"
+            Clicked="Button_Clicked_4"/>
+
+        <Button
+            Text="The Emperor's New Shield"
+            Clicked="Button_Clicked_5"/>
+
+        <Button
+            Text="Gigas Shield"
+            Clicked="Button_Clicked_6"/>
+
+        <Button
+            Text="Tropaios Shield"
+            Clicked="Button_Clicked_7"/>
+
+        <Button
+            Text="Komainu Shield"
+            Clicked="Button_Clicked_8"/>
+
+        <Button
+            Text="Hellhound Shield"
+            Clicked="Button_Clicked_9"/>
+
+        <Button
+            Text="Immortal Flames Escutcheon"
+            Clicked="Button_Clicked_10"/>
+
+        <Button
+            Text="Maelstrom Escutcheon"
+            Clicked="Button_Clicked_11"/>
+
+        <Button
+            Text="Twin Adder Escutcheon"
+            Clicked="Button_Clicked_12"/>
+
+        <Button
+            Text="Bronze Hoplon"
+            Clicked="Button_Clicked_13"/>
+
+        <Button
+            Text="Round Shield"
+            Clicked="Button_Clicked_14"/>
+
+    </VerticalStackLayout>
+</ContentPage>

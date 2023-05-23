@@ -1,0 +1,239 @@
+is_global = true
+build_property.TargetFramework = net6.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FinalFantasy14
+build_property.ProjectDir = C:\Users\holco\source\repos\FinalFantasy14\
+
+[C:/Users/holco/source/repos/FinalFantasy14/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Armor/ArmorMain.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Armor.ArmorMain.xaml
+build_metadata.AdditionalFiles.TargetPath = Armor\ArmorMain.xaml
+build_metadata.AdditionalFiles.RelativePath = Armor\ArmorMain.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/ArmLv1_10 .xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.ArmLv1_10 .xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\ArmLv1_10 .xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\ArmLv1_10 .xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladArm/Shield/Level1_10/BronzeHoplon.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.BronzeHoplon.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladArm\Shield\Level1_10\BronzeHoplon.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladArm\Shield\Level1_10\BronzeHoplon.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladArm/Shield/Level1_10/CmpEstn.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.CmpEstn.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladArm\Shield\Level1_10\CmpEstn.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladArm\Shield\Level1_10\CmpEstn.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladArm/Shield/Level1_10/DvnBstShd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.DvnBstShd.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladArm\Shield\Level1_10\DvnBstShd.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladArm\Shield\Level1_10\DvnBstShd.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladArm/Shield/Level1_10/GigasShd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.GigasShd.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladArm\Shield\Level1_10\GigasShd.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladArm\Shield\Level1_10\GigasShd.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladArm/Shield/Level1_10/HellhoundShd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.HellhoundShd.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladArm\Shield\Level1_10\HellhoundShd.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladArm\Shield\Level1_10\HellhoundShd.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladArm/Shield/Level1_10/HseFrtpsKtShd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.HseFrtpsKtShd.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladArm\Shield\Level1_10\HseFrtpsKtShd.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladArm\Shield\Level1_10\HseFrtpsKtShd.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladArm/Shield/Level1_10/ImmortalFlamesEsc.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.ImmortalFlamesEsc.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladArm\Shield\Level1_10\ImmortalFlamesEsc.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladArm\Shield\Level1_10\ImmortalFlamesEsc.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladArm/Shield/Level1_10/KomainuShd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.KomainuShd.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladArm\Shield\Level1_10\KomainuShd.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladArm\Shield\Level1_10\KomainuShd.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladArm/Shield/Level1_10/MalestromEsc.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.MalestromEsc.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladArm\Shield\Level1_10\MalestromEsc.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladArm\Shield\Level1_10\MalestromEsc.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladArm/Shield/Level1_10/RoundShd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.RoundShd.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladArm\Shield\Level1_10\RoundShd.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladArm\Shield\Level1_10\RoundShd.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladArm/Shield/Level1_10/SqMpShd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.SqMpShd.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladArm\Shield\Level1_10\SqMpShd.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladArm\Shield\Level1_10\SqMpShd.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladArm/Shield/Level1_10/TheEmpNewShd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.TheEmpNewShd.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladArm\Shield\Level1_10\TheEmpNewShd.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladArm\Shield\Level1_10\TheEmpNewShd.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladArm/Shield/Level1_10/TrpsShd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.TrpsShd.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladArm\Shield\Level1_10\TrpsShd.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladArm\Shield\Level1_10\TrpsShd.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladArm/Shield/Level1_10/TwinAdderEsc.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.TwinAdderEsc.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladArm\Shield\Level1_10\TwinAdderEsc.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladArm\Shield\Level1_10\TwinAdderEsc.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladArm/Shield/Level1_10/WrdKnghtShd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.WrdKnghtShd.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladArm\Shield\Level1_10\WrdKnghtShd.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladArm\Shield\Level1_10\WrdKnghtShd.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladiatorArm.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladiatorArm.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladiatorArm.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladiatorArm.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladWpn.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladWpn.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladWpn.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladWpn.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladWpns/Level1_10/AOScimitar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladWpns.Level1_10.AOScimitar.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladWpns\Level1_10\AOScimitar.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladWpns\Level1_10\AOScimitar.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladWpns/Level1_10/AshMac.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladWpns.Level1_10.AshMac.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladWpns\Level1_10\AshMac.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladWpns\Level1_10\AshMac.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladWpns/Level1_10/BrBstSwd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladWpns.Level1_10.BrBstSwd.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladWpns\Level1_10\BrBstSwd.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladWpns\Level1_10\BrBstSwd.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladWpns/Level1_10/HaliSwrd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladWpns.Level1_10.HaliSwrd.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladWpns\Level1_10\HaliSwrd.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladWpns\Level1_10\HaliSwrd.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladWpns/Level1_10/HHWarPick.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladWpns.Level1_10.HHWarPick.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladWpns\Level1_10\HHWarPick.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladWpns\Level1_10\HHWarPick.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladWpns/Level1_10/Radiance.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladWpns.Level1_10.Radiance.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladWpns\Level1_10\Radiance.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladWpns\Level1_10\Radiance.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladWpns/Level1_10/TrnFngWlf.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladWpns.Level1_10.TrnFngWlf.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladWpns\Level1_10\TrnFngWlf.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladWpns\Level1_10\TrnFngWlf.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladWpns/Level1_10/TrpSwrd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladWpns.Level1_10.TrpSwrd.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladWpns\Level1_10\TrpSwrd.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladWpns\Level1_10\TrpSwrd.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladWpns/Level1_10/Ultimum.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladWpns.Level1_10.Ultimum.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladWpns\Level1_10\Ultimum.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladWpns\Level1_10\Ultimum.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladWpns/Level1_10/VkgSwd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladWpns.Level1_10.VkgSwd.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladWpns\Level1_10\VkgSwd.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladWpns\Level1_10\VkgSwd.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/GladWpns/Level1_10/WeatheredShortsword.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladWpns.Level1_10.WeatheredShortsword.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladWpns\Level1_10\WeatheredShortsword.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladWpns\Level1_10\WeatheredShortsword.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Gladiator/Lv1_10.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.Lv1_10.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\Lv1_10.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\Lv1_10.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Items/ItemsMain.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Items.ItemsMain.xaml
+build_metadata.AdditionalFiles.TargetPath = Items\ItemsMain.xaml
+build_metadata.AdditionalFiles.RelativePath = Items\ItemsMain.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/holco/source/repos/FinalFantasy14/Weapons/WeaponsMain.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Weapons.WeaponsMain.xaml
+build_metadata.AdditionalFiles.TargetPath = Weapons\WeaponsMain.xaml
+build_metadata.AdditionalFiles.RelativePath = Weapons\WeaponsMain.xaml
