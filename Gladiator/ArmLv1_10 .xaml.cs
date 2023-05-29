@@ -44,17 +44,17 @@ public partial class ArmLv1_10 : ContentPage
 
     private async void Button_Clicked_7(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new Gladiator.GladArm.Shield.Level1_10.TrpsShd());
+        await Navigation.PushAsync(new Gladiator.GladArm.Shield.Level1_10.KomainuShd());
     }
 
     private async void Button_Clicked_8(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new Gladiator.GladArm.Shield.Level1_10.KomainuShd());
+        await Navigation.PushAsync(new Gladiator.GladArm.Shield.Level1_10.HellhoundShd());
     }
 
     private async void Button_Clicked_9(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new Gladiator.GladArm.Shield.Level1_10.HellhoundShd());
+        await Navigation.PushAsync(new Gladiator.GladArm.Shield.Level1_10.AugHellhoundShd());
     }
 
     private async void Button_Clicked_10(object sender, EventArgs e)

@@ -24575,11 +24575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\holco\\source\\repos\\FinalFantasy14\\FinalFantasy14.csproj",
+      "projectUniqueName": "C:\\Users\\holco\\source\\repos\\HolcombSoftware\\FinalFantasy14\\FinalFantasy14.csproj",
       "projectName": "FinalFantasy14",
-      "projectPath": "C:\\Users\\holco\\source\\repos\\FinalFantasy14\\FinalFantasy14.csproj",
+      "projectPath": "C:\\Users\\holco\\source\\repos\\HolcombSoftware\\FinalFantasy14\\FinalFantasy14.csproj",
       "packagesPath": "C:\\Users\\holco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\holco\\source\\repos\\FinalFantasy14\\obj\\",
+      "outputPath": "C:\\Users\\holco\\source\\repos\\HolcombSoftware\\FinalFantasy14\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

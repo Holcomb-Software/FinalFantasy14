@@ -64,6 +64,9 @@
 	  <MauiXaml Update="Armor\ArmorMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladArm\Shield\Level1_10\AugHellhoundShd.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Gladiator\GladArm\Shield\Level1_10\BronzeHoplon.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -95,9 +98,6 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Gladiator\GladArm\Shield\Level1_10\TheEmpNewShd.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladArm\Shield\Level1_10\TrpsShd.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Gladiator\GladArm\Shield\Level1_10\TwinAdderEsc.xaml">

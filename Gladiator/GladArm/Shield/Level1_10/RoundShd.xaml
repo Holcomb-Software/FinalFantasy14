@@ -5,8 +5,48 @@
              Title="RoundShd">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Round Shield"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/0c/0c01a6d3c6e71a25ef07db37bf60417a5f08782c.png?n6.4"/>
+
+        <Label Text="Item Level 10"/>
+
+        <Label Text="Block Strength   |  Block Rate   |"/>
+        <Label Text="      23         |       23      |"/>
+
+        <Label Text="GLA CNJ PLD WHM"/>
+        <Label Text="Level 10"/>
+
+        <Label Text="Bonuses"/>
+        <Label Text="Mind +1           Direct Hit Rate +1"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Carpenter Lv. 1"/>
+        <Label Text="Materials        Grade 1 Dark Matter"/>
+
+        <Label Text="Extractable: Yes        Projectable: Yes"/>
+        <Label Text="Desynthesizable: 10.00   Dyeable: No"/>
+
+        <Label Text="Sale Price: 345 gil"/>
+        <Label Text="Sell: 3 gil"/>
+
+        <Label Text="Obtained From:"/>
+        <Label Text="Selling NPC              |   Area"/>
+        <Label Text="Faezghim                 |   Limsa Lominsa Lower Decks (X: 6.5, Y: 11.9)"/>
+        <Label Text="Merchant and Mender      |   Lower La Noscea (X: 32.5, Y: 20.4)"/>
+        <Label Text="Merchant and Mender      |   Central Shroud (X: 21.8, Y: 21.1)"/>
+        <Label Text="Merchant and Mender      |   Central Shroud (X: 23.1, Y: 19.4)"/>
+        <Label Text="Merchant and Mender      |   Central Shroud (X: 24.9, Y: 27.8)"/>
+        <Label Text="Merchant and Mender      |   East Shroud (X: 9.8, Y: 23.5)"/>
+        <Label Text="Merchant and Mender      |   East Shroud (X: 11.8, Y: 25.5)"/>
+        <Label Text="Hamlet Smithy            |   North Shroud (X: 29.9, Y: 19.0"/>
+        <Label Text="Merchant and Mender      |   North Shroud (X: 28.1, Y: 28.1)"/>
+        <Label Text="Geraint                  |   Old Gridania (X: 14.6, Y: 9.7)"/>
+        <Label Text="Jealous Juggernaut       |   Ul'dah - Steps of Thal (X: 13.9, Y: 11.0)"/>
+
+        <Label Text="Title          |    Recipe Level     |      Item Level  |"/>
+        <Label Text="Carpenter      |        9            |          10      |"/>
     </VerticalStackLayout>
 </ContentPage>

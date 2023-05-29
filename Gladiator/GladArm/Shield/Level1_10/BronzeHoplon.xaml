@@ -5,8 +5,41 @@
              Title="BronzeHoplon">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Bronze Hoplon"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/23/23ebbf0de7953d2ee5d261a82f5dcfcba27b14ea.png?n6.4"/>
+
+        <Label Text="Item Level 8"/>
+
+        <Label Text="Block Strength   |  Block Rate   |"/>
+        <Label Text="      44         |       44      |"/>
+
+        <Label Text="GLA PLD"/>
+        <Label Text="Level 8"/>
+        
+        <Label Text="Bonuses"/>
+        <Label Text="Strength +1"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Armorer Lv. 1"/>
+        <Label Text="Materials        Grade 1 Dark Matter"/>
+
+        <Label Text="Extractable: Yes        Projectable: Yes"/>
+        <Label Text="Desynthesizable: 8.00   Dyeable: No"/>
+
+        <Label Text="Sale Price: 420 gil"/>
+        <Label Text="Sell: 2 gil"/>
+
+        <Label Text="Obtained From:"/>
+        <Label Text="Selling NPC              |   Area"/>
+        <Label Text="Faezghim                 |   Limsa Lominsa Lower Decks (X: 6.5, Y: 11.9)"/>
+        <Label Text="Geraint                  |   Old Gridania (X: 14.6, Y: 9.7)"/>
+        <Label Text="Jealous Juggernaut       |   Ul'dah - Steps of Thal (X: 13.9, Y: 11.0)"/>
+
+        <Label Text="Quest                    |    Area             |          Level   |"/>
+        <Label Text="Ul'dah's Most Wanted     |    Ul'dah           |           10     |"/>
+
     </VerticalStackLayout>
 </ContentPage>

@@ -5,8 +5,36 @@
              Title="ImmortalFlamesEsc">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Immortal Flames Escutcheon"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4c/4c17988fe6f89da6f77f1b4a06b0f7a292ca86b6.png?n6.4"/>
+
+        <Label Text="Item Level 6"/>
+
+        <Label Text="Block Strength   |  Block Rate   |"/>
+        <Label Text="      23         |       23      |"/>
+
+        <Label Text="GLA CNJ THM PLD WHM BLM"/>
+        <Label Text="Level 1"/>
+        <Label Text="Imomortal Flames Uniform"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Armorer Lv. 1"/>
+        <Label Text="Materials        Grade 1 Dark Matter"/>
+
+        <Label Text="Extractable: Yes        Projectable: Yes"/>
+        <Label Text="Desynthesizable: No   Dyeable: No"/>
+
+        <Label Text="Sale Price: 100 gil (Restricted)"/>
+        <Label Text="Unsellable Market Prohibited"/>
+
+        <Label Text="Obtained From:"/>
+        <Label Text="Selling NPC              |   Area"/>
+        <Label Text="Calamity Salvager        |   Limsa Lominsa Upper Decks (X: 11.3, Y: 14.3)"/>
+        <Label Text="Calamity Salvager        |   Old Gridania (X: 10.0, Y: 8.4)"/>
+        <Label Text="Calamith Salvager        |   Ul'dah - Steps of Thald (X: 12.6, Y: 13.1)"/>
+        
     </VerticalStackLayout>
 </ContentPage>

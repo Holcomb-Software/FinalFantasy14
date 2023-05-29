@@ -39,15 +39,15 @@
             Clicked="Button_Clicked_6"/>
 
         <Button
-            Text="Tropaios Shield"
+            Text="Komainu Shield"
             Clicked="Button_Clicked_7"/>
 
         <Button
-            Text="Komainu Shield"
+            Text="Hellhound Shield"
             Clicked="Button_Clicked_8"/>
 
         <Button
-            Text="Hellhound Shield"
+            Text="Augmented Hellhound Shield"
             Clicked="Button_Clicked_9"/>
 
         <Button

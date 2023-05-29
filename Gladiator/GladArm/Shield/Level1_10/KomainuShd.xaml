@@ -5,8 +5,33 @@
              Title="KomainuShd">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Komainu Shield"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/cb/cbbb02783bab8a4933c252db6a3a66f0b8f35d31.png?n6.4"/>
+
+        <Label Text="Item Level 1"/>
+
+        <Label Text="Block Strength   |  Block Rate   |"/>
+        <Label Text="      37         |       37      |"/>
+
+        <Label Text="GLA PLD"/>
+        <Label Text="Level 1"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Armorer Lv. 1"/>
+        <Label Text="Materials        Grade 1 Dark Matter"/>
+
+        <Label Text="Extractable: Yes        Projectable: Yes"/>
+        <Label Text="Desynthesizable: No   Dyeable: No"/>
+
+        <Label Text="Available for Purchase: Yes"/>
+        <Label Text="2 gil Market Prohibited"/>
+
+        <Label Text="Obtained From:"/>
+        <Label Text="Required Items           |   Selling NPC"/>
+        <Label Text="Wolf Mark                |   Mark Quartermaster"/>
+        <Label Text="900                      |   Wolves' Den Pier (X: 4.4, Y: 6.0)"/>
     </VerticalStackLayout>
 </ContentPage>
