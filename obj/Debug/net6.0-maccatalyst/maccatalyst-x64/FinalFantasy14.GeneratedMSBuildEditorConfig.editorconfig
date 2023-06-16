@@ -232,6 +232,42 @@ build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Resources.S
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarArm/ArmParts.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarArm.ArmParts.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarArm\ArmParts.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarArm\ArmParts.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarArm/Head/FEMatSunHat.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarArm.Head.FEMatSunHat.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarArm\Head\FEMatSunHat.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarArm\Head\FEMatSunHat.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarArm/Head/FEPatHat.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarArm.Head.FEPatHat.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarArm\Head\FEPatHat.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarArm\Head\FEPatHat.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarArm/Head/Head.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarArm.Head.Head.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarArm\Head\Head.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarArm\Head\Head.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarArm/Head/HelmofLight.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarArm.Head.HelmofLight.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarArm\Head\HelmofLight.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarArm\Head\HelmofLight.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarArm/WarriorArm.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarArm.WarriorArm.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarArm\WarriorArm.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarArm\WarriorArm.xaml
+
 [C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Weapons/WeaponsMain.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Weapons.WeaponsMain.xaml
