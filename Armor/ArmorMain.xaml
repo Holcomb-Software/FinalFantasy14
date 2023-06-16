@@ -12,5 +12,8 @@
         <Button Text="Gladiator"
                 Clicked="Button_Clicked"/>
 
+        <Button Text="Warrior"
+                Clicked="Button_Clicked_1"/>
+
     </VerticalStackLayout>
 </ContentPage>

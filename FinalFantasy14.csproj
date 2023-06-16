@@ -55,6 +55,12 @@
 	  <Compile Update="Gladiator\GladiatorArm.xaml.cs">
 	    <DependentUpon>GladiatorArm.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Warrior\WarArm\ArmParts.xaml.cs">
+	    <DependentUpon>ArmParts.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Warrior\WarArm\WarriorArm.xaml.cs">
+	    <DependentUpon>WarriorArm.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Weapons\WeaponsMain.xaml.cs">
 	    <DependentUpon>WeaponsMain.xaml</DependentUpon>
 	  </Compile>
@@ -155,6 +161,24 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Items\ItemsMain.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarArm\ArmParts.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarArm\Head\FEMatSunHat.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarArm\Head\FEPatHat.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarArm\Head\Head.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarArm\Head\HelmofLight.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarArm\WarriorArm.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Weapons\WeaponsMain.xaml">
