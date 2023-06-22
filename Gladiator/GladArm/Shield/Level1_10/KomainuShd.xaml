@@ -3,35 +3,53 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.KomainuShd"
              Title="KomainuShd">
+    <ScrollView Margin="10">
     <VerticalStackLayout>
         <Label 
             Text="Komainu Shield"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
-        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/cb/cbbb02783bab8a4933c252db6a3a66f0b8f35d31.png?n6.4"/>
-
-        <Label Text="Item Level 1"/>
+         <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/cb/cbbb02783bab8a4933c252db6a3a66f0b8f35d31.png?n6.4"/>
+         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
+         <Label Text="Item Level 1"/>
+        
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
         <Label Text="Block Strength   |  Block Rate   |"/>
-        <Label Text="      37         |       37      |"/>
+        <Label Text="      37         |       37                       |"/>
+        
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
         <Label Text="GLA PLD"/>
         <Label Text="Level 1"/>
+        
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
         <Label Text="Crafting and Repairs"/>
         <Label Text="Repair Level     Armorer Lv. 1"/>
         <Label Text="Materials        Grade 1 Dark Matter"/>
+        
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
         <Label Text="Extractable: Yes        Projectable: Yes"/>
         <Label Text="Desynthesizable: No   Dyeable: No"/>
+        
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
         <Label Text="Available for Purchase: Yes"/>
         <Label Text="2 gil Market Prohibited"/>
+        
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
         <Label Text="Obtained From:"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
         <Label Text="Required Items           |   Selling NPC"/>
-        <Label Text="Wolf Mark                |   Mark Quartermaster"/>
-        <Label Text="900                      |   Wolves' Den Pier (X: 4.4, Y: 6.0)"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
+        <Label Text="Wolf Mark                    |   Mark Quartermaster"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
+        <Label Text="900                                |   Wolves' Den Pier (X: 4.4, Y: 6.0)"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

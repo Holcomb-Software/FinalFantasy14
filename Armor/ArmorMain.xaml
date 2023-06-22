@@ -11,6 +11,9 @@
 
         <Button Text="Gladiator"
                 Clicked="Button_Clicked"/>
+        
+        <Rectangle Fill="black" HeightRequest="5" WidthRequest="1000"/>
+
 
         <Button Text="Warrior"
                 Clicked="Button_Clicked_1"/>

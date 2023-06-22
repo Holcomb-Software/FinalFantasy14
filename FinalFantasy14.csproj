@@ -49,11 +49,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Gladiator\ArmLv1_10 .xaml.cs">
-	    <DependentUpon>ArmLv1_10 .xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Gladiator\GladiatorArm.xaml.cs">
+	  <Compile Update="Gladiator\GladArm\GladiatorArm.xaml.cs">
 	    <DependentUpon>GladiatorArm.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Gladiator\GladArm\Shield\Level1_10\ShieldLv1_10 .xaml.cs">
+	    <DependentUpon>ShieldLv1_10 .xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Warrior\WarArm\ArmParts.xaml.cs">
 	    <DependentUpon>ArmParts.xaml</DependentUpon>
@@ -68,6 +68,9 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="Armor\ArmorMain.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladArm\Shield\Level1_10\ShieldLv1_10 .xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Gladiator\GladArm\Shield\Level1_10\AugHellhoundShd.xaml">
@@ -112,13 +115,16 @@
 	  <MauiXaml Update="Gladiator\GladArm\Shield\Level1_10\WrdKnghtShd.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladiatorArm.xaml">
+	  <MauiXaml Update="Gladiator\GladArm\GladiatorArm.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Gladiator\GladArm\Shield\Level1_10\CmpEstn.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladWpn.xaml">
+	  <MauiXaml Update="Gladiator\GladArm\Shield\ShieldMain.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\GladWpn.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Gladiator\GladWpns\Level1_10\AOScimitar.xaml">
@@ -154,10 +160,7 @@
 	  <MauiXaml Update="Gladiator\GladWpns\Level1_10\WeatheredShortsword.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\ArmLv1_10 .xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\Lv1_10.xaml">
+	  <MauiXaml Update="Gladiator\GladWpns\Level1_10\Lv1_10.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Items\ItemsMain.xaml">
@@ -179,6 +182,57 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Warrior\WarArm\WarriorArm.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarWpns\Lvl1_10\Lv1_10.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarWpns\Lvl1_10\AugmentedHellhoundBattleaxe.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarWpns\Lvl1_10\BlackBsmReaper.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarWpns\Lvl1_10\BlackHypo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarWpns\Lvl1_10\BloodyAnne.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarWpns\Lvl1_10\BronzeLabrys.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarWpns\Lvl1_10\BronzeWarAxe.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarWpns\Lvl1_10\CloudAxe.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarWpns\Lvl1_10\GiantAxe.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarWpns\Lvl1_10\Greycloud.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarWpns\Lvl1_10\HellhoundAxe.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarWpns\Lvl1_10\ShoryuAxe.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarWpns\Lvl1_10\Stampede.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarWpns\Lvl1_10\TarnishedDarkness.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarWpns\Lvl1_10\TropWarAxe.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarWpns\Lvl1_10\WeatheredWarAxe.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarWpns\WarWpn.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Weapons\WeaponsMain.xaml">

@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.HellhoundShd"
              Title="HellhoundShd">
+    <ScrollView Margin="10">
     <VerticalStackLayout>
         <Label 
             Text="Hellhound Shield"
@@ -10,28 +11,45 @@
             HorizontalOptions="Center" />
 
         <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/fa/fa446e8279fbcb90d95e20f5482426d2d1f6df10.png?n6.4"/>
-
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
         <Label Text="Item Level 1"/>
+        
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
         <Label Text="Block Strength   |  Block Rate   |"/>
-        <Label Text="      37         |       37      |"/>
+        <Label Text="      37                   |       37             |"/>
+        
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
         <Label Text="GLA PLD"/>
         <Label Text="Level 1"/>
+        
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
         <Label Text="Crafting and Repairs"/>
         <Label Text="Repair Level     Armorer Lv. 1"/>
         <Label Text="Materials        Grade 1 Dark Matter"/>
+        
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
         <Label Text="Extractable: Yes        Projectable: Yes"/>
         <Label Text="Desynthesizable: No   Dyeable: Yes"/>
+        
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
         <Label Text="Available for Purchase: Yes"/>
         <Label Text="Unsellable Market Prohibited"/>
+        
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
         <Label Text="Obtained From:"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
         <Label Text="Required Items           |   Selling NPC"/>
-        <Label Text="Wolf Collar              |   Collar Quartermaster"/>
-        <Label Text="10                       |   Wolves' Den Pier (X4.4, Y6.2)"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
+        <Label Text="Wolf Collar                   |   Collar Quartermaster"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
+        <Label Text="10                                  |   Wolves' Den Pier (X4.4, Y6.2)"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

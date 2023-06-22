@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Warrior.WarWpns.Lvl1_10.CloudAxe"
+             Title="CloudAxe">
+    <VerticalStackLayout>
+        <Label 
+            Text="Cloud Axe"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/6e/6edd701dddf197bab65173f8cd77246f9ff45114.png?n6.4"/>
+
+        <Label Text="Item Level 10"/>
+
+        <Label Text="Physical Damage  |  Auto-attack   |   Delay  |"/>
+        <Label Text="     14          |       14.93    |    3.20  |"/>
+
+        <Label Text="MRD WAR"/>
+        <Label Text="Level 10"/>
+
+        <Label Text="Bonuses: Strength +2  Vitality +1  Direct Hit Rate +2"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Blacksmith Lv. 1"/>
+        <Label Text="Materials        Grade 1 Dark Matter"/>
+
+        <Label Text="Extractable: Yes          Projectable: Yes"/>
+        <Label Text="Desynthesizable: 10.00     Dyeable: No"/>
+
+        <Label Text="Sale Price: 446 gil"/>
+        <Label Text="Sells for 7 gil"/>
+
+        <Label Text="Obtained From:"/>
+        <Label Text="Selling NPC            |        Area                                 "/>
+        <Label Text="Faezghim               |     Limsa Lominsa Lower Decks (X:6.5 Y:11.9)"/>
+        <Label Text="Merchant and Mender    |     Lower La Noscea (X:32.5 Y:20.4)         "/>
+        <Label Text="Merchant and Mender    |     Lower La Noscea (X:25.5 Y:35.0)         "/>
+        <Label Text="Merchant and Mender    |     Lower La Noscea (X:21.4 Y:38.7)         "/>
+        <Label Text="Merchant and Mender    |     Middle La Noscea (X:25.5 Y:17.3)        "/>
+        <Label Text="Merchant and Mender    |     Western La Noscea (X:34.8 Y:31.3)        "/>
+        <Label Text="Geraint                |     Old Gridania (X:14.6 Y:9.7)             "/>
+        <Label Text="Jealous Juggernaut     |     Ul'dah - Steps of Thal (X:13.9 Y:11.0)  "/>
+
+        <Label Text="Quest                  |      Area            |      Level           "/>
+        <Label Text="Wake of Destruction    |   Limsa Lominsa      |       10             "/>
+        <Label Text="Wake of Destruction    |   Limsa Lominsa      |       10             "/>
+    </VerticalStackLayout>
+</ContentPage>

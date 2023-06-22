@@ -28,11 +28,11 @@ build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Armor.Armor
 build_metadata.AdditionalFiles.TargetPath = Armor\ArmorMain.xaml
 build_metadata.AdditionalFiles.RelativePath = Armor\ArmorMain.xaml
 
-[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Gladiator/ArmLv1_10 .xaml]
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Gladiator/GladArm/GladiatorArm.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.ArmLv1_10 .xaml
-build_metadata.AdditionalFiles.TargetPath = Gladiator\ArmLv1_10 .xaml
-build_metadata.AdditionalFiles.RelativePath = Gladiator\ArmLv1_10 .xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladArm.GladiatorArm.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladArm\GladiatorArm.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladArm\GladiatorArm.xaml
 
 [C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Gladiator/GladArm/Shield/Level1_10/AugHellhoundShd.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -100,6 +100,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.G
 build_metadata.AdditionalFiles.TargetPath = Gladiator\GladArm\Shield\Level1_10\RoundShd.xaml
 build_metadata.AdditionalFiles.RelativePath = Gladiator\GladArm\Shield\Level1_10\RoundShd.xaml
 
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Gladiator/GladArm/Shield/Level1_10/ShieldLv1_10 .xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.ShieldLv1_10 .xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladArm\Shield\Level1_10\ShieldLv1_10 .xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladArm\Shield\Level1_10\ShieldLv1_10 .xaml
+
 [C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Gladiator/GladArm/Shield/Level1_10/SqMpShd.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.SqMpShd.xaml
@@ -124,17 +130,17 @@ build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.G
 build_metadata.AdditionalFiles.TargetPath = Gladiator\GladArm\Shield\Level1_10\WrdKnghtShd.xaml
 build_metadata.AdditionalFiles.RelativePath = Gladiator\GladArm\Shield\Level1_10\WrdKnghtShd.xaml
 
-[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Gladiator/GladiatorArm.xaml]
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Gladiator/GladArm/Shield/ShieldMain.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladiatorArm.xaml
-build_metadata.AdditionalFiles.TargetPath = Gladiator\GladiatorArm.xaml
-build_metadata.AdditionalFiles.RelativePath = Gladiator\GladiatorArm.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladArm.Shield.ShieldMain.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladArm\Shield\ShieldMain.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladArm\Shield\ShieldMain.xaml
 
-[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Gladiator/GladWpn.xaml]
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Gladiator/GladWpns/GladWpn.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladWpn.xaml
-build_metadata.AdditionalFiles.TargetPath = Gladiator\GladWpn.xaml
-build_metadata.AdditionalFiles.RelativePath = Gladiator\GladWpn.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladWpns.GladWpn.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladWpns\GladWpn.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladWpns\GladWpn.xaml
 
 [C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Gladiator/GladWpns/Level1_10/AOScimitar.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -165,6 +171,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladWpns.Level1_10.HHWarPick.xaml
 build_metadata.AdditionalFiles.TargetPath = Gladiator\GladWpns\Level1_10\HHWarPick.xaml
 build_metadata.AdditionalFiles.RelativePath = Gladiator\GladWpns\Level1_10\HHWarPick.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Gladiator/GladWpns/Level1_10/Lv1_10.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladWpns.Level1_10.Lv1_10.xaml
+build_metadata.AdditionalFiles.TargetPath = Gladiator\GladWpns\Level1_10\Lv1_10.xaml
+build_metadata.AdditionalFiles.RelativePath = Gladiator\GladWpns\Level1_10\Lv1_10.xaml
 
 [C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Gladiator/GladWpns/Level1_10/Radiance.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -201,12 +213,6 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.GladWpns.Level1_10.WeatheredShortsword.xaml
 build_metadata.AdditionalFiles.TargetPath = Gladiator\GladWpns\Level1_10\WeatheredShortsword.xaml
 build_metadata.AdditionalFiles.RelativePath = Gladiator\GladWpns\Level1_10\WeatheredShortsword.xaml
-
-[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Gladiator/Lv1_10.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Gladiator.Lv1_10.xaml
-build_metadata.AdditionalFiles.TargetPath = Gladiator\Lv1_10.xaml
-build_metadata.AdditionalFiles.RelativePath = Gladiator\Lv1_10.xaml
 
 [C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Items/ItemsMain.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -267,6 +273,108 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarArm.WarriorArm.xaml
 build_metadata.AdditionalFiles.TargetPath = Warrior\WarArm\WarriorArm.xaml
 build_metadata.AdditionalFiles.RelativePath = Warrior\WarArm\WarriorArm.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarWpns/Lvl1_10/AugmentedHellhoundBattleaxe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarWpns.Lvl1_10.AugmentedHellhoundBattleaxe.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarWpns\Lvl1_10\AugmentedHellhoundBattleaxe.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarWpns\Lvl1_10\AugmentedHellhoundBattleaxe.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarWpns/Lvl1_10/BlackBsmReaper.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarWpns.Lvl1_10.BlackBsmReaper.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarWpns\Lvl1_10\BlackBsmReaper.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarWpns\Lvl1_10\BlackBsmReaper.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarWpns/Lvl1_10/BlackHypo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarWpns.Lvl1_10.BlackHypo.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarWpns\Lvl1_10\BlackHypo.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarWpns\Lvl1_10\BlackHypo.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarWpns/Lvl1_10/BloodyAnne.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarWpns.Lvl1_10.BloodyAnne.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarWpns\Lvl1_10\BloodyAnne.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarWpns\Lvl1_10\BloodyAnne.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarWpns/Lvl1_10/BronzeLabrys.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarWpns.Lvl1_10.BronzeLabrys.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarWpns\Lvl1_10\BronzeLabrys.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarWpns\Lvl1_10\BronzeLabrys.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarWpns/Lvl1_10/BronzeWarAxe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarWpns.Lvl1_10.BronzeWarAxe.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarWpns\Lvl1_10\BronzeWarAxe.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarWpns\Lvl1_10\BronzeWarAxe.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarWpns/Lvl1_10/CloudAxe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarWpns.Lvl1_10.CloudAxe.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarWpns\Lvl1_10\CloudAxe.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarWpns\Lvl1_10\CloudAxe.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarWpns/Lvl1_10/GiantAxe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarWpns.Lvl1_10.GiantAxe.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarWpns\Lvl1_10\GiantAxe.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarWpns\Lvl1_10\GiantAxe.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarWpns/Lvl1_10/Greycloud.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarWpns.Lvl1_10.Greycloud.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarWpns\Lvl1_10\Greycloud.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarWpns\Lvl1_10\Greycloud.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarWpns/Lvl1_10/HellhoundAxe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarWpns.Lvl1_10.HellhoundAxe.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarWpns\Lvl1_10\HellhoundAxe.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarWpns\Lvl1_10\HellhoundAxe.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarWpns/Lvl1_10/Lv1_10.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarWpns.Lvl1_10.Lv1_10.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarWpns\Lvl1_10\Lv1_10.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarWpns\Lvl1_10\Lv1_10.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarWpns/Lvl1_10/ShoryuAxe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarWpns.Lvl1_10.ShoryuAxe.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarWpns\Lvl1_10\ShoryuAxe.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarWpns\Lvl1_10\ShoryuAxe.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarWpns/Lvl1_10/Stampede.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarWpns.Lvl1_10.Stampede.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarWpns\Lvl1_10\Stampede.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarWpns\Lvl1_10\Stampede.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarWpns/Lvl1_10/TarnishedDarkness.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarWpns.Lvl1_10.TarnishedDarkness.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarWpns\Lvl1_10\TarnishedDarkness.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarWpns\Lvl1_10\TarnishedDarkness.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarWpns/Lvl1_10/TropWarAxe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarWpns.Lvl1_10.TropWarAxe.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarWpns\Lvl1_10\TropWarAxe.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarWpns\Lvl1_10\TropWarAxe.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarWpns/Lvl1_10/WeatheredWarAxe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarWpns.Lvl1_10.WeatheredWarAxe.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarWpns\Lvl1_10\WeatheredWarAxe.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarWpns\Lvl1_10\WeatheredWarAxe.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Warrior/WarWpns/WarWpn.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Warrior.WarWpns.WarWpn.xaml
+build_metadata.AdditionalFiles.TargetPath = Warrior\WarWpns\WarWpn.xaml
+build_metadata.AdditionalFiles.RelativePath = Warrior\WarWpns\WarWpn.xaml
 
 [C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Weapons/WeaponsMain.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

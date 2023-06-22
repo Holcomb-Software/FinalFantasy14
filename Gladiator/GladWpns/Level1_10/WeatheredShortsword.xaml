@@ -3,36 +3,54 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalFantasy14.Gladiator.GladWpns.Level1_10.WeatheredShortsword"
              Title="WeatheredShortsword">
-    <VerticalStackLayout>
-        <Label 
-            Text="Radiance"
+    <ScrollView Margin="10">
+        <VerticalStackLayout>
+            <Label 
+            Text="Weathered Shortsword"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
-        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4d/4d9930e48a5973b98bfb508cca07dca01252248d.png?n6.31"/>
+            <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/4d/4d9930e48a5973b98bfb508cca07dca01252248d.png?n6.31"/>
+            <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+            <Label Text="Item Level 1"/>
 
-        <Label Text="Item Level 1"/>
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
-        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
-        <Label Text="      8          |       5.33    |    2.00 |"/>
+            <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+            <Label Text="      8                         |       5.33          |    2.00   |"/>
 
-        <Label Text="GLA PLD"/>
-        <Label Text="Level 1"/>
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
-        <Label Text="Crafting and Repairs"/>
-        <Label Text="Repair Level     Blacksmith Lv. 1"/>
-        <Label Text="Materials        Grade 1 Dark Matter"/>
+            <Label Text="GLA PLD"/>
+            <Label Text="Level 1"/>
 
-        <Label Text="Extractable: Yes      Projectable: Yes"/>
-        <Label Text="Desynthesizable: 1.00   Dyeable: No"/>
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
-        <Label Text="Sale Price: 63 gil"/>
-        <Label Text="Sells for 1 gil"/>
+            <Label Text="Crafting and Repairs"/>
+            <Label Text="Repair Level     Blacksmith Lv. 1"/>
+            <Label Text="Materials        Grade 1 Dark Matter"/>
 
-        <Label Text="Obtained From:"/>
-        <Label Text="Selling NPC         |        Area"/>
-        <Label Text="Faezghim            |   Limsa Lominsa Lower Decks (X:6.5, Y:11.9)"/>
-        <Label Text="Geraint             |   Old Gridania (X:14.6, Y:9.7)"/>
-        <Label Text="Jealous Juggernaut  |   Ul'dah - Steps of Thal (X:13.9, Y:11.0)"/>
-    </VerticalStackLayout>
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Extractable: Yes      Projectable: Yes"/>
+            <Label Text="Desynthesizable: 1.00   Dyeable: No"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Sale Price: 63 gil"/>
+            <Label Text="Sells for 1 gil"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Obtained From:"/>
+            <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+            <Label Text="Selling NPC               |        Area"/>
+            <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+            <Label Text="Faezghim                  |   Limsa Lominsa Lower Decks (X:6.5, Y:11.9)"/>
+            <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+            <Label Text="Geraint                      |   Old Gridania (X:14.6, Y:9.7)"/>
+            <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+            <Label Text="Jealous Juggernaut  |   Ul'dah - Steps of Thal (X:13.9, Y:11.0)"/>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
