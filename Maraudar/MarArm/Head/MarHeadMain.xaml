@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Maraudar.MarArm.Head.MarHeadMain"
+             Title="MarHeadMain">
+    <VerticalStackLayout>
+        <Label 
+            Text="Choose a level range!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Button Text="1-10"
+                Clicked="Button_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>
