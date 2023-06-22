@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Warrior.WarWpns.Lvl1_10.TarnishedDarkness"
+             Title="TarnishedDarkness">
+    <VerticalStackLayout>
+        <Label 
+            Text="Tarnished Darkness"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/f2/f25edb6cdcaeecdae110e97c8d3cc7e383298cf7.png?n6.4"/>
+
+        <Label Text="Item Level 1"/>
+
+        <Label Text="Physical Damage  |  Auto-attack   |   Delay  |"/>
+        <Label Text="      9          |       10.08    |    3.36  |"/>
+
+        <Label Text="MRD WAR"/>
+        <Label Text="Level 1"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Blacksmith Lv. 1"/>
+        <Label Text="Materials        Grade 1 Dark Matter"/>
+
+        <Label Text="Extractable: Yes      Projectable: Yes"/>
+        <Label Text="Desynthesizable: No   Dyeable: No"/>
+
+        <Label Text="Unsellable Market Prohibited"/>
+    </VerticalStackLayout>
+</ContentPage>

@@ -3,35 +3,52 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalFantasy14.Gladiator.GladWpns.Level1_10.AOScimitar"
              Title="AOScimitar">
-    <VerticalStackLayout>
-        <Label 
-            Text="Radiance"
+    <ScrollView Margin="10">
+        <VerticalStackLayout>
+            <Label 
+            Text="Aka Oni Scimitar"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
-        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2e/2e9cf98d5fc8a3a3e99706ee7aece7aff38772a1.png?n6.31"/>
+            <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/2e/2e9cf98d5fc8a3a3e99706ee7aece7aff38772a1.png?n6.31"/>
+            <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+            <Label Text="Item Level 1"/>
 
-        <Label Text="Item Level 1"/>
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
-        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
-        <Label Text="      9          |       6.72    |    2.24 |"/>
+            <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+            <Label Text="      9                         |       6.72          |    2.24   |"/>
 
-        <Label Text="GLA PLD"/>
-        <Label Text="Level 1"/>
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
-        <Label Text="Crafting and Repairs"/>
-        <Label Text="Repair Level     Blacksmith Lv. 1"/>
-        <Label Text="Materials        Grade 1 Dark Matter"/>
+            <Label Text="GLA PLD"/>
+            <Label Text="Level 1"/>
 
-        <Label Text="Extractable: Yes      Projectable: Yes"/>
-        <Label Text="Desynthesizable: 1.00   Dyeable: Yes"/>
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
-        <Label Text="Available for Purchase: Yes"/>
-        <Label Text="Sells for 3 gil **Market Prohibited**"/>
+            <Label Text="Crafting and Repairs"/>
+            <Label Text="Repair Level     Blacksmith Lv. 1"/>
+            <Label Text="Materials        Grade 1 Dark Matter"/>
 
-        <Label Text="Obtained From:"/>
-        <Label Text="Required Items    |   Selling NPC"/>
-        <Label Text="Wolf Mark         |   Mark Quartermaster"/>
-        <Label Text="2,100             |   Wolves' Den Pier (X4.4, Y6.0)"/>
-    </VerticalStackLayout>
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Extractable: Yes      Projectable: Yes"/>
+            <Label Text="Desynthesizable: 1.00   Dyeable: Yes"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Available for Purchase: Yes"/>
+            <Label Text="Sells for 3 gil **Market Prohibited**"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Obtained From:"/>
+            <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+            <Label Text="Required Items    |   Selling NPC"/>
+            <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+            <Label Text="Wolf Mark             |   Mark Quartermaster"/>
+            <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+            <Label Text="2,100x                    |   Wolves' Den Pier (X4.4, Y6.0)"/>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

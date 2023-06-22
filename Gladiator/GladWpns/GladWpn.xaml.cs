@@ -1,4 +1,4 @@
-namespace FinalFantasy14.Gladiator;
+namespace FinalFantasy14.Gladiator.GladWpns;
 
 public partial class GladWpn : ContentPage
 {
@@ -10,6 +10,6 @@ public partial class GladWpn : ContentPage
 
     private async void Button_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new Gladiator.Lv1_10());
+        await Navigation.PushAsync(new Gladiator.GladWpns.Lv1_10());
     }
 }

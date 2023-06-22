@@ -1,4 +1,4 @@
-namespace FinalFantasy14.Gladiator;
+namespace FinalFantasy14.Gladiator.GladArm;
 
 public partial class GladiatorArm : ContentPage
 {
@@ -10,6 +10,6 @@ public partial class GladiatorArm : ContentPage
 
     private async void Button_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new Gladiator.ArmLv1_10());
+        await Navigation.PushAsync(new Gladiator.GladArm.Shield.ShieldMain());
     }
 }

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FinalFantasy14.Gladiator.ArmLv1_10"
-             Title="ArmLv1_10">
+             x:Class="FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.ShieldLv1_10"
+             Title="ShieldLv1_10">
     <VerticalStackLayout>
        
         <Label 
-            Text="Welcome to Levels 1-10 Armor List for Gladiators!"
+            Text="Welcome to Levels 1-10 Shield List for Gladiators!"
             VerticalOptions="Center" 
             HorizontalOptions="Center"/>
 
@@ -14,57 +14,85 @@
             Text="Company Escutcheon"
             Clicked="Button_Clicked"/>
 
+        <Rectangle Fill="black" HeightRequest="5" WidthRequest="1000"/>
+
         <Button
             Text="Square Maple Shield"
             Clicked="Button_Clicked_1"/>
+
+        <Rectangle Fill="black" HeightRequest="5" WidthRequest="1000"/>
 
         <Button
             Text="Ward Knight's Shield"
             Clicked="Button_Clicked_2"/>
 
+        <Rectangle Fill="black" HeightRequest="5" WidthRequest="1000"/>
+
         <Button
             Text="Divine Beast Shield"
             Clicked="Button_Clicked_3"/>
+
+        <Rectangle Fill="black" HeightRequest="5" WidthRequest="1000"/>
 
         <Button
             Text="House Fortemps Kite Shield"
             Clicked="Button_Clicked_4"/>
 
+        <Rectangle Fill="black" HeightRequest="5" WidthRequest="1000"/>
+
         <Button
             Text="The Emperor's New Shield"
             Clicked="Button_Clicked_5"/>
+
+        <Rectangle Fill="black" HeightRequest="5" WidthRequest="1000"/>
 
         <Button
             Text="Gigas Shield"
             Clicked="Button_Clicked_6"/>
 
+        <Rectangle Fill="black" HeightRequest="5" WidthRequest="1000"/>
+
         <Button
             Text="Komainu Shield"
             Clicked="Button_Clicked_7"/>
+
+        <Rectangle Fill="black" HeightRequest="5" WidthRequest="1000"/>
 
         <Button
             Text="Hellhound Shield"
             Clicked="Button_Clicked_8"/>
 
+        <Rectangle Fill="black" HeightRequest="5" WidthRequest="1000"/>
+
         <Button
             Text="Augmented Hellhound Shield"
             Clicked="Button_Clicked_9"/>
+
+        <Rectangle Fill="black" HeightRequest="5" WidthRequest="1000"/>
 
         <Button
             Text="Immortal Flames Escutcheon"
             Clicked="Button_Clicked_10"/>
 
+        <Rectangle Fill="black" HeightRequest="5" WidthRequest="1000"/>
+
         <Button
             Text="Maelstrom Escutcheon"
             Clicked="Button_Clicked_11"/>
+
+        <Rectangle Fill="black" HeightRequest="5" WidthRequest="1000"/>
 
         <Button
             Text="Twin Adder Escutcheon"
             Clicked="Button_Clicked_12"/>
 
+        <Rectangle Fill="black" HeightRequest="5" WidthRequest="1000"/>
+
         <Button
             Text="Bronze Hoplon"
             Clicked="Button_Clicked_13"/>
+
+        <Rectangle Fill="black" HeightRequest="5" WidthRequest="1000"/>
 
         <Button
             Text="Round Shield"

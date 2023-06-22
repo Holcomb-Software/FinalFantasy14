@@ -3,30 +3,42 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalFantasy14.Gladiator.GladWpns.Level1_10.TrnFngWlf"
              Title="TrnFngWlf">
-    <VerticalStackLayout>
+    <ScrollView Margin="10">
+        <VerticalStackLayout>
         <Label 
-            Text="Radiance"
+            Text="Tarnished Fanged Wolf"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
         <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1f/1fafbbf91924ab20c10caff0069c8dfd486f0e46.png?n6.31"/>
-
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
         <Label Text="Item Level 1"/>
+            
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
         <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
-        <Label Text="      9          |       6.72    |    2.24 |"/>
+        <Label Text="      9                         |       6.72          |    2.24   |"/>
 
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+            
         <Label Text="GLA PLD"/>
         <Label Text="Level 1"/>
 
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+            
         <Label Text="Crafting and Repairs"/>
         <Label Text="Repair Level     Blacksmith Lv. 1"/>
         <Label Text="Materials        Grade 1 Dark Matter"/>
+               
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
         <Label Text="Extractable: Yes      Projectable: Yes"/>
         <Label Text="Desynthesizable: No   Dyeable: No"/>
+    
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
         <Label Text="Available for Purchase: No"/>
         <Label Text="Unsellable Market Prohibited"/>
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

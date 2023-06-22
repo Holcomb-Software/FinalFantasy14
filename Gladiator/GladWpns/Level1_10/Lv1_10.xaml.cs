@@ -1,4 +1,4 @@
-namespace FinalFantasy14.Gladiator;
+namespace FinalFantasy14.Gladiator.GladWpns;
 
 public partial class Lv1_10 : ContentPage
 {

@@ -1,15 +1,15 @@
-namespace FinalFantasy14.Gladiator;
+namespace FinalFantasy14.Gladiator.GladArm.Shield.Level1_10;
 
-public partial class ArmLv1_10 : ContentPage
+public partial class ShieldLv1_10 : ContentPage
 {
-	public ArmLv1_10()
-	{
+	public ShieldLv1_10()
+    {
         InitializeComponent();
 	}
 
     private async void Button_Clicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new Gladiator.GladArm.Shield.Level1_10.CmpEstn());
+        await Navigation.PushAsync(new CmpEstn());
     }
 
     private async void Button_Clicked_1(object sender, EventArgs e)
