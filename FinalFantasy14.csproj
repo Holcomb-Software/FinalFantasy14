@@ -55,6 +55,9 @@
 	  <Compile Update="Gladiator\GladArm\Shield\Level1_10\ShieldLv1_10 .xaml.cs">
 	    <DependentUpon>ShieldLv1_10 .xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Maraudar\MarArm\MarArmMain.xaml.cs">
+	    <DependentUpon>MarArmMain.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Warrior\WarArm\ArmParts.xaml.cs">
 	    <DependentUpon>ArmParts.xaml</DependentUpon>
 	  </Compile>
@@ -166,19 +169,31 @@
 	  <MauiXaml Update="Items\ItemsMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Maraudar\MarArm\Head\Level1_10\Level1_10.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Maraudar\MarArm\Head\MarHeadMain.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Maraudar\MarArm\MarArmMain.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Warrior\WarArm\ArmParts.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Warrior\WarArm\Head\FEMatSunHat.xaml">
+	  <MauiXaml Update="Warrior\WarArm\Head\Level1_10\FEMatSunHat.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Warrior\WarArm\Head\FEPatHat.xaml">
+	  <MauiXaml Update="Warrior\WarArm\Head\Level1_10\FEPatHat.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Warrior\WarArm\Head\Head.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Warrior\WarArm\Head\HelmofLight.xaml">
+	  <MauiXaml Update="Warrior\WarArm\Head\Level1_10\HelmofLight.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Warrior\WarArm\Head\Level1_10\Head_Level1_10.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Warrior\WarArm\WarriorArm.xaml">

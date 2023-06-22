@@ -14,9 +14,13 @@
         
         <Rectangle Fill="black" HeightRequest="5" WidthRequest="1000"/>
 
-
         <Button Text="Warrior"
                 Clicked="Button_Clicked_1"/>
+
+        <Rectangle Fill="black" HeightRequest="5" WidthRequest="1000"/>
+
+        <Button Text="Marauder"
+                Clicked="Button_Clicked_2"/>
 
     </VerticalStackLayout>
 </ContentPage>
