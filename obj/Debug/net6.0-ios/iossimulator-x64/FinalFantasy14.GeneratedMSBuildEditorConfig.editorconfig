@@ -226,23 +226,119 @@ build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.MainPage.xa
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Maraudar/MarArm/Head/Level1_10/Level1_10.xaml]
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Marauder/MarArm/Head/Level1_10/Level1_10.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Maraudar.MarArm.Head.Level1_10.Level1_10.xaml
-build_metadata.AdditionalFiles.TargetPath = Maraudar\MarArm\Head\Level1_10\Level1_10.xaml
-build_metadata.AdditionalFiles.RelativePath = Maraudar\MarArm\Head\Level1_10\Level1_10.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Marauder.MarArm.Head.Level1_10.Level1_10.xaml
+build_metadata.AdditionalFiles.TargetPath = Marauder\MarArm\Head\Level1_10\Level1_10.xaml
+build_metadata.AdditionalFiles.RelativePath = Marauder\MarArm\Head\Level1_10\Level1_10.xaml
 
-[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Maraudar/MarArm/Head/MarHeadMain.xaml]
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Marauder/MarArm/Head/MarHeadMain.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Maraudar.MarArm.Head.MarHeadMain.xaml
-build_metadata.AdditionalFiles.TargetPath = Maraudar\MarArm\Head\MarHeadMain.xaml
-build_metadata.AdditionalFiles.RelativePath = Maraudar\MarArm\Head\MarHeadMain.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Marauder.MarArm.Head.MarHeadMain.xaml
+build_metadata.AdditionalFiles.TargetPath = Marauder\MarArm\Head\MarHeadMain.xaml
+build_metadata.AdditionalFiles.RelativePath = Marauder\MarArm\Head\MarHeadMain.xaml
 
-[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Maraudar/MarArm/MarArmMain.xaml]
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Marauder/MarArm/MarArmMain.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Maraudar.MarArm.MarArmMain.xaml
-build_metadata.AdditionalFiles.TargetPath = Maraudar\MarArm\MarArmMain.xaml
-build_metadata.AdditionalFiles.RelativePath = Maraudar\MarArm\MarArmMain.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Marauder.MarArm.MarArmMain.xaml
+build_metadata.AdditionalFiles.TargetPath = Marauder\MarArm\MarArmMain.xaml
+build_metadata.AdditionalFiles.RelativePath = Marauder\MarArm\MarArmMain.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Marauder/MarWpns/Level1_10/AugmentedHellhoundBattleaxe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Marauder.MarWpns.Level1_10.AugmentedHellhoundBattleaxe.xaml
+build_metadata.AdditionalFiles.TargetPath = Marauder\MarWpns\Level1_10\AugmentedHellhoundBattleaxe.xaml
+build_metadata.AdditionalFiles.RelativePath = Marauder\MarWpns\Level1_10\AugmentedHellhoundBattleaxe.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Marauder/MarWpns/Level1_10/BlackBsmReaper.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Marauder.MarWpns.Level1_10.BlackBsmReaper.xaml
+build_metadata.AdditionalFiles.TargetPath = Marauder\MarWpns\Level1_10\BlackBsmReaper.xaml
+build_metadata.AdditionalFiles.RelativePath = Marauder\MarWpns\Level1_10\BlackBsmReaper.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Marauder/MarWpns/Level1_10/BlackHypo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Marauder.MarWpns.Level1_10.BlackHypo.xaml
+build_metadata.AdditionalFiles.TargetPath = Marauder\MarWpns\Level1_10\BlackHypo.xaml
+build_metadata.AdditionalFiles.RelativePath = Marauder\MarWpns\Level1_10\BlackHypo.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Marauder/MarWpns/Level1_10/BloodyAnne.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Marauder.MarWpns.Level1_10.BloodyAnne.xaml
+build_metadata.AdditionalFiles.TargetPath = Marauder\MarWpns\Level1_10\BloodyAnne.xaml
+build_metadata.AdditionalFiles.RelativePath = Marauder\MarWpns\Level1_10\BloodyAnne.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Marauder/MarWpns/Level1_10/BronzeLabrys.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Marauder.MarWpns.Level1_10.BronzeLabrys.xaml
+build_metadata.AdditionalFiles.TargetPath = Marauder\MarWpns\Level1_10\BronzeLabrys.xaml
+build_metadata.AdditionalFiles.RelativePath = Marauder\MarWpns\Level1_10\BronzeLabrys.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Marauder/MarWpns/Level1_10/BronzeWarAxe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Marauder.MarWpns.Level1_10.BronzeWarAxe.xaml
+build_metadata.AdditionalFiles.TargetPath = Marauder\MarWpns\Level1_10\BronzeWarAxe.xaml
+build_metadata.AdditionalFiles.RelativePath = Marauder\MarWpns\Level1_10\BronzeWarAxe.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Marauder/MarWpns/Level1_10/CloudAxe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Marauder.MarWpns.Level1_10.CloudAxe.xaml
+build_metadata.AdditionalFiles.TargetPath = Marauder\MarWpns\Level1_10\CloudAxe.xaml
+build_metadata.AdditionalFiles.RelativePath = Marauder\MarWpns\Level1_10\CloudAxe.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Marauder/MarWpns/Level1_10/GiantAxe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Marauder.MarWpns.Level1_10.GiantAxe.xaml
+build_metadata.AdditionalFiles.TargetPath = Marauder\MarWpns\Level1_10\GiantAxe.xaml
+build_metadata.AdditionalFiles.RelativePath = Marauder\MarWpns\Level1_10\GiantAxe.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Marauder/MarWpns/Level1_10/Greycloud.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Marauder.MarWpns.Level1_10.Greycloud.xaml
+build_metadata.AdditionalFiles.TargetPath = Marauder\MarWpns\Level1_10\Greycloud.xaml
+build_metadata.AdditionalFiles.RelativePath = Marauder\MarWpns\Level1_10\Greycloud.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Marauder/MarWpns/Level1_10/HellhoundAxe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Marauder.MarWpns.Level1_10.HellhoundAxe.xaml
+build_metadata.AdditionalFiles.TargetPath = Marauder\MarWpns\Level1_10\HellhoundAxe.xaml
+build_metadata.AdditionalFiles.RelativePath = Marauder\MarWpns\Level1_10\HellhoundAxe.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Marauder/MarWpns/Level1_10/Lv1_10.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Marauder.MarWpns.Level1_10.Lv1_10.xaml
+build_metadata.AdditionalFiles.TargetPath = Marauder\MarWpns\Level1_10\Lv1_10.xaml
+build_metadata.AdditionalFiles.RelativePath = Marauder\MarWpns\Level1_10\Lv1_10.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Marauder/MarWpns/Level1_10/ShoryuAxe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Marauder.MarWpns.Level1_10.ShoryuAxe.xaml
+build_metadata.AdditionalFiles.TargetPath = Marauder\MarWpns\Level1_10\ShoryuAxe.xaml
+build_metadata.AdditionalFiles.RelativePath = Marauder\MarWpns\Level1_10\ShoryuAxe.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Marauder/MarWpns/Level1_10/Stampede.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Marauder.MarWpns.Level1_10.Stampede.xaml
+build_metadata.AdditionalFiles.TargetPath = Marauder\MarWpns\Level1_10\Stampede.xaml
+build_metadata.AdditionalFiles.RelativePath = Marauder\MarWpns\Level1_10\Stampede.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Marauder/MarWpns/Level1_10/TarnishedDarkness.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Marauder.MarWpns.Level1_10.TarnishedDarkness.xaml
+build_metadata.AdditionalFiles.TargetPath = Marauder\MarWpns\Level1_10\TarnishedDarkness.xaml
+build_metadata.AdditionalFiles.RelativePath = Marauder\MarWpns\Level1_10\TarnishedDarkness.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Marauder/MarWpns/Level1_10/WeatheredWarAxe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Marauder.MarWpns.Level1_10.WeatheredWarAxe.xaml
+build_metadata.AdditionalFiles.TargetPath = Marauder\MarWpns\Level1_10\WeatheredWarAxe.xaml
+build_metadata.AdditionalFiles.RelativePath = Marauder\MarWpns\Level1_10\WeatheredWarAxe.xaml
+
+[C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Marauder/MarWpns/MarWpnMain.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalFantasy14.Marauder.MarWpns.MarWpnMain.xaml
+build_metadata.AdditionalFiles.TargetPath = Marauder\MarWpns\MarWpnMain.xaml
+build_metadata.AdditionalFiles.RelativePath = Marauder\MarWpns\MarWpnMain.xaml
 
 [C:/Users/holco/source/repos/HolcombSoftware/FinalFantasy14/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

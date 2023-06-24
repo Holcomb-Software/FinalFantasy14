@@ -55,8 +55,53 @@
 	  <Compile Update="Gladiator\GladArm\Shield\Level1_10\ShieldLv1_10 .xaml.cs">
 	    <DependentUpon>ShieldLv1_10 .xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Maraudar\MarArm\MarArmMain.xaml.cs">
+	  <Compile Update="Marauder\MarArm\MarArmMain.xaml.cs">
 	    <DependentUpon>MarArmMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Marauder\MarWpns\Level1_10\AugmentedHellhoundBattleaxe.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="Marauder\MarWpns\Level1_10\BlackBsmReaper.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="Marauder\MarWpns\Level1_10\BlackHypo.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="Marauder\MarWpns\Level1_10\BloodyAnne.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="Marauder\MarWpns\Level1_10\BronzeLabrys.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="Marauder\MarWpns\Level1_10\BronzeWarAxe.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="Marauder\MarWpns\Level1_10\CloudAxe.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="Marauder\MarWpns\Level1_10\GiantAxe.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="Marauder\MarWpns\Level1_10\Greycloud.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="Marauder\MarWpns\Level1_10\HellhoundAxe.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="Marauder\MarWpns\Level1_10\Lv1_10.xaml.cs">
+	    <DependentUpon>Lv1_10.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Marauder\MarWpns\Level1_10\ShoryuAxe.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="Marauder\MarWpns\Level1_10\Stampede.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="Marauder\MarWpns\Level1_10\TarnishedDarkness.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="Marauder\MarWpns\Level1_10\WeatheredWarAxe.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
 	  </Compile>
 	  <Compile Update="Warrior\WarArm\ArmParts.xaml.cs">
 	    <DependentUpon>ArmParts.xaml</DependentUpon>
@@ -169,13 +214,61 @@
 	  <MauiXaml Update="Items\ItemsMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Maraudar\MarArm\Head\Level1_10\Level1_10.xaml">
+	  <MauiXaml Update="Marauder\MarArm\Head\Level1_10\Level1_10.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Maraudar\MarArm\Head\MarHeadMain.xaml">
+	  <MauiXaml Update="Marauder\MarArm\Head\MarHeadMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Maraudar\MarArm\MarArmMain.xaml">
+	  <MauiXaml Update="Marauder\MarArm\MarArmMain.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Marauder\MarWpns\Level1_10\AugmentedHellhoundBattleaxe.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Marauder\MarWpns\Level1_10\BlackBsmReaper.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Marauder\MarWpns\Level1_10\BlackHypo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Marauder\MarWpns\Level1_10\BloodyAnne.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Marauder\MarWpns\Level1_10\BronzeLabrys.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Marauder\MarWpns\Level1_10\BronzeWarAxe.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Marauder\MarWpns\Level1_10\CloudAxe.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Marauder\MarWpns\Level1_10\GiantAxe.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Marauder\MarWpns\Level1_10\Greycloud.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Marauder\MarWpns\Level1_10\HellhoundAxe.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Marauder\MarWpns\Level1_10\Lv1_10.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Marauder\MarWpns\Level1_10\ShoryuAxe.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Marauder\MarWpns\Level1_10\Stampede.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Marauder\MarWpns\Level1_10\TarnishedDarkness.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Marauder\MarWpns\Level1_10\WeatheredWarAxe.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Marauder\MarWpns\MarWpnMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Warrior\WarArm\ArmParts.xaml">

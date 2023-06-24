@@ -19,6 +19,6 @@ public partial class ArmorMain : ContentPage
 
     private async void Button_Clicked_2(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new Maraudar.MarArm.MarArmMain());
+        await Navigation.PushAsync(new Marauder.MarArm.MarArmMain());
     }
 }

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Marauder.MarWpns.Level1_10.BronzeLabrys"
+             Title="BronzeLabrys">
+    <VerticalStackLayout>
+        <Label 
+            Text="Bronze Labrys"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/1d/1d278c5fe3999d8cd2ff4db352dcc49f4818caca.png?n6.4"/>
+
+        <Label Text="Item Level 8"/>
+
+        <Label Text="Physical Damage  |  Auto-attack   |   Delay  |"/>
+        <Label Text="     13          |       14.56    |    3.36  |"/>
+
+        <Label Text="MRD WAR"/>
+        <Label Text="Level 8"/>
+
+        <Label Text="Bonuses: Strength +2"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Blacksmith Lv. 1"/>
+        <Label Text="Materials        Grade 1 Dark Matter"/>
+
+        <Label Text="Extractable: Yes          Projectable: Yes"/>
+        <Label Text="Desynthesizable: 8.00     Dyeable: No"/>
+
+        <Label Text="Sale Price: 436 gil"/>
+        <Label Text="Sells for 5 gil"/>
+
+        <Label Text="Obtained From:"/>
+        <Label Text="Selling NPC            |        Area                                 "/>
+        <Label Text="Faezghim               |     Limsa Lominsa Lower Decks (X:6.5 Y:11.9)"/>
+        <Label Text="Merchant and Mender    |     Lower La Noscea (X:32.5 Y:20.4)         "/>
+        <Label Text="Merchant and Mender    |     Middle La Noscea (X:25.5 Y:17.3)        "/>
+        <Label Text="Geraint                |     Old Gridania (X:14.6 Y:9.7)             "/>
+        <Label Text="Jealous Juggernaut     |     Ul'dah - Steps of Thal (X:13.9 Y:11.0)  "/>
+
+        <Label Text="Quest                  |      Area            |      Level           "/>
+        <Label Text="Plowshares to Swords   |   Middle La Noscea   |       9              "/>
+    </VerticalStackLayout>
+</ContentPage>

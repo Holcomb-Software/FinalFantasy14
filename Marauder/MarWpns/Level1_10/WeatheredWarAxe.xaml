@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Marauder.MarWpns.Level1_10.WeatheredWarAxe"
+             Title="WeatheredWarAxe">
+    <VerticalStackLayout>
+        <Label 
+            Text="Weathered War Axe"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/80/809416ced0de64ff2f8185f56a90b669fbd01b89.png?n6.4"/>
+
+        <Label Text="Item Level 1"/>
+
+        <Label Text="Physical Damage  |  Auto-attack   |   Delay  |"/>
+        <Label Text="      8          |       8.53     |    3.20  |"/>
+
+        <Label Text="MRD WAR"/>
+        <Label Text="Level 1"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Blacksmith Lv. 1"/>
+        <Label Text="Materials        Grade 1 Dark Matter"/>
+
+        <Label Text="Extractable: Yes          Projectable: Yes"/>
+        <Label Text="Desynthesizable: 1.00     Dyeable: No"/>
+
+        <Label Text="Sale Price: 94 gil"/>
+        <Label Text="Sells for 2 gil"/>
+
+        <Label Text="Obtained From:"/>
+        <Label Text="Selling NPC            |        Area                                 "/>
+        <Label Text="Faezghim               |     Limsa Lominsa Lower Decks (X:6.5 Y:11.9)"/>
+        <Label Text="Geraint                |     Old Gridania (X:14.6 Y:9.7)             "/>
+        <Label Text="Jealous Juggernaut     |     Ul'dah - Steps of Thal (X:13.9 Y:11.0)  "/>
+
+        <Label Text="Quest                  |      Area            |      Level           "/>
+        <Label Text="Way of the Marauder    |   Limsa Lominsa      |       1              "/>
+    </VerticalStackLayout>
+</ContentPage>

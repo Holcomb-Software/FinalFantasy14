@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Marauder.MarArm.Head.Level1_10.Level1_10"
+             Title="Level1_10">
+    <VerticalStackLayout>
+        <Picker 
+                Title="Select Marauder's Helmet">
+
+            <Picker.Items>
+                <x:String>Far Eastern Patriarch's Hat</x:String>
+                <x:String>Far Eastern Matriarch's Sun Hat</x:String>
+                <x:String>Helm of Light</x:String>
+                <x:String>Onion Helm</x:String>
+                <x:String>Garlond Goggles</x:String>
+                <x:String>Moogle Cap</x:String>
+                <x:String>Tarnished Face of Undying Twilight</x:String>
+                <x:String>Aka Oni Somen</x:String>
+                <x:String>Republic Hoplomachus's Headgear</x:String>
+                <x:String>Late Allagan Mask of Fending</x:String>
+                <x:String>Prestige Crown of Light</x:String>
+                <x:String>Prestige High Allagan Circlet of Fending</x:String>
+                <x:String>Lone Wolf Crown</x:String>
+                <x:String>Pack Wolf Crown</x:String>
+                <x:String>Eaglewing Crown</x:String>
+                <x:String>Barghest Helm</x:String>
+                <x:String>Moddey Dhoo Helm</x:String>
+                <x:String>Hempen Coif</x:String>
+                <x:String>Hemp Coif of Gathering</x:String>
+                <x:String>Leather Calot</x:String>
+                <x:String>Company Hat</x:String>
+                <x:String>Spotted Fedora</x:String>
+                <x:String>Ultima Horns</x:String>
+                <x:String>Tamamo Headband</x:String>
+                <x:String>Toad Head</x:String>
+                <x:String>Gaja Head</x:String>
+                <x:String>Expeditioner's Cap</x:String>
+                <x:String>Hellhound Helm</x:String>
+                <x:String>Grey Hound Helm</x:String>
+                <x:String>Koro Kabuto</x:String>
+                <x:String>Gunro Kabuto</x:String>
+                <x:String>Shadowstalker's Helm</x:String>
+                <x:String>Shadowcleaver's Helm</x:String>
+                <x:String>Archfiend Helm</x:String>
+                <x:String>False Monarchy Mask</x:String>
+                <x:String>Catoblepas Horns</x:String>
+                <x:String>Bunny Crown</x:String>
+                <x:String>Sharlayan Goggles</x:String>
+                <x:String>Bunny Chief Crown</x:String>
+                <x:String>Cockscomb</x:String>
+                <x:String>Coeurl Mask</x:String>
+                <x:String>Succubus Horns</x:String>
+                <x:String>Swine Head</x:String>
+                <x:String>Arch Demon Horns</x:String>
+                <x:String>Shaded Visor</x:String>
+                <x:String>Vanu Vanu Head</x:String>
+                <x:String>Gnath Head</x:String>
+                <x:String>Zundu Head</x:String>
+                <x:String>Kabuto of the Blue</x:String>
+                <x:String>Namazu Mask</x:String>
+                <x:String>Replica Behemoth Helm</x:String>
+                <x:String>Replica Heavy Behemoth Helm</x:String>
+                <x:String>Goblin Cap</x:String>
+                <x:String>Fat Chocobo Head</x:String>
+                <x:String>Racing Chocobo Mask</x:String>
+                <x:String>Expeditioner's Flyers</x:String>
+                <x:String>Dragon Monocle</x:String>
+                <x:String>Dynasty Crown</x:String>
+                <x:String>Ribbon</x:String>
+                <x:String>Migratory Plume</x:String>
+                <x:String>Monoa Mask</x:String>
+                <x:String>Mended Imperial Pot Helm</x:String>
+                <x:String>Sable Death Mask</x:String>
+                <x:String>Postmoogle Cap</x:String>
+                <x:String>Scion Adventurer's Monocle</x:String>
+                <x:String>Inspector's Eyeglasses</x:String>
+                <x:String>Scion Rogue's Bandana</x:String>
+                <x:String>Head Bandage</x:String>
+                <x:String>Scion Traveler's Mask</x:String>
+                <x:String>Crystarium Helm</x:String>
+                <x:String>Appointed Cap</x:String>
+                <x:String>Yakaku Kamidome</x:String>
+                <x:String>Leafman Head</x:String>
+                <x:String>Highland Hood</x:String>
+                <x:String>Coronal Straw Hat</x:String>
+                <x:String>Spring Straw Hat</x:String>
+                <x:String>Cloche</x:String>
+                <x:String>Spriggan Cap</x:String>
+                <x:String>Crescent Moon Cone</x:String>
+                <x:String>Cresecent Moon Nightcap</x:String>
+                <x:String>Oval Spectacles</x:String>
+                <x:String>Shaded Spectacles</x:String>
+                <x:String>Contemporary Pince-nez</x:String>
+                <x:String>Rimless Glasses</x:String>
+                <x:String>Tick-rimmed Glasses</x:String>
+                <x:String>Gryphonskin Eyepatch</x:String>
+                <x:String>Imperial Shadow Visor</x:String>
+                <x:String>Ministrel's Spectacles</x:String>
+                <x:String>Classic Spectacles</x:String>
+                <x:String>Imitation Mistbeard Mask</x:String>
+                <x:String>The Emperor's New Hat</x:String>
+                <x:String>Oval Reading Glasses</x:String>
+                <x:String>Coeurl Eyeglasses</x:String>
+                <x:String>Thavnairian Turban</x:String>
+                <x:String>Thavnairian Headdress</x:String>
+                <x:String>Flat Cap</x:String>
+                <x:String>Red Beret</x:String>
+                <x:String>Green Beret</x:String>
+                <x:String>White Beret</x:String>
+                <x:String>Elegant Rimless Glasses</x:String>
+                <x:String>Reading Glasses</x:String>
+                <x:String>High House Cloche</x:String>
+                <x:String>Archaeoskin Cloche</x:String>
+                <x:String>Wind Silk Wedge Cap</x:String>
+                <x:String>New World Headdress</x:String>
+                <x:String>Survival Hat</x:String>
+                <x:String>Moonfire Hat</x:String>
+                <x:String>Boarskin Survival Hat</x:String>
+                <x:String>Ramie Hood</x:String>
+                <x:String>Cashmere Hood</x:String>
+                <x:String>Wool Knit Cap</x:String>
+                <x:String>Flannel Knit Cap</x:String>
+                <x:String>Taoist's Cap</x:String>
+                <x:String>Non La</x:String>
+                <x:String>Emperor Hairpin</x:String>
+                <x:String>Anemos Hat</x:String>
+                <x:String>Anemos Pot Hat</x:String>
+                <x:String>Boulevardier's Hat</x:String>
+                <x:String>Pagos Bandana</x:String>
+                <x:String>Pagos Circlet</x:String>
+                <x:String>Quaintrelle's Hat</x:String>
+                <x:String>Archaeodemon Horns</x:String>
+                <x:String>Rain Hood</x:String>
+                <x:String>Replica Sky Pirate's Helm of Fending</x:String>
+                <x:String>Replica Sky Pirate's Helm of Maiming</x:String>
+                <x:String>Replica Sky Pirate's Mask of Striking</x:String>
+                <x:String>Replica Sky Pirate's Beret of Aiming</x:String>
+                <x:String>Replica Sky Pirate's Mask of Scouting</x:String>
+                <x:String>Replica Sky Pirate's Cap of Healing</x:String>
+                <x:String>Replica Sky Pirate's Cap of Casting</x:String>
+                <x:String>Replica Sky Rat Mask of Fending</x:String>
+                <x:String>Replica Sky Rat Mask of Maiming</x:String>
+                <x:String>Replica Sky Rat Mask of Striking</x:String>
+                <x:String>Replica Sky Rat Mask of Aiming</x:String>
+                <x:String>Replica Sky Rat Mask of Scouting</x:String>
+                <x:String>Replica Sky Rat Mask of Healing</x:String>
+                <x:String>Replica Sky Rat Mask of Casting</x:String>
+                <x:String>Kupo Crown</x:String>
+                <x:String>Kupo Knit Cap</x:String>
+                <x:String>Hraesvelgr Hat</x:String>
+                <x:String>Skyworker's Helmet</x:String>
+                <x:String>Calfskin Rider's Cap</x:String>
+                <x:String>Frontier Hat</x:String>
+                <x:String>Frontier Ribbon</x:String>
+                <x:String>Peacelover's Hat</x:String>
+                <x:String>Excite-I-Mask</x:String>
+                <x:String>Sharlayan Diadema</x:String>
+                <x:String>Thavnairian Ribbon</x:String>
+                <x:String>Red Ribbon</x:String>
+                <x:String>Varsity Flat Cap</x:String>
+                <x:String>Isle Explorer's Hat</x:String>
+                <x:String>Noir Hat</x:String>
+                <x:String>Lawless Enforcer's Hat</x:String>
+                <x:String>Isle Shepherd's Headdress</x:String>
+                <x:String>Isle Vacationer's Visor</x:String>
+                <x:String>Salon Server's Hat</x:String>
+                <x:String>Plain Pajama Eye Mask</x:String>
+                <x:String>Cactuar Pajama Eye Mask</x:String>
+                <x:String>Chocobo Pajama Eye Mask</x:String>
+                <x:String>Baronial Hat</x:String>
+                <x:String>Island Resort Straw Hat</x:String>
+                <x:String>Dried Red Oldrose</x:String>
+                <x:String>Dried Blue Oldrose</x:String>
+                <x:String>Dried Yellow Oldrose</x:String>
+                <x:String>Dried Green Oldrose</x:String>
+                <x:String>Dried Orange Oldrose</x:String>
+                <x:String>Dried Purple Oldrose</x:String>
+                <x:String>Dried White Oldrose</x:String>
+                <x:String>Dried Black Oldrose</x:String>
+                <x:String>Oldrose Corsage</x:String>
+                <x:String>Red Viola Corsage</x:String>
+                <x:String>Blue Viola Corsage</x:String>
+                <x:String>Yellow Viola Corsage</x:String>
+                <x:String>Green Viola Corsage</x:String>
+                <x:String>Orange Viola Corsage</x:String>
+                <x:String>Purple Viola Corsage</x:String>
+                <x:String>White Viola Corsage</x:String>
+                <x:String>Black Viola Corsage</x:String>
+                <x:String>Rainbow Viola Corsage</x:String>
+                <x:String>Red Cherry Blossom Corsage</x:String>
+                <x:String>Blue Cherry Blossom Corsage</x:String>
+                <x:String>Yellow Cherry Blossom Corsage</x:String>
+                <x:String>Green Cherry Blossom Corsage</x:String>
+                <x:String>Orange Cherry Blossom Corsage</x:String>
+                <x:String>Purple Cherry Blossom Corsage</x:String>
+                <x:String>White Cherry Blossom Corsage</x:String>
+                <x:String>Black Cherry Blossom Corsage</x:String>
+                <x:String>Pink Cherry Blossom Corsage</x:String>
+                <x:String>Red Daisy Corsage</x:String>
+                <x:String>Blue Daisy Corsage</x:String>
+                <x:String>Yellow Daisy Corsage</x:String>
+                <x:String>Green Daisy Corsage</x:String>
+                <x:String>Orange Daisy Corsage</x:String>
+                <x:String>Purple Daisy Corsage</x:String>
+                <x:String>White Daisy Corsage</x:String>
+                <x:String>Black Daisy Corsage</x:String>
+                <x:String>Rainbow Daisy Corsage</x:String>
+                <x:String>Red Brightlily Corsage</x:String>
+                <x:String>Blue Brightlily Corsage</x:String>
+                <x:String>Yellow Brightlily Corsage</x:String>
+                <x:String>Green Brightlily Corsage</x:String>
+                <x:String>Orange Brightlily Corsage</x:String>
+                <x:String>Purple Brightlily Corsage</x:String>
+                <x:String>White Brightlily Corsage</x:String>
+                <x:String>Black Brightlily Corsage</x:String>
+                <x:String>Rainbow Brightlily Corsage</x:String>
+                <x:String>Red Dahlia Corsage</x:String>
+                <x:String>Blue Dahlia Corsage</x:String>
+                <x:String>Yellow Dahlia Corsage</x:String>
+                <x:String>Green Dahlia Corsage</x:String>
+                <x:String>Orange Dahlia Corsage</x:String>
+                <x:String>Purple Dahlia Corsage</x:String>
+                <x:String>White Dahlia Corsage</x:String>
+                <x:String>Black Dahlia Corsage</x:String>
+                <x:String>Rainbow Dahlia Corsage</x:String>
+                <x:String>Red Arum Corsage</x:String>
+                <x:String>Blue Arum Corsage</x:String>
+                <x:String>Yellow Arum Corsage</x:String>
+                <x:String>Green Arum Corsage</x:String>
+                <x:String>Orange Arum Corsage</x:String>
+                <x:String>Purple Arum Corsage</x:String>
+                <x:String>White Arum Corsage</x:String>
+                <x:String>Black Arum Corsage</x:String>
+                <x:String>Rainbow Arum Corsage</x:String>
+                <x:String>Red Lily of the Valley Corsage</x:String>
+                <x:String>Blue Lily of the Valley Corsage</x:String>
+                <x:String>Yellow Lily of the Valley Corsage</x:String>
+                <x:String>Green Lily of the Valley Corsage</x:String>
+                <x:String>Orange Lily of the Valley Corsage</x:String>
+                <x:String>Purple Lily of the Valley Corsage</x:String>
+                <x:String>White Lily of the Valley Corsage</x:String>
+                <x:String>Black Lily of the Valley Corsage</x:String>
+                <x:String>Rainbow Lily of the Valley Corsage</x:String>
+                <x:String>Red Hydrangea Corsage</x:String>
+                <x:String>Blue Hydrangea Corsage</x:String>
+                <x:String>Yellow Hydrangea Corsage</x:String>
+                <x:String>Green Hydrangea Corsage</x:String>
+                <x:String>Orange Hydrangea Corsage</x:String>
+                <x:String>Purple Hydrangea Corsage</x:String>
+                <x:String>White Hydrangea Corsage</x:String>
+                <x:String>Black Hydrangea Corsage</x:String>
+                <x:String>Rainbow Hydrangea Corsage</x:String>
+                <x:String>Red Campanula Corsage</x:String>
+                <x:String>Blue Campanula Corsage</x:String>
+                <x:String>Yellow Campanula Corsage</x:String>
+                <x:String>Green Campanula Corsage</x:String>
+                <x:String>Orange Campanula Corsage</x:String>
+                <x:String>Purple Campanula Corsage</x:String>
+                <x:String>White Campanula Corsage</x:String>
+                <x:String>Black Campanula Corsage</x:String>
+                <x:String>Rainbow Campanula Corsage</x:String>
+                <x:String>Red Hyacinth Corsage</x:String>
+                <x:String>Blue Hyacinth Corsage</x:String>
+                <x:String>Yellow Hyacinth Corsage</x:String>
+                <x:String>Green Hyacinth Corsage</x:String>
+                <x:String>Orange Hyacinth Corsage</x:String>
+                <x:String>Purple Hyacinth Corsage</x:String>
+                <x:String>White Hyacinth Corsage</x:String>
+                <x:String>Black Hyacinth Corsage</x:String>
+                <x:String>Rainbow Hyacinth Corsage</x:String>
+                <x:String>Red Cosmos Corsage</x:String>
+                <x:String>Blue Cosmos Corsage</x:String>
+                <x:String>Yellow Cosmos Corsage</x:String>
+                <x:String>Green Cosmos Corsage</x:String>
+                <x:String>Orange Cosmos Corsage</x:String>
+                <x:String>Purple Cosmos Corsage</x:String>
+                <x:String>White Cosmos Corsage</x:String>
+                <x:String>Black Cosmos Corsage</x:String>
+                <x:String>Rainbow Cosmos Corsage</x:String>
+                <x:String>Red Morning Glory Corsage</x:String>
+                <x:String>Blue Morning Glory Corsage</x:String>
+                <x:String>Yellow Morning Glory Corsage</x:String>
+                <x:String>Green Morning Glory Corsage</x:String>
+                <x:String>Orange Morning Glory Corsage</x:String>
+                <x:String>Purple Morning Glory Corsage</x:String>
+                <x:String>White Morning Glory Corsage</x:String>
+                <x:String>Black Morning Glory Corsage</x:String>
+                <x:String>Rainbow Morning Glory Corsage</x:String>
+                <x:String>Red Chrysanthemum Corsage</x:String>
+                <x:String>Blue Chrysanthemum Corsage</x:String>
+                <x:String>Yellow Chrysanthemum Corsage</x:String>
+                <x:String>Green Chrysanthemum Corsage</x:String>
+                <x:String>Orange Chrysanthemum Corsage</x:String>
+                <x:String>Purple Chrysanthemum Corsage</x:String>
+                <x:String>White Chrysanthemum Corsage</x:String>
+                <x:String>Black Chrysanthemum Corsage</x:String>
+                <x:String>Rainbow Chrysanthemum Corsage</x:String>
+                <x:String>Usagi Kabuto</x:String>
+                <x:String>Dragon Kabuto</x:String>
+                <x:String>Crimson Dragon Kabuto</x:String>
+                <x:String>Golden Dragon Kabuto</x:String>
+                <x:String>Black Dragon Kabuto</x:String>
+                <x:String>Silver Snake Kabuto</x:String>
+                <x:String>Uma Kabuto</x:String>
+                <x:String>Crimson Uma Kabuto</x:String>
+                <x:String>Golden Uma Kabuto</x:String>
+                <x:String>Black Uma Kabuto</x:String>
+                <x:String>Hitsuji Kabuto</x:String>
+                <x:String>Black Hitsuji Kabuto</x:String>
+                <x:String>Crimson Hitsuji Kabuto</x:String>
+                <x:String>White Hitsuji Kabuto</x:String>
+                <x:String>See No Helm</x:String>
+                <x:String>Speak No Helm</x:String>
+                <x:String>Hear No Helm</x:String>
+                <x:String>Red Tori Kabuto</x:String>
+                <x:String>Black Tori Kabuto</x:String>
+                <x:String>White Inu Kabuto</x:String>
+                <x:String>Black Inu Kabuto</x:String>
+                <x:String>Inoshishi Kabuto</x:String>
+                <x:String>Crimson Inoshishi Kabuto</x:String>
+                <x:String>Crimson Nezumi Kabuto</x:String>
+                <x:String>Cobalt Nezumi Kabuto</x:String>
+                <x:String>Crimson Ushi Kabuto</x:String>
+                <x:String>Black Ushi Kabuto</x:String>
+                <x:String>Golden Tora Kabuto</x:String>
+                <x:String>Silver Tora Kabuto</x:String>
+                <x:String>Valentione Hat</x:String>
+                <x:String>Black-featherd Flat Hat</x:String>
+                <x:String>Red-feathered Flat Hat</x:String>
+                <x:String>Valentione Rose Hat</x:String>
+                <x:String>Valentione Forget-me-not Hat</x:String>
+                <x:String>Valentione Acacia Hat</x:String>
+                <x:String>Valentione Rose Ribboned Hat</x:String>
+                <x:String>Velntione Forget-me-not Ribboned Hat</x:String>
+                <x:String>Valentione Acacia Ribboned Hat</x:String>
+                <x:String>Lovely Moogle Cap</x:String>
+                <x:String>Valentione Emissary's Hat</x:String>
+                <x:String>Valentione Emissary's Dress Hat</x:String>
+                <x:String>Songbird Hat</x:String>
+                <x:String>Royal Seneschal's Chapeau</x:String>
+                <x:String>Flower Crown</x:String>
+                <x:String>Seneschal's Monocle</x:String>
+                <x:String>Princess's Peach Corsage</x:String>
+                <x:String>Little Lady's Crown</x:String>
+                <x:String>Rabbit Head</x:String>
+                <x:String>Chicken Head</x:String>
+                <x:String>Tonberry Head</x:String>
+                <x:String>Oschon Roselle Capeline</x:String>
+                <x:String>Gold Roselle Capeline</x:String>
+                <x:String>Pearl Roselle Capeline</x:String>
+                <x:String>Straw Capeline</x:String>
+                <x:String>Endless Summer Glasses</x:String>
+                <x:String>Moonfire Hachimaki</x:String>
+                <x:String>White Painted Moogle Mask</x:String>
+                <x:String>Black Painted Moogle Mask</x:String>
+                <x:String>Painted Namazu Mask</x:String>
+                <x:String>Summer's Flame Hat</x:String>
+                <x:String>Summer Sunset Bandana</x:String>
+                <x:String>Pumpking Head</x:String>
+                <x:String>Unripened Pumpking Head</x:String>
+                <x:String>White Pumpkin Head</x:String>
+                <x:String>Ripened Pumpkin Head</x:String>
+                <x:String>Eerie Hat</x:String>
+                <x:String>Witch's Hat</x:String>
+                <x:String>Werewolf Head</x:String>
+                <x:String>Clown's Hat</x:String>
+                <x:String>Wake Doctor's Mask</x:String>
+                <x:String>Dream Hat</x:String>
+                <x:String>Reindeer Antlers</x:String>
+                <x:String>Snowman Head</x:String>
+                <x:String>Starlight Sugarloaf Hat</x:String>
+                <x:String>False Mustache</x:String>
+                <x:String>Reindeer Antler Headband</x:String>
+                <x:String>Saint's Beard</x:String>
+                <x:String>Saint's Cap</x:String>
+                <x:String>Choir Hat</x:String>
+                <x:String>Baron Helm</x:String>
+                <x:String>Baron Circlet</x:String>
+                <x:String>Wild Rose Bandana</x:String>
+                <x:String>Amatsu Hachigane</x:String>
+                <x:String>Legacy Warrior Coronet</x:String>
+                <x:String>King Slime Crown</x:String>
+                <x:String>Augmented Rathalos Helm [M]</x:String>
+                <x:String>Augmented Rathalos Helm [F]</x:String>
+                <x:String>Rathalos Helm [M]</x:String>
+                <x:String>Rathalos Helm [F]</x:String>
+                <x:String>No.2 Ype B Goggles</x:String>
+                <x:String>Sweet Dream Cap</x:String>
+                <x:String>Tetsuji Usagi Kabuto</x:String>
+                <x:String>Black Tetsuji Usagi Kabuto</x:String>
+                <x:String>Silver Tetsuji Usagi Kabuto</x:String>
+                <x:String>Veil of Eternal Innocence</x:String>
+                <x:String>Veil of Eternal Passion</x:String>
+                <x:String>Veil of Eternal Devotion</x:String>
+                <x:String>Moogle Head</x:String>
+                <x:String>Yellow-pommed Moogle Cap</x:String>
+                <x:String>Scion Striker's Visor</x:String>
+                <x:String>Scion Thaumaturge's Monocle</x:String>
+                <x:String>Head Engineer's Goggles</x:String>
+                <x:String>Ironworks Engineer's Goggles</x:String>
+                <x:String>Housemaid's Brim</x:String>
+                <x:String>Butler's Monocle</x:String>
+                <x:String>Far Eastern Noble's Mortarboard</x:String>
+                <x:String>Angelic Circlet</x:String>
+                <x:String>Demonic Horns</x:String>
+                <x:String>Far Eastern Gentleman's Hat</x:String>
+                <x:String>Far Eastern Beauty's Hairpin</x:String>
+                <x:String>Star of the Nezha Lord</x:String>
+                <x:String>Star of the Nezha Lady</x:String>
+                <x:String>Loyal Housemaid's Brim</x:String>
+                <x:String>Loyal Butler's Monocle</x:String>
+                <x:String>Blackbosom Hat</x:String>
+                <x:String>Emerald Carbuncle Ears</x:String>
+                <x:String>Topaz Carbuncle Ears</x:String>
+                <x:String>Faerie Tale Prince's Circlet</x:String>
+                <x:String>Faerie Tale Princess's Tiara</x:String>
+                <x:String>Cracked Manderville Monocle</x:String>
+                <x:String>Mun'gaek Hat</x:String>
+                <x:String>Eastern Socialite's Hat</x:String>
+                <x:String>Far Eastern Officer's Hat</x:String>
+                <x:String>Far Eastern Maiden's Hat</x:String>
+                <x:String>Leal Samurai's Kasa</x:String>
+                <x:String>Far Eastern Schoolboy's Hat</x:String>
+                <x:String>Far Eastern Schoolgirl's Hair Ribbon</x:String>
+                <x:String>Scion Hearer's Hood</x:String>
+                <x:String>Peacock Hat</x:String>
+                <x:String>Eastern Lord Errant's Hat</x:String>
+                <x:String>Eastern Lady Errant's Hat</x:String>
+                <x:String>Mheg Deaca Circlet</x:String>
+                <x:String>Scion Sorceress's Headdress</x:String>
+                <x:String>Ruby Carbuncle Ears</x:String>
+                <x:String>Bergsteiger's Hat</x:String>
+                <x:String>Dirndl's Hat</x:String>
+                <x:String>Resshi Hachigane</x:String>
+                <x:String>Street Cap</x:String>
+                <x:String>Fat Cat Hood</x:String>
+                <x:String>Far Northern Headpiece</x:String>
+                <x:String>Educand's Cap</x:String>
+                <x:String>Scarf of Wondrous Wit</x:String>
+                <x:String>Friendship Circlet</x:String>
+                <x:String>Inferno Mask</x:String>
+                <x:String>Crag Mask</x:String>
+                <x:String>Eastern Journey Circlet</x:String>
+                <x:String>Cait Sith Ears</x:String>
+                <x:String>Exclusive Eastern Journey Circlet</x:String>
+                <x:String>Matoya's Hat</x:String>
+                <x:String>Leather Eyepatch</x:String>
+                <x:String>Hempen Bandana</x:String>
+                <x:String>Hempen Hat</x:String>
+                <x:String>Bronze Chain Coif</x:String>
+                <x:String>Hard Leather Pot Helm</x:String>
+                <x:String>Bronze Sallet</x:String>
+                <x:String>Straw Hat</x:String>
+                <x:String>Amateur's Headgear</x:String>
+                <x:String>Amateur's Hempen Coif</x:String>
+                <x:String>Pristine Egg Cap</x:String>
+                <x:String>Thug's Mug</x:String>
+            </Picker.Items>
+        </Picker>
+    </VerticalStackLayout>
+</ContentPage>
