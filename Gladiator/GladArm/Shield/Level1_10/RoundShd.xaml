@@ -28,6 +28,7 @@
 
         <Label Text="Bonuses"/>
         <Label Text="Mind +1           Direct Hit Rate +1"/>
+        
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
         <Label Text="Crafting and Repairs"/>
