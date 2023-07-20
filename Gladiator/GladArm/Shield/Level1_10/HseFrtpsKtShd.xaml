@@ -51,13 +51,11 @@
         <Label Text="Calamity Salvager     |   Old Gridania (X: 10.0, Y: 8.4)"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
         <Label Text="Calamity Salvager     |   Ul'dah - Steps of Thald (X: 12.6, Y: 13.1)"/>
+            
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
-        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
-        
-        <Label Text="Quest                                                             |  Area               | Level"/>
-        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
-        <Label Text="As Goes Light, So Goes Darkness            | Ishgard           |  60"/>
-        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
-    </VerticalStackLayout>
+        <Label Text="Quest                  |      Area            |      Level           "/>
+        <Label Text="As Goes Light, So Goes Darkness    |   Ishgard      |       60              "/>
+        </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

@@ -94,7 +94,7 @@
                 <x:String>Shaded Spectacles</x:String>
                 <x:String>Contemporary Pince-nez</x:String>
                 <x:String>Rimless Glasses</x:String>
-                <x:String>Tick-rimmed Glasses</x:String>
+                <x:String>Thick-rimmed Glasses</x:String>
                 <x:String>Gryphonskin Eyepatch</x:String>
                 <x:String>Imperial Shadow Visor</x:String>
                 <x:String>Ministrel's Spectacles</x:String>
@@ -108,7 +108,7 @@
                 <x:String>Flat Cap</x:String>
                 <x:String>Red Beret</x:String>
                 <x:String>Green Beret</x:String>
-                <x:String>White Beret</x:String>
+                <x:String>White Beret</x:String> 
                 <x:String>Elegant Rimless Glasses</x:String>
                 <x:String>Reading Glasses</x:String>
                 <x:String>High House Cloche</x:String>
@@ -120,7 +120,7 @@
                 <x:String>Boarskin Survival Hat</x:String>
                 <x:String>Ramie Hood</x:String>
                 <x:String>Cashmere Hood</x:String>
-                <x:String>Wool Knit Cap</x:String>
+                <x:String>Wool Night Cap</x:String>
                 <x:String>Flannel Knit Cap</x:String>
                 <x:String>Taoist's Cap</x:String>
                 <x:String>Non La</x:String>
@@ -333,7 +333,7 @@
                 <x:String>Valentione Forget-me-not Hat</x:String>
                 <x:String>Valentione Acacia Hat</x:String>
                 <x:String>Valentione Rose Ribboned Hat</x:String>
-                <x:String>Velntione Forget-me-not Ribboned Hat</x:String>
+                <x:String>Valentione Forget-me-not Ribboned Hat</x:String>
                 <x:String>Valentione Acacia Ribboned Hat</x:String>
                 <x:String>Lovely Moogle Cap</x:String>
                 <x:String>Valentione Emissary's Hat</x:String>
@@ -358,8 +358,8 @@
                 <x:String>Painted Namazu Mask</x:String>
                 <x:String>Summer's Flame Hat</x:String>
                 <x:String>Summer Sunset Bandana</x:String>
-                <x:String>Pumpking Head</x:String>
-                <x:String>Unripened Pumpking Head</x:String>
+                <x:String>Pumpkin Head</x:String>
+                <x:String>Unripened Pumpkin Head</x:String>
                 <x:String>White Pumpkin Head</x:String>
                 <x:String>Ripened Pumpkin Head</x:String>
                 <x:String>Eerie Hat</x:String>
@@ -386,7 +386,7 @@
                 <x:String>Augmented Rathalos Helm [F]</x:String>
                 <x:String>Rathalos Helm [M]</x:String>
                 <x:String>Rathalos Helm [F]</x:String>
-                <x:String>No.2 Ype B Goggles</x:String>
+                <x:String>No.2 Type B Goggles</x:String>
                 <x:String>Sweet Dream Cap</x:String>
                 <x:String>Tetsuji Usagi Kabuto</x:String>
                 <x:String>Black Tetsuji Usagi Kabuto</x:String>
@@ -457,6 +457,7 @@
                 <x:String>Amateur's Hempen Coif</x:String>
                 <x:String>Pristine Egg Cap</x:String>
                 <x:String>Thug's Mug</x:String>
+                <x:String>Eaglebeack Crown</x:String>
             </Picker.Items>
         </Picker>
     </VerticalStackLayout>

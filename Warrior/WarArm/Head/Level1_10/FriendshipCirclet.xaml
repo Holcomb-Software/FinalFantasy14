@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Warrior.WarArm.Head.Level1_10.FriendshipCirclet"
+             Title="FriendshipCirclet">
+    <VerticalStackLayout>
+        <Label 
+            Text="Friendship Circlet"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/3f/3f8717529ce5b7790399d9ff8e2429ce4e625b27.png?n6.41"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Item Level 1"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Defense      |         Magic Defense      |"/>
+        <Label Text="   7         |            13              |"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="All Classes"/>
+        <Label Text="Level 1"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Increases EXP earned from battle, crafting, and gathering when level 25 or below."/>
+        <Label Text="EXP Bonus: +20%"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Goldsmith Lv. 1"/>
+        <Label Text="Materials        Grade 1 Dark Matter"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Extractable: Yes      Projectable: Yes"/>
+        <Label Text="Desynthesizable: No   Dyeable: Yes"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Available for Purchase: No"/>
+        <Label Text="****UnsellableMarket Prohibited****"/>
+    </VerticalStackLayout>
+</ContentPage>

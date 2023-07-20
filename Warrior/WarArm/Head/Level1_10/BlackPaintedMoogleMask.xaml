@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Warrior.WarArm.Head.Level1_10.BlackPaintedMoogleMask"
+             Title="BlackPaintedMoogleMask">
+    <VerticalStackLayout>
+        <Label 
+            Text="Black Painted Moogle Mask"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b5/b51dcafeb2eab57e3b5d317d50acc87d0cb8f2d5.png?n6.41"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Item Level 1"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Defense      |         Magic Defense      |"/>
+        <Label Text="   8         |            14              |"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="All Classes"/>
+        <Label Text="Level 1"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Carpenter Lv. 1"/>
+        <Label Text="Materials        Grade 1 Dark Matter"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Extractable: Yes      Projectable: Yes"/>
+        <Label Text="Desynthesizable: No   Dyeable: Yes"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Sale Price: 94 gil (Restricted)"/>
+        <Label Text="****UnsellableMarket Prohibited****"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+        
+        <Label Text="Obtained From:"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Selling NPC                           |   Area"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Recompense Officer                              |   Limsa Lominsa Upper Decks (X:11.2, Y:14.3)"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Recompense Officer                       |   Old Gridania (X:10.0, Y:8.3)"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Recompense Officer                       |   Ul'dah - Steps of Thal (X:12.6, Y:13.1)"/>
+    </VerticalStackLayout>
+</ContentPage>

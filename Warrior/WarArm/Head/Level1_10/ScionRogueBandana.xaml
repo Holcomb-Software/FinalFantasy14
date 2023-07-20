@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Warrior.WarArm.Head.Level1_10.ScionRogueBandana"
+             Title="ScionRogueBandana">
+    <VerticalStackLayout>
+        <Label 
+            Text="Scion Rogue's Bandana"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/d1/d1c5a7b076494e2dea83138f484a10c210c63f0e.png?n6.45"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Item Level 1"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Defense      |         Magic Defense      |"/>
+        <Label Text="   8         |            14              |"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="All Classes"/>
+        <Label Text="Level 1"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Leatherworker Lv. 1"/>
+        <Label Text="Materials        Grade 1 Dark Matter"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Extractable: Yes      Projectable: Yes"/>
+        <Label Text="Desynthesizable: No   Dyeable: Yes"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Sale Price: 100 gil (Restricted)"/>
+        <Label Text="****Unsellable Market Prohibited****"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Obtained From:"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Selling NPC                    |   Area"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Calamity Salvager        |   Limsa Lominsa Upper Decks (X: 11.3, Y: 14.3)"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Calamity Salvager        |   Old Gridania (X: 10.0, Y: 8.4)"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Calamith Salvager        |   Ul'dah - Steps of Thald (X: 12.6, Y: 13.1)"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+    </VerticalStackLayout>
+</ContentPage>

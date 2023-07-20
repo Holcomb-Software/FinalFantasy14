@@ -456,22 +456,1794 @@ public partial class Level1_10 : ContentPage
         picker.Items.Add("Thug's Mug");
     }
 
-    //private async void OnPickerSelectedIndexChanged(object sender, EventArgs e)
-    //{
-    //    var picker = (Picker)sender;
-    //    int selectedIndex = picker.SelectedIndex;
+    private async void OnPickerSelectedIndexChanged(object sender, EventArgs e)
+    {
+        var picker = (Picker)sender;
+        int selectedIndex = picker.SelectedIndex;
 
-    //    if (selectedIndex == 0)
-    //    {
-    //        await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FEPatHat());
-    //    }
-    //    else if (selectedIndex == 1)
-    //    {
-    //        await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FEMatSunHat());
-    //    }
-    //    else if (selectedIndex == 2)
-    //    {
-    //        await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.HelmofLight());
-    //    }
-    //}
+        if (selectedIndex == 0)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FEPatHat());
+        }
+        else if (selectedIndex == 1)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FEMatSunHat());
+        }
+        else if (selectedIndex == 2)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.HelmofLight());
+        }
+        else if (selectedIndex == 3)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.OnionHelm());
+        }
+        else if (selectedIndex == 4)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GarlondGoggles());
+        }
+        else if (selectedIndex == 5)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.MoggleCap());
+        }
+        else if (selectedIndex == 6)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.TarnishedFaceUndyingTwilight());
+        }
+        else if (selectedIndex == 7)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.AkaOniSomen());
+        }
+        else if (selectedIndex == 8)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RepubHopHead());
+        }
+        else if (selectedIndex == 9)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.LateAllMskFnd());
+        }
+        else if (selectedIndex == 10)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PrestCrwnLght());
+        }
+        else if (selectedIndex == 11)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PresHghAllCicltFnd());
+        }
+        else if (selectedIndex == 12)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.LneWlfCrn());
+        }
+        else if (selectedIndex == 13)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PckWlfCwn());
+        }
+        else if (selectedIndex == 14)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.EglwngCwn());
+        }
+        else if (selectedIndex == 15)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BarghestHelm());
+        }
+        else if (selectedIndex == 16)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ModDhoHelm());
+        }
+        else if (selectedIndex == 17)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.HmpnCoif());
+        }
+        else if (selectedIndex == 18)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.HmpnCoifGathering());
+        }
+        else if (selectedIndex == 19)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.LeatherCalot());
+        }
+        else if (selectedIndex == 20)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CompanyHat());
+        }
+        else if (selectedIndex == 21)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SpottedFedora());
+        }
+        else if (selectedIndex == 22)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.UltimaHorns());
+        }
+        else if (selectedIndex == 23)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.TamHeadband());
+        }
+        else if (selectedIndex == 24)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ToadHead());
+        }
+        else if (selectedIndex == 25)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GajaHead());
+        }
+        else if (selectedIndex == 26)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ExpedCap());
+        }
+        else if (selectedIndex == 27)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.HellhoundHelm());
+        }
+        else if (selectedIndex == 28)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GreyHoundHelm());
+        }
+        else if (selectedIndex == 29)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.KoroKabuto());
+        }
+        else if (selectedIndex == 30)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GunroKabuto());
+        }
+        else if (selectedIndex == 31)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ShadowstalkerHelm());
+        }
+        else if (selectedIndex == 32)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ShadowcleaverHelm());
+        }
+        else if (selectedIndex == 33)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ArchfiendHelm());
+        }
+        else if (selectedIndex == 34)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FalseMonMask());
+        }
+        else if (selectedIndex == 35)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CatoHorns());
+        }
+        else if (selectedIndex == 36)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BunnyCrown());
+        }
+        else if (selectedIndex == 37)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SharaGoggles());
+        }
+        else if (selectedIndex == 38)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BunnyChiefCrown());
+        }
+        else if (selectedIndex == 39)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.Cockscomb());
+        }
+        else if (selectedIndex == 40)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CoeurlMask());
+        }
+        else if (selectedIndex == 41)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SuccubusHorns());
+        }
+        else if (selectedIndex == 42)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SwineHead());
+        }
+        else if (selectedIndex == 43)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ArchDemonHorns());
+        }
+        else if (selectedIndex == 44)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ShadedVisor());
+        }
+        else if (selectedIndex == 45)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.VanuVanuHead());
+        }
+        else if (selectedIndex == 46)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GnathHead());
+        }
+        else if (selectedIndex == 47)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ZunduHead());
+        }
+        else if (selectedIndex == 48)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.KabutooftheBlue());
+        }
+        else if (selectedIndex == 49)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.NamazuMask());
+        }
+        else if (selectedIndex == 50)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ReplicaBehemothHelm());
+        }
+        else if (selectedIndex == 51)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ReplicaHeavyBehemothHelm());
+        }
+        else if (selectedIndex == 52)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GoblinCap());
+        }
+        else if (selectedIndex == 53)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FatChocoboHead());
+        }
+        else if (selectedIndex == 54)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RacingChocoboMask());
+        }
+        else if (selectedIndex == 55)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ExpedFlyer());
+        }
+        else if (selectedIndex == 56)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.DragonMon());
+        }
+        else if (selectedIndex == 57)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.DynastyCrown());
+        }
+        else if (selectedIndex == 58)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.Ribbon());
+        }
+        else if (selectedIndex == 59)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.MigratoryPlume());
+        }
+        else if (selectedIndex == 60)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.MonoaMask());
+        }
+        else if (selectedIndex == 61)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.MendedImpPotHelm());
+        }
+        else if (selectedIndex == 62)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SableDeathMask());
+        }
+        else if (selectedIndex == 63)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PostmoogleCap());
+        }
+        else if (selectedIndex == 64)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ScionAdvMono());
+        }
+        else if (selectedIndex == 65)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.InspectEyeglasses());
+        }
+        else if (selectedIndex == 66)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ScionRogueBandana());
+        }
+        else if (selectedIndex == 67)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.HeadBandage());
+        }
+        else if (selectedIndex == 68)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ScionTravelerMask());
+        }
+        else if (selectedIndex == 69)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CrystariumHelm());
+        }
+        else if (selectedIndex == 70)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.AppointedCap());
+        }
+        else if (selectedIndex == 71)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.YakakuKami());
+        }
+        else if (selectedIndex == 72)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.LeafmanHead());
+        }
+        else if (selectedIndex == 73)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.HighlandHood());
+        }
+        else if (selectedIndex == 74)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CoronalStrawHat());
+        }
+        else if (selectedIndex == 75)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SpringStrawHat());
+        }
+        else if (selectedIndex == 76)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.Cloche());
+        }
+        else if (selectedIndex == 77)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SprigganCap());
+        }
+        else if (selectedIndex == 78)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CrescentMoonCone());
+        }
+        else if (selectedIndex == 79)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CrescentMoonNightcap());
+        }
+        else if (selectedIndex == 80)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.OvalSpectacles());
+        }
+        else if (selectedIndex == 81)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ShadedSpectacles());
+        }
+        else if (selectedIndex == 82)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ContempPince());
+        }
+        else if (selectedIndex == 83)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RimlessGlasses());
+        }
+        else if (selectedIndex == 84)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ThickrimmedGlasses());
+        }
+        else if (selectedIndex == 85)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GryphonskinEyepatch());
+        }
+        else if (selectedIndex == 86)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ImpShadVis());
+        }
+        else if (selectedIndex == 87)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.MinistrelSpectacle());
+        }
+        else if (selectedIndex == 88)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ClassicSpectacle());
+        }
+        else if (selectedIndex == 89)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ImitationMistbeardMask());
+        }
+        else if (selectedIndex == 90)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.TheEmperorNewHat());
+        }
+        else if (selectedIndex == 91)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.OvalReadingGlasses());
+        }
+        else if (selectedIndex == 92)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CoeurlEyeglasses());
+        }
+        else if (selectedIndex == 93)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ThavnarianTurban());
+        }
+        else if (selectedIndex == 94)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ThavnarianHeaddress());
+        }
+        else if (selectedIndex == 95)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FlatCap());
+        }
+        else if (selectedIndex == 96)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RedBeret());
+        }
+        else if (selectedIndex == 97)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GreenBeret());
+        }
+        else if (selectedIndex == 98)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WhiteBeret());
+        }
+        else if (selectedIndex == 99)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ElegRimlessGlass());
+        }
+        else if (selectedIndex == 100)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ReadingGlasses());
+        }
+        else if (selectedIndex == 101)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.HighHouseCloche());
+        }
+        else if (selectedIndex == 102)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ArchaeoskinCloche());
+        }
+        else if (selectedIndex == 103)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WindSilkWedgeCap());
+        }
+        else if (selectedIndex == 104)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.NewWorldHeaddress());
+        }
+        else if (selectedIndex == 105)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SurvivalHat());
+        }
+        else if (selectedIndex == 106)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.MoonfireHat());
+        }
+        else if (selectedIndex == 107)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BoarskinSurvivalHat());
+        }
+        else if (selectedIndex == 108)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RamieHood());
+        }
+        else if (selectedIndex == 109)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CashmereHood());
+        }
+        else if (selectedIndex == 110)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WoolKnitCap());
+        }
+        else if (selectedIndex == 111)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FlannelKnitCap());
+        }
+        else if (selectedIndex == 112)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.TaoistCap());
+        }
+        else if (selectedIndex == 113)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.NonLa());
+        }
+        else if (selectedIndex == 114)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.EmperorHairpin());
+        }
+        else if (selectedIndex == 115)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.AnemosHat());
+        }
+        else if (selectedIndex == 116)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.AnemosPotHat());
+        }
+        else if (selectedIndex == 117)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BouleHat());
+        }
+        else if (selectedIndex == 118)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PagosBandana());
+        }
+        else if (selectedIndex == 119)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PagosCirclet());
+        }
+        else if (selectedIndex == 120)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.QuainHat());
+        }
+        else if (selectedIndex == 121)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ArcaheodHorns());
+        }
+        else if (selectedIndex == 122)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RainHood());
+        }
+        else if (selectedIndex == 123)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ReplSkyPirHelmFending());
+        }
+        else if (selectedIndex == 124)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ReplSkyPirHelmMaiming());
+        }
+        else if (selectedIndex == 125)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ReplSkyPirMaskStriking());
+        }
+        else if (selectedIndex == 126)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ReplSkyPirBeretAiming());
+        }
+        else if (selectedIndex == 127)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ReplSkyPirMaskScouting());
+        }
+        else if (selectedIndex == 128)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ReplSkyPirCapHealing());
+        }
+        else if (selectedIndex == 129)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ReplSkyPirCapCasting());
+        }
+        else if (selectedIndex == 130)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ReplSkyRatMaskFending());
+        }
+        else if (selectedIndex == 131)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ReplSkyRatMaskMaiming());
+        }
+        else if (selectedIndex == 132)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ReplSkyRatMaskStriking());
+        }
+        else if (selectedIndex == 133)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ReplSkyRatMaskAiming());
+        }
+        else if (selectedIndex == 134)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ReplSkyRatMaskScouting());
+        }
+        else if (selectedIndex == 135)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ReplSkyRatMaskHealing());
+        }
+        else if (selectedIndex == 136)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ReplSkyRatMaskCasting());
+        }
+        else if (selectedIndex == 137)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.KupoCrown());
+        }
+        else if (selectedIndex == 138)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.KupoKnitCap());
+        }
+        else if (selectedIndex == 139)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.HraeHat());
+        }
+        else if (selectedIndex == 140)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SkyworkerHelmet());
+        }
+        else if (selectedIndex == 141)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CalfskinRiderCap());
+        }
+        else if (selectedIndex == 142)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FrontierHat());
+        }
+        else if (selectedIndex == 143)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FrontierRibbon());
+        }
+        else if (selectedIndex == 144)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PeaceloverHat());
+        }
+        else if (selectedIndex == 145)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ExciteIMask());
+        }
+        else if (selectedIndex == 150)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SharlayanDiadema());
+        }
+        else if (selectedIndex == 151)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ThavnairianRibbon());
+        }
+        else if (selectedIndex == 152)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RedRibbon());
+        }
+        else if (selectedIndex == 153)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.VarsityFlatCap());
+        }
+        else if (selectedIndex == 154)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.IsleExplorerHat());
+        }
+        else if (selectedIndex == 155)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.NoirHat());
+        }
+        else if (selectedIndex == 156)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.LawlessEnforcerHat());
+        }
+        else if (selectedIndex == 157)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.IsleShepherdHeaddress());
+        }
+        else if (selectedIndex == 158)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.IsleVacationerVisor());
+        }
+        else if (selectedIndex == 159)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SalonServerHat());
+        }
+        else if (selectedIndex == 160)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PlainPajamaEyeMask());
+        }
+        else if (selectedIndex == 161)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CactuarPajamaEyeMask());
+        }
+        else if (selectedIndex == 162)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ChocoboPajamaEyeMask());
+        }
+        else if (selectedIndex == 163)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BaronialHat());
+        }
+        else if (selectedIndex == 164)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.IslandResortStrawHat());
+        }
+        else if (selectedIndex == 165)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.DriedRedOldrose());
+        }
+        else if (selectedIndex == 166)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.DriedBlueOldrose());
+        }
+        else if (selectedIndex == 167)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.DriedYellowOldrose());
+        }
+        else if (selectedIndex == 168)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.DriedGreenOldrose());
+        }
+        else if (selectedIndex == 169)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.DriedOrangeOldrose());
+        }
+        else if (selectedIndex == 170)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.DriedPurpleOldrose());
+        }
+        else if (selectedIndex == 171)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.DriedWhiteOldrose());
+        }
+        else if (selectedIndex == 172)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.DriedBlackOldrose());
+        }
+        else if (selectedIndex == 173)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.OldroseCorsage());
+        }
+        else if (selectedIndex == 174)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RedViolaCorsage());
+        }
+        else if (selectedIndex == 175)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlueViolaCorsage());
+        }
+        else if (selectedIndex == 176)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.YellowViolaCorsage());
+        }
+        else if (selectedIndex == 177)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GreenViolaCorsage());
+        }
+        else if (selectedIndex == 178)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.OrangeViolaCorsage());
+        }
+        else if (selectedIndex == 179)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PurpleViolaCorsage());
+        }
+        else if (selectedIndex == 180)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WhiteViolaCorsage());
+        }
+        else if (selectedIndex == 181)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackViolaCorsage());
+        }
+        else if (selectedIndex == 182)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RainbowViolaCorsage());
+        }
+        else if (selectedIndex == 183)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RedCherryBlossomCorsage());
+        }
+        else if (selectedIndex == 184)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlueCherryBlossomCorsage());
+        }
+        else if (selectedIndex == 185)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.YellowCherryBlossomCorsage());
+        }
+        else if (selectedIndex == 186)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GreenCherryBlossomCorsage());
+        }
+        else if (selectedIndex == 187)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.OrangeCherryBlossomCorsage());
+        }
+        else if (selectedIndex == 188)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PurpleCherryBlossomCorsage());
+        }
+        else if (selectedIndex == 189)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WhiteCherryBlossomCorsage());
+        }
+        else if (selectedIndex == 190)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackCherryBlossomCorsage());
+        }
+        else if (selectedIndex == 191)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PinkCherryBlossomCorsage());
+        }
+        else if (selectedIndex == 192)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RedDaisyCorsage());
+        }
+        else if (selectedIndex == 193)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlueDaisyCorsage());
+        }
+        else if (selectedIndex == 194)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.YellowDaisyCorsage());
+        }
+        else if (selectedIndex == 195)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GreenDaisyCorsage());
+        }
+        else if (selectedIndex == 196)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.OrangeDaisyCorsage());
+        }
+        else if (selectedIndex == 197)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PurpleDaisyCorsage());
+        }
+        else if (selectedIndex == 198)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WhiteDaisyCorsage());
+        }
+        else if (selectedIndex == 199)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackDaisyCorsage());
+        }
+        else if (selectedIndex == 200)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RainbowDaisyCorsage());
+        }
+        else if (selectedIndex == 201)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RedBrightlilyCorsage());
+        }
+        else if (selectedIndex == 202)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlueBrightlilyCorsage());
+        }
+        else if (selectedIndex == 203)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.YellowBrightlilyCorsage());
+        }
+        else if (selectedIndex == 204)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GreenBrightlilyCorsage());
+        }
+        else if (selectedIndex == 205)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.OrangeBrightlilyCorsage());
+        }
+        else if (selectedIndex == 206)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PurpleBrightlilyCorsage());
+        }
+        else if (selectedIndex == 207)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WhiteBrightlilyCorsage());
+        }
+        else if (selectedIndex == 208)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackBrightlilyCorsage());
+        }
+        else if (selectedIndex == 209)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RainbowBrightlilyCorsage());
+        }
+        else if (selectedIndex == 210)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RedDhaliaCorsage());
+        }
+        else if (selectedIndex == 211)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlueDhaliaCorsage());
+        }
+        else if (selectedIndex == 212)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.YellowDhaliaCorsage());
+        }
+        else if (selectedIndex == 213)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GreenDhaliaCorsage());
+        }
+        else if (selectedIndex == 214)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.OrangeDhaliaCorsage());
+        }
+        else if (selectedIndex == 215)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PurpleDhaliaCorsage());
+        }
+        else if (selectedIndex == 216)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WhiteDhaliaCorsage());
+        }
+        else if (selectedIndex == 217)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackDhaliaCorsage());
+        }
+        else if (selectedIndex == 218)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RainbowDhaliaCorsage());
+        }
+        else if (selectedIndex == 219)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RedArumCorsage());
+        }
+        else if (selectedIndex == 220)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlueArumCorsage());
+        }
+        else if (selectedIndex == 221)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.YellowArumCorsage());
+        }
+        else if (selectedIndex == 222)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GreenArumCorsage());
+        }
+        else if (selectedIndex == 223)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.OrangeArumCorsage());
+        }
+        else if (selectedIndex == 224)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PurpleArumCorsage());
+        }
+        else if (selectedIndex == 225)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WhiteArumCorsage());
+        }
+        else if (selectedIndex == 226)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackArumCorsage());
+        }
+        else if (selectedIndex == 227)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RainbowArumCorsage());
+        }
+        else if (selectedIndex == 228)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RedLilyValleyCorsage());
+        }
+        else if (selectedIndex == 229)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlueLilyValleyCorsage());
+        }
+        else if (selectedIndex == 229)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.YellowLilyValleyCorsage());
+        }
+        else if (selectedIndex == 230)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GreenLilyValleyCorsage());
+        }
+        else if (selectedIndex == 231)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.OrangeLilyValleyCorsage());
+        }
+        else if (selectedIndex == 232)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PurpleLilyValleyCorsage());
+        }
+        else if (selectedIndex == 233)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WhiteLilyValleyCorsage());
+        }
+        else if (selectedIndex == 234)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackLilyValleyCorsage());
+        }
+        else if (selectedIndex == 235)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RainbowLilyValleyCorsage());
+        }
+        else if (selectedIndex == 236)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RedHydrangeaCorsage());
+        }
+        else if (selectedIndex == 237)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlueHydrangeaCorsage());
+        }
+        else if (selectedIndex == 238)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.YellowHydrangeaCorsage());
+        }
+        else if (selectedIndex == 239)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GreenHydrangeaCorsage());
+        }
+        else if (selectedIndex == 240)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.OrangeHydrangeaCorsage());
+        }
+        else if (selectedIndex == 241)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PurpleHydrangeaCorsage());
+        }
+        else if (selectedIndex == 242)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WhiteHydrangeaCorsage());
+        }
+        else if (selectedIndex == 243)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackHydrangeaCorsage());
+        }
+        else if (selectedIndex == 244)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RainbowHydrangeaCorsage());
+        }
+        else if (selectedIndex == 245)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RedCampanulaCorsage());
+        }
+        else if (selectedIndex == 246)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlueCampanulaCorsage());
+        }
+        else if (selectedIndex == 247)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.YellowCampanulaCorsage());
+        }
+        else if (selectedIndex == 248)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GreenCampanulaCorsage());
+        }
+        else if (selectedIndex == 249)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.OrangeCampanulaCorsage());
+        }
+        else if (selectedIndex == 250)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PurpleCampanulaCorsage());
+        }
+        else if (selectedIndex == 251)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WhiteCampanulaCorsage());
+        }
+        else if (selectedIndex == 252)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackCampanulaCorsage());
+        }
+        else if (selectedIndex == 253)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RainbowCampanulaCorsage());
+        }
+        else if (selectedIndex == 254)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RedHyacinthCorsage());
+        }
+        else if (selectedIndex == 255)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlueHyacinthCorsage());
+        }
+        else if (selectedIndex == 256)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.YellowHyacinthCorsage());
+        }
+        else if (selectedIndex == 257)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GreenHyacinthCorsage());
+        }
+        else if (selectedIndex == 258)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.OrangeHyacinthCorsage());
+        }
+        else if (selectedIndex == 259)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PurpleHyacinthCorsage());
+        }
+        else if (selectedIndex == 260)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WhiteHyacinthCorsage());
+        }
+        else if (selectedIndex == 261)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackHyacinthCorsage());
+        }
+        else if (selectedIndex == 262)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RainbowHyacinthCorsage());
+        }
+        else if (selectedIndex == 263)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RedCosmosCorsage());
+        }
+        else if (selectedIndex == 264)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlueCosmosCorsage());
+        }
+        else if (selectedIndex == 265)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.YellowCosmosCorsage());
+        }
+        else if (selectedIndex == 266)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GreenCosmosCorsage());
+        }
+        else if (selectedIndex == 267)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.OrangeCosmosCorsage());
+        }
+        else if (selectedIndex == 268)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PurpleCosmosCorsage());
+        }
+        else if (selectedIndex == 269)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WhiteCosmosCorsage());
+        }
+        else if (selectedIndex == 270)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackCosmosCorsage());
+        }
+        else if (selectedIndex == 271)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RainbowCosmosCorsage());
+        }
+        else if (selectedIndex == 272)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RedMorningGloryCorsage());
+        }
+        else if (selectedIndex == 273)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlueMorningGloryCorsage());
+        }
+        else if (selectedIndex == 274)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.YellowMorningGloryCorsage());
+        }
+        else if (selectedIndex == 275)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GreenMorningGloryCorsage());
+        }
+        else if (selectedIndex == 276)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.OrangeMorningGloryCorsage());
+        }
+        else if (selectedIndex == 277)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PurpleMorningGloryCorsage());
+        }
+        else if (selectedIndex == 278)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WhiteMorningGloryCorsage());
+        }
+        else if (selectedIndex == 279)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackMorningGloryCorsage());
+        }
+        else if (selectedIndex == 280)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RainbowMorningGloryCorsage());
+        }
+        else if (selectedIndex == 281)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RedChrysanthemumCorsage());
+        }
+        else if (selectedIndex == 282)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlueChrysanthemumCorsage());
+        }
+        else if (selectedIndex == 283)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.YellowChrysanthemumCorsage());
+        }
+        else if (selectedIndex == 284)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GreenChrysanthemumCorsage());
+        }
+        else if (selectedIndex == 285)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.OrangeChrysanthemumCorsage());
+        }
+        else if (selectedIndex == 286)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PurpleChrysanthemumCorsage());
+        }
+        else if (selectedIndex == 287)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WhiteChrysanthemumCorsage());
+        }
+        else if (selectedIndex == 288)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackChrysanthemumCorsage());
+        }
+        else if (selectedIndex == 289)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RainbowChrysanthemumCorsage());
+        }
+        else if (selectedIndex == 290)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.UsagiKabuto());
+        }
+        else if (selectedIndex == 291)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.DragonKabuto());
+        }
+        else if (selectedIndex == 292)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CrimsonDragonKabuto());
+        }
+        else if (selectedIndex == 293)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GoldenDragonKabuto());
+        }
+        else if (selectedIndex == 294)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackDragonKabuto());
+        }
+        else if (selectedIndex == 295)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SilverSnakeKabuto());
+        }
+        else if (selectedIndex == 296)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.UmaKabuto());
+        }
+        else if (selectedIndex == 297)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CrimsonUmaKabuto());
+        }
+        else if (selectedIndex == 298)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GoldenUmaKabuto());
+        }
+        else if (selectedIndex == 299)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackUmaKabuto());
+        }
+        else if (selectedIndex == 300)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.HitsujiKabuto());
+        }
+        else if (selectedIndex == 301)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackHitsujiKabuto());
+        }
+        else if (selectedIndex == 302)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CrimsonHitsujiKabuto());
+        }
+        else if (selectedIndex == 303)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SeeNoHelm());
+        }
+        else if (selectedIndex == 304)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SpeakNoHelm());
+        }
+        else if (selectedIndex == 305)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.HearNoHelm());
+        }
+        else if (selectedIndex == 306)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RedToriKabuto());
+        }
+        else if (selectedIndex == 307)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackToriKabuto());
+        }
+        else if (selectedIndex == 308)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WhiteInuKabuto());
+        }
+        else if (selectedIndex == 309)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackInuKabuto());
+        }
+        else if (selectedIndex == 310)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.InoshishiKabuto());
+        }
+        else if (selectedIndex == 311)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CrimsonInoshishiKabuto());
+        }
+        else if (selectedIndex == 312)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CrimsonNezumiKabuto());
+        }
+        else if (selectedIndex == 313)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CobaltNezumiKabuto());
+        }
+        else if (selectedIndex == 314)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CrimsonUshiKabuto());
+        }
+        else if (selectedIndex == 315)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackUshiKabuto());
+        }
+        else if (selectedIndex == 316)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GoldenToraKabuto());
+        }
+        else if (selectedIndex == 317)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SilverToraKabuto());
+        }
+        else if (selectedIndex == 318)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ValentioneHat());
+        }
+        else if (selectedIndex == 319)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackfeatheredFlatHat());
+        }
+        else if (selectedIndex == 320)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RedfeatheredFlatHat());
+        }
+        else if (selectedIndex == 321)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ValentioneRoseHat());
+        }
+        else if (selectedIndex == 322)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ValentioneForgetmenotHat());
+        }
+        else if (selectedIndex == 323)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ValentioneAcaciaHat());
+        }
+        else if (selectedIndex == 324)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ValentioneRoseRibbonedHat());
+        }
+        else if (selectedIndex == 325)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ValentioneForgetMeNotRibbonedHat());
+        }
+        else if (selectedIndex == 326)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ValentioneAcaciaRibbonedHat());
+        }
+        else if (selectedIndex == 327)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.LovelyMoogleCap());
+        }
+        else if (selectedIndex == 328)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ValentioneEmissaryHat());
+        }
+        else if (selectedIndex == 329)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ValentioneEmissaryDressHat());
+        }
+        else if (selectedIndex == 330)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SongbirdHat());
+        }
+        else if (selectedIndex == 331)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FlowerCrown());
+        }
+        else if (selectedIndex == 332)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SeneschalsMonocle());
+        }
+        else if (selectedIndex == 333)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PrincessPeachCorsage());
+        }
+        else if (selectedIndex == 334)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.LittleLadyCrown());
+        }
+        else if (selectedIndex == 335)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RabbitHead());
+        }
+        else if (selectedIndex == 336)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ChickenHead());
+        }
+        else if (selectedIndex == 337)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.TonberryHead());
+        }
+        else if (selectedIndex == 338)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.OschonRoselleCapeline());
+        }
+        else if (selectedIndex == 339)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.GoldRoselleCapeline());
+        }
+        else if (selectedIndex == 340)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PearlRoselleCapeline());
+        }
+        else if (selectedIndex == 341)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.StrawCapeline());
+        }
+        else if (selectedIndex == 342)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.EndlessSummerGlasses());
+        }
+        else if (selectedIndex == 343)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.MoonfireHachimaki());
+        }
+        else if (selectedIndex == 344)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WhitePaintedMoogleMask());
+        }
+        else if (selectedIndex == 345)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackPaintedMoogleMask());
+        }
+        else if (selectedIndex == 346)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PaintedNamazuMask());
+        }
+        else if (selectedIndex == 347)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SummerFlameHat());
+        }
+        else if (selectedIndex == 348)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SummerSunsetBandana());
+        }
+        else if (selectedIndex == 349)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PumpkinHead());
+        }
+        else if (selectedIndex == 350)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.UnripenedPumpkinHead());
+        }
+        else if (selectedIndex == 351)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WhitePumpkinHead());
+        }
+        else if (selectedIndex == 352)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RipenedPumpkinHead());
+        }
+        else if (selectedIndex == 353)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.EerieHat());
+        }
+        else if (selectedIndex == 354)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WitchsHat());
+        }
+        else if (selectedIndex == 355)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WerewolfHead());
+        }
+        else if (selectedIndex == 356)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ClownsHat());
+        }
+        else if (selectedIndex == 357)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WakeDoctorsMask());
+        }
+        else if (selectedIndex == 358)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.DreamHat());
+        }
+        else if (selectedIndex == 359)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ReindeerAntlers());
+        }
+        else if (selectedIndex == 360)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SnowmanHead());
+        }
+        else if (selectedIndex == 361)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.StarlightSugarloafHat());
+        }
+        else if (selectedIndex == 362)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FalseMustache());
+        }
+        else if (selectedIndex == 363)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ReindeerAntlerHeadband());
+        }
+        else if (selectedIndex == 364)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SaintsBeard());
+        }
+        else if (selectedIndex == 365)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SaintsCap());
+        }
+        else if (selectedIndex == 366)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ChoirHat());
+        }
+        else if (selectedIndex == 367)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BaronHelm());
+        }
+        else if (selectedIndex == 368)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BaronCirclet());
+        }
+        else if (selectedIndex == 369)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.WildRoseBandana());
+        }
+        else if (selectedIndex == 370)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.AmatsuHachigane());
+        }
+        else if (selectedIndex == 371)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.LegacyWarriorCoronet());
+        }
+        else if (selectedIndex == 372)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.KingSlimeCrown());
+        }
+        else if (selectedIndex == 373)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.AugRathHelmM());
+        }
+        else if (selectedIndex == 374)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.AugRathHelmF());
+        }
+        else if (selectedIndex == 375)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RathHelmM());
+        }
+        else if (selectedIndex == 376)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RathHelmF());
+        }
+        else if (selectedIndex == 377)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.No2TypeBGoggles());
+        }
+        else if (selectedIndex == 378)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SweetDreamCap());
+        }
+        else if (selectedIndex == 379)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.TetsujiUsagiKabuto());
+        }
+        else if (selectedIndex == 380)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackTetsujiUsagiKabuto());
+        }
+        else if (selectedIndex == 381)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.SilverTetsujiUsagiKabuto());
+        }
+        else if (selectedIndex == 382)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.VeilEternalInnocence());
+        }
+        else if (selectedIndex == 383)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.VeilEternalPassion());
+        }
+        else if (selectedIndex == 384)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.VeilEternalDevotion());
+        }
+        else if (selectedIndex == 385)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.MoogleHead());
+        }
+        else if (selectedIndex == 386)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.YellowpommedMoogleCap());
+        }
+        else if (selectedIndex == 387)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ScionStrikersVisor());
+        }
+        else if (selectedIndex == 388)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ScionThauMonocle());
+        }
+        else if (selectedIndex == 389)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.HeadEngineerGoggles());
+        }
+        else if (selectedIndex == 390)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.IronworksEngineerGoggles());
+        }
+        else if (selectedIndex == 391)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.HousemaidsBrim());
+        }
+        else if (selectedIndex == 392)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ButlersMonocle());
+        }
+        else if (selectedIndex == 393)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FarEasternNobleMortarboard());
+        }
+        else if (selectedIndex == 394)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.AngelicCirclet());
+        }
+        else if (selectedIndex == 395)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.DemonicHorns());
+        }
+        else if (selectedIndex == 396)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FarEastGentlemansHat());
+        }
+        else if (selectedIndex == 397)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FarEasternBeautysHairpin());
+        }
+        else if (selectedIndex == 398)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.StarNezhaLord());
+        }
+        else if (selectedIndex == 399)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.StarNezhaLady());
+        }
+        else if (selectedIndex == 400)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.LoyalHousemaidsBrim());
+        }
+        else if (selectedIndex == 401)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.LoyalButlersMonocle());
+        }
+        else if (selectedIndex == 402)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BlackbosomHat());
+        }
+        else if (selectedIndex == 403)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.EmeraldCarbuncleEars());
+        }
+        else if (selectedIndex == 404)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.TopazCarbuncleEars());
+        }
+        else if (selectedIndex == 405)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FaerieTalePrincesCirclet());
+        }
+        else if (selectedIndex == 406)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FaerieTalePrincessTiara());
+        }
+        else if (selectedIndex == 407)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CrackedMandervilleMonocle());
+        }
+        else if (selectedIndex == 408)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.MungaekHat());
+        }
+        else if (selectedIndex == 409)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.EasternSocialiteHat());
+        }
+        else if (selectedIndex == 410)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FarEasternOfficerHat());
+        }
+        else if (selectedIndex == 411)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FarEasternMaidenHat());
+        }
+        else if (selectedIndex == 412)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.LealSamuraiKasa());
+        }
+        else if (selectedIndex == 413)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FESchoolboyHat());
+        }
+        else if (selectedIndex == 414)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FESchoolgirlHairRibbon());
+        }
+        else if (selectedIndex == 415)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ScionHearerHood());
+        }
+        else if (selectedIndex == 416)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PeacockHat());
+        }
+        else if (selectedIndex == 417)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.EasternLordErrantHat());
+        }
+        else if (selectedIndex == 418)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.EasternLadyErrantHat());
+        }
+        else if (selectedIndex == 419)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.MhegDeacaCirclet());
+        }
+        else if (selectedIndex == 420)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ScionSorceressHeaddress());
+        }
+        else if (selectedIndex == 421)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.RubyCarbuncleEars());
+        }
+        else if (selectedIndex == 422)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BergHat());
+        }
+        else if (selectedIndex == 423)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.DirndlHat());
+        }
+        else if (selectedIndex == 424)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ResshiHachigane());
+        }
+        else if (selectedIndex == 425)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.StreetCap());
+        }
+        else if (selectedIndex == 426)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FatCatHood());
+        }
+        else if (selectedIndex == 427)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FarNorthernHeadpiece());
+        }
+        else if (selectedIndex == 428)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.EducandsCap());
+        }
+        else if (selectedIndex == 429)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ScarfWondrousWit());
+        }
+        else if (selectedIndex == 430)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FriendshipCirclet());
+        }
+        else if (selectedIndex == 431)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.InfernoMask());
+        }
+        else if (selectedIndex == 432)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CragMask());
+        }
+        else if (selectedIndex == 433)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.EasternJourneyCirclet());
+        }
+        else if (selectedIndex == 434)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.CaitSithEars());
+        }
+        else if (selectedIndex == 435)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ExclusiveEasternJourneyCirclet());
+        }
+        else if (selectedIndex == 436)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.MatoyaHat());
+        }
+        else if (selectedIndex == 437)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.LeatherEyepatch());
+        }
+        else if (selectedIndex == 438)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.HempenBandana());
+        }
+        else if (selectedIndex == 439)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.HempenHat());
+        }
+        else if (selectedIndex == 440)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BronzeChainCoif());
+        }
+        else if (selectedIndex == 441)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.HardLeatherPotHelm());
+        }
+        else if (selectedIndex == 442)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.BronzeSallet());
+        }
+        else if (selectedIndex == 443)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.StrawHat());
+        }
+        else if (selectedIndex == 444)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.AmateurHeadgear());
+        }
+        else if (selectedIndex == 445)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.AmateurHempenCoif());
+        }
+        else if (selectedIndex == 446)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.PristineEggCap());
+        }
+        else if (selectedIndex == 447)
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.ThugsMug());
+        }
+        else
+        {
+            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.EglbkCwn());
+        }
+    }
 }

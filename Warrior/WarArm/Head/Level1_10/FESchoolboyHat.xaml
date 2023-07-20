@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Warrior.WarArm.Head.Level1_10.FESchoolboyHat"
+             Title="FESchoolboyHat">
+    <VerticalStackLayout>
+        <Label 
+            Text="Far Eastern Schoolboy's Hat"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/79/79f8108b5ca8739cfc1334f0749283f39e646c9d.png?n6.41"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Item Level 1"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Defense      |         Magic Defense      |"/>
+        <Label Text="   8         |            14              |"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="All Classes"/>
+        <Label Text="Level 1"/>
+        <Label Text="Far Eastern Schoolboy's Uniform"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Fits: ll Males"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Bonuses"/>
+        <Label Text="Set Bonus (Capped): Far Eastern Schoolboy's Uniform"/>
+        <Label Text="Active Under Lv. 30"/>
+        <Label Text="2 Equipped: Intelligence +2"/>
+        <Label Text="3 Equipped: Mind +2"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Goldsmith Lv. 1"/>
+        <Label Text="Materials        Grade 1 Dark Matter"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Extractable: Yes      Projectable: Yes"/>
+        <Label Text="Desynthesizable: No   Dyeable: Yes"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Available for Purchase: No"/>
+        <Label Text="****UnsellableMarket Prohibited****"/>
+    </VerticalStackLayout>
+</ContentPage>

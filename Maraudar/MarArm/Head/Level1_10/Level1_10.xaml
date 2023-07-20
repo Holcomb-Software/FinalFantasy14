@@ -5,10 +5,10 @@
              Title="Level1_10">
     <VerticalStackLayout>
         <Picker 
-                Title="Select Marauder's Helmet"/>
-        <!--SelectedIndexChanged="OnPickerSelectedIndexChanged"-->
+                Title="Select Marauder's Helmet"
+        SelectedIndexChanged="OnPickerSelectedIndexChanged"/>
 
-            <Picker.Items>
+        <Picker.Items>
                 <x:String>Far Eastern Patriarch's Hat</x:String>
                 <x:String>Far Eastern Matriarch's Sun Hat</x:String>
                 <x:String>Helm of Light</x:String>

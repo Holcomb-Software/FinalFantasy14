@@ -92,7 +92,7 @@ public partial class Head_Level1_10 : ContentPage
         picker.Items.Add("Shaded Spectacles");
         picker.Items.Add("Contemporary Pince-nez");
         picker.Items.Add("Rimless Glasses");
-        picker.Items.Add("Tick-rimmed Glasses");
+        picker.Items.Add("Thick-rimmed Glasses");
         picker.Items.Add("Gryphonskin Eyepatch");
         picker.Items.Add("Imperial Shadow Visor");
         picker.Items.Add("Ministrel's Spectacles");
@@ -118,7 +118,7 @@ public partial class Head_Level1_10 : ContentPage
         picker.Items.Add("Boarskin Survival Hat");
         picker.Items.Add("Ramie Hood");
         picker.Items.Add("Cashmere Hood");
-        picker.Items.Add("Wool Knit Cap");
+        picker.Items.Add("Wool Night Cap");
         picker.Items.Add("Flannel Knit Cap");
         picker.Items.Add("Taoist's Cap");
         picker.Items.Add("Non La");
@@ -331,7 +331,7 @@ public partial class Head_Level1_10 : ContentPage
         picker.Items.Add("Valentione Forget-me-not Hat");
         picker.Items.Add("Valentione Acacia Hat");
         picker.Items.Add("Valentione Rose Ribboned Hat");
-        picker.Items.Add("Velntione Forget-me-not Ribboned Hat");
+        picker.Items.Add("Valentione Forget-me-not Ribboned Hat");
         picker.Items.Add("Valentione Acacia Ribboned Hat");
         picker.Items.Add("Lovely Moogle Cap");
         picker.Items.Add("Valentione Emissary's Hat");
@@ -356,8 +356,8 @@ public partial class Head_Level1_10 : ContentPage
         picker.Items.Add("Painted Namazu Mask");
         picker.Items.Add("Summer's Flame Hat");
         picker.Items.Add("Summer Sunset Bandana");
-        picker.Items.Add("Pumpking Head");
-        picker.Items.Add("Unripened Pumpking Head");
+        picker.Items.Add("Pumpkin Head");
+        picker.Items.Add("Unripened Pumpkin Head");
         picker.Items.Add("White Pumpkin Head");
         picker.Items.Add("Ripened Pumpkin Head");
         picker.Items.Add("Eerie Hat");
@@ -384,7 +384,7 @@ public partial class Head_Level1_10 : ContentPage
         picker.Items.Add("Augmented Rathalos Helm [F]");
         picker.Items.Add("Rathalos Helm [M]");
         picker.Items.Add("Rathalos Helm [F]");
-        picker.Items.Add("No.2 Ype B Goggles");
+        picker.Items.Add("No.2 Type B Goggles");
         picker.Items.Add("Sweet Dream Cap");
         picker.Items.Add("Tetsuji Usagi Kabuto");
         picker.Items.Add("Black Tetsuji Usagi Kabuto");
@@ -455,6 +455,7 @@ public partial class Head_Level1_10 : ContentPage
         picker.Items.Add("Amateur's Hempen Coif");
         picker.Items.Add("Pristine Egg Cap");
         picker.Items.Add("Thug's Mug");
+        picker.Items.Add("Eaglebeak Crown");
     }
 
     private async void OnPickerSelectedIndexChanged(object sender, EventArgs e)
@@ -464,15 +465,1791 @@ public partial class Head_Level1_10 : ContentPage
 
         if (selectedIndex == 0)
         {
-            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FEPatHat());
+            await Navigation.PushAsync(new FEPatHat());
         }
         else if (selectedIndex == 1)
         {
-            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.FEMatSunHat());
+            await Navigation.PushAsync(new FEMatSunHat());
         }
         else if (selectedIndex == 2)
         {
-            await Navigation.PushAsync(new Warrior.WarArm.Head.Level1_10.HelmofLight());
+            await Navigation.PushAsync(new HelmofLight());
+        }
+        else if (selectedIndex == 3)
+        {
+            await Navigation.PushAsync(new OnionHelm());
+        }
+        else if (selectedIndex == 4)
+        {
+            await Navigation.PushAsync(new GarlondGoggles());
+        }
+        else if (selectedIndex == 5)
+        {
+            await Navigation.PushAsync(new MoggleCap());
+        }
+        else if (selectedIndex == 6)
+        {
+            await Navigation.PushAsync(new VirtuRavagerHelm());
+        }
+        else if (selectedIndex == 7)
+        {
+            await Navigation.PushAsync(new TarnishedFaceUndyingTwilight());
+        }
+        else if (selectedIndex == 8)
+        {
+            await Navigation.PushAsync(new AkaOniSomen());
+        }
+        else if (selectedIndex == 9)
+        {
+            await Navigation.PushAsync(new RepubHopHead());
+        }
+        else if (selectedIndex == 10)
+        {
+            await Navigation.PushAsync(new LateAllMskFnd());
+        }
+        else if (selectedIndex == 11)
+        {
+            await Navigation.PushAsync(new PrestCrwnLght());
+        }
+        else if (selectedIndex == 12)
+        {
+            await Navigation.PushAsync(new PresHghAllCicltFnd());
+        }
+        else if (selectedIndex == 13)
+        {
+            await Navigation.PushAsync(new LneWlfCrn());
+        }
+        else if (selectedIndex == 14)
+        {
+            await Navigation.PushAsync(new PckWlfCwn());
+        }
+        else if (selectedIndex == 15)
+        {
+            await Navigation.PushAsync(new EglwngCwn());
+        }
+        else if (selectedIndex == 16)
+        {
+            await Navigation.PushAsync(new BarghestHelm());
+        }
+        else if (selectedIndex == 17)
+        {
+            await Navigation.PushAsync(new ModDhoHelm());
+        }
+        else if (selectedIndex == 18)
+        {
+            await Navigation.PushAsync(new HmpnCoif());
+        }
+        else if (selectedIndex == 19)
+        {
+            await Navigation.PushAsync(new HmpnCoifGathering());
+        }
+        else if (selectedIndex == 20)
+        {
+            await Navigation.PushAsync(new LeatherCalot());
+        }
+        else if (selectedIndex == 21)
+        {
+            await Navigation.PushAsync(new CompanyHat());
+        }
+        else if (selectedIndex == 22)
+        {
+            await Navigation.PushAsync(new SpottedFedora());
+        }
+        else if (selectedIndex == 23)
+        {
+            await Navigation.PushAsync(new UltimaHorns());
+        }
+        else if (selectedIndex == 24)
+        {
+            await Navigation.PushAsync(new TamHeadband());
+        }
+        else if (selectedIndex == 25)
+        {
+            await Navigation.PushAsync(new ToadHead());
+        }
+        else if (selectedIndex == 26)
+        {
+            await Navigation.PushAsync(new GajaHead());
+        }
+        else if (selectedIndex == 27)
+        {
+            await Navigation.PushAsync(new ExpedCap());
+        }
+        else if (selectedIndex == 28)
+        {
+            await Navigation.PushAsync(new HellhoundHelm());
+        }
+        else if (selectedIndex == 29)
+        {
+            await Navigation.PushAsync(new GreyHoundHelm());
+        }
+        else if (selectedIndex == 30)
+        {
+            await Navigation.PushAsync(new KoroKabuto());
+        }
+        else if (selectedIndex == 31)
+        {
+            await Navigation.PushAsync(new GunroKabuto());
+        }
+        else if (selectedIndex == 32)
+        {
+            await Navigation.PushAsync(new ShadowstalkerHelm());
+        }
+        else if (selectedIndex == 33)
+        {
+            await Navigation.PushAsync(new ShadowcleaverHelm());
+        }
+        else if (selectedIndex == 34)
+        {
+            await Navigation.PushAsync(new ArchfiendHelm());
+        }
+        else if (selectedIndex == 35)
+        {
+            await Navigation.PushAsync(new FalseMonMask());
+        }
+        else if (selectedIndex == 36)
+        {
+            await Navigation.PushAsync(new CatoHorns());
+        }
+        else if (selectedIndex == 37)
+        {
+            await Navigation.PushAsync(new BunnyCrown());
+        }
+        else if (selectedIndex == 38)
+        {
+            await Navigation.PushAsync(new SharaGoggles());
+        }
+        else if (selectedIndex == 39)
+        {
+            await Navigation.PushAsync(new BunnyChiefCrown());
+        }
+        else if (selectedIndex == 40)
+        {
+            await Navigation.PushAsync(new Cockscomb());
+        }
+        else if (selectedIndex == 41)
+        {
+            await Navigation.PushAsync(new CoeurlMask());
+        }
+        else if (selectedIndex == 42)
+        {
+            await Navigation.PushAsync(new SuccubusHorns());
+        }
+        else if (selectedIndex == 43)
+        {
+            await Navigation.PushAsync(new SwineHead());
+        }
+        else if (selectedIndex == 44)
+        {
+            await Navigation.PushAsync(new ArchDemonHorns());
+        }
+        else if (selectedIndex == 45)
+        {
+            await Navigation.PushAsync(new ShadedVisor());
+        }
+        else if (selectedIndex == 46)
+        {
+            await Navigation.PushAsync(new VanuVanuHead());
+        }
+        else if (selectedIndex == 47)
+        {
+            await Navigation.PushAsync(new GnathHead());
+        }
+        else if (selectedIndex == 48)
+        {
+            await Navigation.PushAsync(new ZunduHead());
+        }
+        else if (selectedIndex == 49)
+        {
+            await Navigation.PushAsync(new KabutooftheBlue());
+        }
+        else if (selectedIndex == 50)
+        {
+            await Navigation.PushAsync(new NamazuMask());
+        }
+        else if (selectedIndex == 51)
+        {
+            await Navigation.PushAsync(new ReplicaBehemothHelm());
+        }
+        else if (selectedIndex == 52)
+        {
+            await Navigation.PushAsync(new ReplicaHeavyBehemothHelm());
+        }
+        else if (selectedIndex == 53)
+        {
+            await Navigation.PushAsync(new GoblinCap());
+        }
+        else if (selectedIndex == 54)
+        {
+            await Navigation.PushAsync(new FatChocoboHead());
+        }
+        else if (selectedIndex == 55)
+        {
+            await Navigation.PushAsync(new RacingChocoboMask());
+        }
+        else if (selectedIndex == 56)
+        {
+            await Navigation.PushAsync(new ExpedFlyer());
+        }
+        else if (selectedIndex == 57)
+        {
+            await Navigation.PushAsync(new DragonMon());
+        }
+        else if (selectedIndex == 58)
+        {
+            await Navigation.PushAsync(new DynastyCrown());
+        }
+        else if (selectedIndex == 59)
+        {
+            await Navigation.PushAsync(new Ribbon());
+        }
+        else if (selectedIndex == 60)
+        {
+            await Navigation.PushAsync(new MigratoryPlume());
+        }
+        else if (selectedIndex == 61)
+        {
+            await Navigation.PushAsync(new MonoaMask());
+        }
+        else if (selectedIndex == 62)
+        {
+            await Navigation.PushAsync(new MendedImpPotHelm());
+        }
+        else if (selectedIndex == 63)
+        {
+            await Navigation.PushAsync(new SableDeathMask());
+        }
+        else if (selectedIndex == 64)
+        {
+            await Navigation.PushAsync(new PostmoogleCap());
+        }
+        else if (selectedIndex == 65)
+        {
+            await Navigation.PushAsync(new ScionAdvMono());
+        }
+        else if (selectedIndex == 66)
+        {
+            await Navigation.PushAsync(new InspectEyeglasses());
+        }
+        else if (selectedIndex == 67)
+        {
+            await Navigation.PushAsync(new ScionRogueBandana());
+        }
+        else if (selectedIndex == 68)
+        {
+            await Navigation.PushAsync(new HeadBandage());
+        }
+        else if (selectedIndex == 69)
+        {
+            await Navigation.PushAsync(new ScionTravelerMask());
+        }
+        else if (selectedIndex == 70)
+        {
+            await Navigation.PushAsync(new CrystariumHelm());
+        }
+        else if (selectedIndex == 71)
+        {
+            await Navigation.PushAsync(new AppointedCap());
+        }
+        else if (selectedIndex == 72)
+        {
+            await Navigation.PushAsync(new YakakuKami());
+        }
+        else if (selectedIndex == 73)
+        {
+            await Navigation.PushAsync(new LeafmanHead());
+        }
+        else if (selectedIndex == 74)
+        {
+            await Navigation.PushAsync(new HighlandHood());
+        }
+        else if (selectedIndex == 75)
+        {
+            await Navigation.PushAsync(new CoronalStrawHat());
+        }
+        else if (selectedIndex == 76)
+        {
+            await Navigation.PushAsync(new SpringStrawHat());
+        }
+        else if (selectedIndex == 77)
+        {
+            await Navigation.PushAsync(new Cloche());
+        }
+        else if (selectedIndex == 78)
+        {
+            await Navigation.PushAsync(new SprigganCap());
+        }
+        else if (selectedIndex == 79)
+        {
+            await Navigation.PushAsync(new CrescentMoonCone());
+        }
+        else if (selectedIndex == 80)
+        {
+            await Navigation.PushAsync(new CrescentMoonNightcap());
+        }
+        else if (selectedIndex == 81)
+        {
+            await Navigation.PushAsync(new OvalSpectacles());
+        }
+        else if (selectedIndex == 82)
+        {
+            await Navigation.PushAsync(new ShadedSpectacles());
+        }
+        else if (selectedIndex == 83)
+        {
+            await Navigation.PushAsync(new ContempPince());
+        }
+        else if (selectedIndex == 84)
+        {
+            await Navigation.PushAsync(new RimlessGlasses());
+        }
+        else if (selectedIndex == 85)
+        {
+            await Navigation.PushAsync(new ThickrimmedGlasses());
+        }
+        else if (selectedIndex == 86)
+        {
+            await Navigation.PushAsync(new GryphonskinEyepatch());
+        }
+        else if (selectedIndex == 87)
+        {
+            await Navigation.PushAsync(new ImpShadVis());
+        }
+        else if (selectedIndex == 88)
+        {
+            await Navigation.PushAsync(new MinistrelSpectacle());
+        }
+        else if (selectedIndex == 89)
+        {
+            await Navigation.PushAsync(new ClassicSpectacle());
+        }
+        else if (selectedIndex == 90)
+        {
+            await Navigation.PushAsync(new ImitationMistbeardMask());
+        }
+        else if (selectedIndex == 91)
+        {
+            await Navigation.PushAsync(new TheEmperorNewHat());
+        }
+        else if (selectedIndex == 92)
+        {
+            await Navigation.PushAsync(new OvalReadingGlasses());
+        }
+        else if (selectedIndex == 93)
+        {
+            await Navigation.PushAsync(new CoeurlEyeglasses());
+        }
+        else if (selectedIndex == 93)
+        {
+            await Navigation.PushAsync(new ThavnarianTurban());
+        }
+        else if (selectedIndex == 94)
+        {
+            await Navigation.PushAsync(new ThavnarianHeaddress());
+        }
+        else if (selectedIndex == 95)
+        {
+            await Navigation.PushAsync(new FlatCap());
+        }
+        else if (selectedIndex == 96)
+        {
+            await Navigation.PushAsync(new RedBeret());
+        }
+        else if (selectedIndex == 97)
+        {
+            await Navigation.PushAsync(new GreenBeret());
+        }
+        else if (selectedIndex == 98)
+        {
+            await Navigation.PushAsync(new WhiteBeret());
+        }
+        else if (selectedIndex == 99)
+        {
+            await Navigation.PushAsync(new ElegRimlessGlass());
+        }
+        else if (selectedIndex == 100)
+        {
+            await Navigation.PushAsync(new ReadingGlasses());
+        }
+        else if (selectedIndex == 101)
+        {
+            await Navigation.PushAsync(new HighHouseCloche());
+        }
+        else if (selectedIndex == 102)
+        {
+            await Navigation.PushAsync(new ArchaeoskinCloche());
+        }
+        else if (selectedIndex == 103)
+        {
+            await Navigation.PushAsync(new WindSilkWedgeCap());
+        }
+        else if (selectedIndex == 104)
+        {
+            await Navigation.PushAsync(new NewWorldHeaddress());
+        }
+        else if (selectedIndex == 105)
+        {
+            await Navigation.PushAsync(new SurvivalHat());
+        }
+        else if (selectedIndex == 106)
+        {
+            await Navigation.PushAsync(new MoonfireHat());
+        }
+        else if (selectedIndex == 107)
+        {
+            await Navigation.PushAsync(new BoarskinSurvivalHat());
+        }
+        else if (selectedIndex == 108)
+        {
+            await Navigation.PushAsync(new RamieHood());
+        }
+        else if (selectedIndex == 109)
+        {
+            await Navigation.PushAsync(new CashmereHood());
+        }
+        else if (selectedIndex == 110)
+        {
+            await Navigation.PushAsync(new WoolKnitCap());
+        }
+        else if (selectedIndex == 111)
+        {
+            await Navigation.PushAsync(new FlannelKnitCap());
+        }
+        else if (selectedIndex == 112)
+        {
+            await Navigation.PushAsync(new TaoistCap());
+        }
+        else if (selectedIndex == 113)
+        {
+            await Navigation.PushAsync(new NonLa());
+        }
+        else if (selectedIndex == 114)
+        {
+            await Navigation.PushAsync(new EmperorHairpin());
+        }
+        else if (selectedIndex == 115)
+        {
+            await Navigation.PushAsync(new AnemosHat());
+        }
+        else if (selectedIndex == 116)
+        {
+            await Navigation.PushAsync(new AnemosPotHat());
+        }
+        else if (selectedIndex == 117)
+        {
+            await Navigation.PushAsync(new BouleHat());
+        }
+        else if (selectedIndex == 118)
+        {
+            await Navigation.PushAsync(new PagosBandana());
+        }
+        else if (selectedIndex == 119)
+        {
+            await Navigation.PushAsync(new PagosCirclet());
+        }
+        else if (selectedIndex == 120)
+        {
+            await Navigation.PushAsync(new QuainHat());
+        }
+        else if (selectedIndex == 121)
+        {
+            await Navigation.PushAsync(new ArcaheodHorns());
+        }
+        else if (selectedIndex == 122)
+        {
+            await Navigation.PushAsync(new RainHood());
+        }
+        else if (selectedIndex == 123)
+        {
+            await Navigation.PushAsync(new ReplSkyPirHelmFending());
+        }
+        else if (selectedIndex == 124)
+        {
+            await Navigation.PushAsync(new ReplSkyPirHelmMaiming());
+        }
+        else if (selectedIndex == 125)
+        {
+            await Navigation.PushAsync(new ReplSkyPirMaskStriking());
+        }
+        else if (selectedIndex == 126)
+        {
+            await Navigation.PushAsync(new ReplSkyPirBeretAiming());
+        }
+        else if (selectedIndex == 127)
+        {
+            await Navigation.PushAsync(new ReplSkyPirMaskScouting());
+        }
+        else if (selectedIndex == 128)
+        {
+            await Navigation.PushAsync(new ReplSkyPirCapHealing());
+        }
+        else if (selectedIndex == 129)
+        {
+            await Navigation.PushAsync(new ReplSkyPirCapCasting());
+        }
+        else if (selectedIndex == 130)
+        {
+            await Navigation.PushAsync(new ReplSkyRatMaskFending());
+        }
+        else if (selectedIndex == 131)
+        {
+            await Navigation.PushAsync(new ReplSkyRatMaskMaiming());
+        }
+        else if (selectedIndex == 132)
+        {
+            await Navigation.PushAsync(new ReplSkyRatMaskStriking());
+        }
+        else if (selectedIndex == 133)
+        {
+            await Navigation.PushAsync(new ReplSkyRatMaskAiming());
+        }
+        else if (selectedIndex == 134)
+        {
+            await Navigation.PushAsync(new ReplSkyRatMaskScouting());
+        }
+        else if (selectedIndex == 135)
+        {
+            await Navigation.PushAsync(new ReplSkyRatMaskHealing());
+        }
+        else if (selectedIndex == 136)
+        {
+            await Navigation.PushAsync(new ReplSkyRatMaskCasting());
+        }
+        else if (selectedIndex == 137)
+        {
+            await Navigation.PushAsync(new KupoCrown());
+        }
+        else if (selectedIndex == 138)
+        {
+            await Navigation.PushAsync(new KupoKnitCap());
+        }
+        else if (selectedIndex == 139)
+        {
+            await Navigation.PushAsync(new HraeHat());
+        }
+        else if (selectedIndex == 140)
+        {
+            await Navigation.PushAsync(new SkyworkerHelmet());
+        }
+        else if (selectedIndex == 141)
+        {
+            await Navigation.PushAsync(new CalfskinRiderCap());
+        }
+        else if (selectedIndex == 142)
+        {
+            await Navigation.PushAsync(new FrontierHat());
+        }
+        else if (selectedIndex == 143)
+        {
+            await Navigation.PushAsync(new FrontierRibbon());
+        }
+        else if (selectedIndex == 144)
+        {
+            await Navigation.PushAsync(new PeaceloverHat());
+        }
+        else if (selectedIndex == 145)
+        {
+            await Navigation.PushAsync(new ExciteIMask());
+        }
+        else if (selectedIndex == 150)
+        {
+            await Navigation.PushAsync(new SharlayanDiadema());
+        }
+        else if (selectedIndex == 151)
+        {
+            await Navigation.PushAsync(new ThavnairianRibbon());
+        }
+        else if (selectedIndex == 152)
+        {
+            await Navigation.PushAsync(new RedRibbon());
+        }
+        else if (selectedIndex == 153)
+        {
+            await Navigation.PushAsync(new VarsityFlatCap());
+        }
+        else if (selectedIndex == 154)
+        {
+            await Navigation.PushAsync(new IsleExplorerHat());
+        }
+        else if (selectedIndex == 155)
+        {
+            await Navigation.PushAsync(new NoirHat());
+        }
+        else if (selectedIndex == 156)
+        {
+            await Navigation.PushAsync(new LawlessEnforcerHat());
+        }
+        else if (selectedIndex == 157)
+        {
+            await Navigation.PushAsync(new IsleShepherdHeaddress());
+        }
+        else if (selectedIndex == 158)
+        {
+            await Navigation.PushAsync(new IsleVacationerVisor());
+        }
+        else if (selectedIndex == 159)
+        {
+            await Navigation.PushAsync(new SalonServerHat());
+        }
+        else if (selectedIndex == 160)
+        {
+            await Navigation.PushAsync(new PlainPajamaEyeMask());
+        }
+        else if (selectedIndex == 161)
+        {
+            await Navigation.PushAsync(new CactuarPajamaEyeMask());
+        }
+        else if (selectedIndex == 162)
+        {
+            await Navigation.PushAsync(new ChocoboPajamaEyeMask());
+        }
+        else if (selectedIndex == 163)
+        {
+            await Navigation.PushAsync(new BaronialHat());
+        }
+        else if (selectedIndex == 164)
+        {
+            await Navigation.PushAsync(new IslandResortStrawHat());
+        }
+        else if (selectedIndex == 165)
+        {
+            await Navigation.PushAsync(new DriedRedOldrose());
+        }
+        else if (selectedIndex == 166)
+        {
+            await Navigation.PushAsync(new DriedBlueOldrose());
+        }
+        else if (selectedIndex == 167)
+        {
+            await Navigation.PushAsync(new DriedYellowOldrose());
+        }
+        else if (selectedIndex == 168)
+        {
+            await Navigation.PushAsync(new DriedGreenOldrose());
+        }
+        else if (selectedIndex == 169)
+        {
+            await Navigation.PushAsync(new DriedOrangeOldrose());
+        }
+        else if (selectedIndex == 170)
+        {
+            await Navigation.PushAsync(new DriedPurpleOldrose());
+        }
+        else if (selectedIndex == 171)
+        {
+            await Navigation.PushAsync(new DriedWhiteOldrose());
+        }
+        else if (selectedIndex == 172)
+        {
+            await Navigation.PushAsync(new DriedBlackOldrose());
+        }
+        else if (selectedIndex == 173)
+        {
+            await Navigation.PushAsync(new OldroseCorsage());
+        }
+        else if (selectedIndex == 174)
+        {
+            await Navigation.PushAsync(new RedViolaCorsage());
+        }
+        else if (selectedIndex == 175)
+        {
+            await Navigation.PushAsync(new BlueViolaCorsage());
+        }
+        else if (selectedIndex == 176)
+        {
+            await Navigation.PushAsync(new YellowViolaCorsage());
+        }
+        else if (selectedIndex == 177)
+        {
+            await Navigation.PushAsync(new GreenViolaCorsage());
+        }
+        else if (selectedIndex == 178)
+        {
+            await Navigation.PushAsync(new OrangeViolaCorsage());
+        }
+        else if (selectedIndex == 179)
+        {
+            await Navigation.PushAsync(new PurpleViolaCorsage());
+        }
+        else if (selectedIndex == 180)
+        {
+            await Navigation.PushAsync(new WhiteViolaCorsage());
+        }
+        else if (selectedIndex == 181)
+        {
+            await Navigation.PushAsync(new BlackViolaCorsage());
+        }
+        else if (selectedIndex == 182)
+        {
+            await Navigation.PushAsync(new RainbowViolaCorsage());
+        }
+        else if (selectedIndex == 183)
+        {
+            await Navigation.PushAsync(new RedCherryBlossomCorsage());
+        }
+        else if (selectedIndex == 184)
+        {
+            await Navigation.PushAsync(new BlueCherryBlossomCorsage());
+        }
+        else if (selectedIndex == 185)
+        {
+            await Navigation.PushAsync(new YellowCherryBlossomCorsage());
+        }
+        else if (selectedIndex == 186)
+        {
+            await Navigation.PushAsync(new GreenCherryBlossomCorsage());
+        }
+        else if (selectedIndex == 187)
+        {
+            await Navigation.PushAsync(new OrangeCherryBlossomCorsage());
+        }
+        else if (selectedIndex == 188)
+        {
+            await Navigation.PushAsync(new PurpleCherryBlossomCorsage());
+        }
+        else if (selectedIndex == 189)
+        {
+            await Navigation.PushAsync(new WhiteCherryBlossomCorsage());
+        }
+        else if (selectedIndex == 190)
+        {
+            await Navigation.PushAsync(new BlackCherryBlossomCorsage());
+        }
+        else if (selectedIndex == 191)
+        {
+            await Navigation.PushAsync(new PinkCherryBlossomCorsage());
+        }
+        else if (selectedIndex == 192)
+        {
+            await Navigation.PushAsync(new RedDaisyCorsage());
+        }
+        else if (selectedIndex == 193)
+        {
+            await Navigation.PushAsync(new BlueDaisyCorsage());
+        }
+        else if (selectedIndex == 194)
+        {
+            await Navigation.PushAsync(new YellowDaisyCorsage());
+        }
+        else if (selectedIndex == 195)
+        {
+            await Navigation.PushAsync(new GreenDaisyCorsage());
+        }
+        else if (selectedIndex == 196)
+        {
+            await Navigation.PushAsync(new OrangeDaisyCorsage());
+        }
+        else if (selectedIndex == 197)
+        {
+            await Navigation.PushAsync(new PurpleDaisyCorsage());
+        }
+        else if (selectedIndex == 198)
+        {
+            await Navigation.PushAsync(new WhiteDaisyCorsage());
+        }
+        else if (selectedIndex == 199)
+        {
+            await Navigation.PushAsync(new BlackDaisyCorsage());
+        }
+        else if (selectedIndex == 200)
+        {
+            await Navigation.PushAsync(new RainbowDaisyCorsage());
+        }
+        else if (selectedIndex == 201)
+        {
+            await Navigation.PushAsync(new RedBrightlilyCorsage());
+        }
+        else if (selectedIndex == 202)
+        {
+            await Navigation.PushAsync(new BlueBrightlilyCorsage());
+        }
+        else if (selectedIndex == 203)
+        {
+            await Navigation.PushAsync(new YellowBrightlilyCorsage());
+        }
+        else if (selectedIndex == 204)
+        {
+            await Navigation.PushAsync(new GreenBrightlilyCorsage());
+        }
+        else if (selectedIndex == 205)
+        {
+            await Navigation.PushAsync(new OrangeBrightlilyCorsage());
+        }
+        else if (selectedIndex == 206)
+        {
+            await Navigation.PushAsync(new PurpleBrightlilyCorsage());
+        }
+        else if (selectedIndex == 207)
+        {
+            await Navigation.PushAsync(new WhiteBrightlilyCorsage());
+        }
+        else if (selectedIndex == 208)
+        {
+            await Navigation.PushAsync(new BlackBrightlilyCorsage());
+        }
+        else if (selectedIndex == 209)
+        {
+            await Navigation.PushAsync(new RainbowBrightlilyCorsage());
+        }
+        else if (selectedIndex == 210)
+        {
+            await Navigation.PushAsync(new RedDhaliaCorsage());
+        }
+        else if (selectedIndex == 211)
+        {
+            await Navigation.PushAsync(new BlueDhaliaCorsage());
+        }
+        else if (selectedIndex == 212)
+        {
+            await Navigation.PushAsync(new YellowDhaliaCorsage());
+        }
+        else if (selectedIndex == 213)
+        {
+            await Navigation.PushAsync(new GreenDhaliaCorsage());
+        }
+        else if (selectedIndex == 214)
+        {
+            await Navigation.PushAsync(new OrangeDhaliaCorsage());
+        }
+        else if (selectedIndex == 215)
+        {
+            await Navigation.PushAsync(new PurpleDhaliaCorsage());
+        }
+        else if (selectedIndex == 216)
+        {
+            await Navigation.PushAsync(new WhiteDhaliaCorsage());
+        }
+        else if (selectedIndex == 217)
+        {
+            await Navigation.PushAsync(new BlackDhaliaCorsage());
+        }
+        else if (selectedIndex == 218)
+        {
+            await Navigation.PushAsync(new RainbowDhaliaCorsage());
+        }
+        else if (selectedIndex == 219)
+        {
+            await Navigation.PushAsync(new RedArumCorsage());
+        }
+        else if (selectedIndex == 220)
+        {
+            await Navigation.PushAsync(new BlueArumCorsage());
+        }
+        else if (selectedIndex == 221)
+        {
+            await Navigation.PushAsync(new YellowArumCorsage());
+        }
+        else if (selectedIndex == 222)
+        {
+            await Navigation.PushAsync(new GreenArumCorsage());
+        }
+        else if (selectedIndex == 223)
+        {
+            await Navigation.PushAsync(new OrangeArumCorsage());
+        }
+        else if (selectedIndex == 224)
+        {
+            await Navigation.PushAsync(new PurpleArumCorsage());
+        }
+        else if (selectedIndex == 225)
+        {
+            await Navigation.PushAsync(new WhiteArumCorsage());
+        }
+        else if (selectedIndex == 226)
+        {
+            await Navigation.PushAsync(new BlackArumCorsage());
+        }
+        else if (selectedIndex == 227)
+        {
+            await Navigation.PushAsync(new RainbowArumCorsage());
+        }
+        else if (selectedIndex == 228)
+        {
+            await Navigation.PushAsync(new RedLilyValleyCorsage());
+        }
+        else if (selectedIndex == 229)
+        {
+            await Navigation.PushAsync(new BlueLilyValleyCorsage());
+        }
+        else if (selectedIndex == 229)
+        {
+            await Navigation.PushAsync(new YellowLilyValleyCorsage());
+        }
+        else if (selectedIndex == 230)
+        {
+            await Navigation.PushAsync(new GreenLilyValleyCorsage());
+        }
+        else if (selectedIndex == 231)
+        {
+            await Navigation.PushAsync(new OrangeLilyValleyCorsage());
+        }
+        else if (selectedIndex == 232)
+        {
+            await Navigation.PushAsync(new PurpleLilyValleyCorsage());
+        }
+        else if (selectedIndex == 233)
+        {
+            await Navigation.PushAsync(new WhiteLilyValleyCorsage());
+        }
+        else if (selectedIndex == 234)
+        {
+            await Navigation.PushAsync(new BlackLilyValleyCorsage());
+        }
+        else if (selectedIndex == 235)
+        {
+            await Navigation.PushAsync(new RainbowLilyValleyCorsage());
+        }
+        else if (selectedIndex == 236)
+        {
+            await Navigation.PushAsync(new RedHydrangeaCorsage());
+        }
+        else if (selectedIndex == 237)
+        {
+            await Navigation.PushAsync(new BlueHydrangeaCorsage());
+        }
+        else if (selectedIndex == 238)
+        {
+            await Navigation.PushAsync(new YellowHydrangeaCorsage());
+        }
+        else if (selectedIndex == 239)
+        {
+            await Navigation.PushAsync(new GreenHydrangeaCorsage());
+        }
+        else if (selectedIndex == 240)
+        {
+            await Navigation.PushAsync(new OrangeHydrangeaCorsage());
+        }
+        else if (selectedIndex == 241)
+        {
+            await Navigation.PushAsync(new PurpleHydrangeaCorsage());
+        }
+        else if (selectedIndex == 242)
+        {
+            await Navigation.PushAsync(new WhiteHydrangeaCorsage());
+        }
+        else if (selectedIndex == 243)
+        {
+            await Navigation.PushAsync(new BlackHydrangeaCorsage());
+        }
+        else if (selectedIndex == 244)
+        {
+            await Navigation.PushAsync(new RainbowHydrangeaCorsage());
+        }
+        else if (selectedIndex == 245)
+        {
+            await Navigation.PushAsync(new RedCampanulaCorsage());
+        }
+        else if (selectedIndex == 246)
+        {
+            await Navigation.PushAsync(new BlueCampanulaCorsage());
+        }
+        else if (selectedIndex == 247)
+        {
+            await Navigation.PushAsync(new YellowCampanulaCorsage());
+        }
+        else if (selectedIndex == 248)
+        {
+            await Navigation.PushAsync(new GreenCampanulaCorsage());
+        }
+        else if (selectedIndex == 249)
+        {
+            await Navigation.PushAsync(new OrangeCampanulaCorsage());
+        }
+        else if (selectedIndex == 250)
+        {
+            await Navigation.PushAsync(new PurpleCampanulaCorsage());
+        }
+        else if (selectedIndex == 251)
+        {
+            await Navigation.PushAsync(new WhiteCampanulaCorsage());
+        }
+        else if (selectedIndex == 252)
+        {
+            await Navigation.PushAsync(new BlackCampanulaCorsage());
+        }
+        else if (selectedIndex == 253)
+        {
+            await Navigation.PushAsync(new RainbowCampanulaCorsage());
+        }
+        else if (selectedIndex == 254)
+        {
+            await Navigation.PushAsync(new RedHyacinthCorsage());
+        }
+        else if (selectedIndex == 255)
+        {
+            await Navigation.PushAsync(new BlueHyacinthCorsage());
+        }
+        else if (selectedIndex == 256)
+        {
+            await Navigation.PushAsync(new YellowHyacinthCorsage());
+        }
+        else if (selectedIndex == 257)
+        {
+            await Navigation.PushAsync(new GreenHyacinthCorsage());
+        }
+        else if (selectedIndex == 258)
+        {
+            await Navigation.PushAsync(new OrangeHyacinthCorsage());
+        }
+        else if (selectedIndex == 259)
+        {
+            await Navigation.PushAsync(new PurpleHyacinthCorsage());
+        }
+        else if (selectedIndex == 260)
+        {
+            await Navigation.PushAsync(new WhiteHyacinthCorsage());
+        }
+        else if (selectedIndex == 261)
+        {
+            await Navigation.PushAsync(new BlackHyacinthCorsage());
+        }
+        else if (selectedIndex == 262)
+        {
+            await Navigation.PushAsync(new RainbowHyacinthCorsage());
+        }
+        else if (selectedIndex == 263)
+        {
+            await Navigation.PushAsync(new RedCosmosCorsage());
+        }
+        else if (selectedIndex == 264)
+        {
+            await Navigation.PushAsync(new BlueCosmosCorsage());
+        }
+        else if (selectedIndex == 265)
+        {
+            await Navigation.PushAsync(new YellowCosmosCorsage());
+        }
+        else if (selectedIndex == 266)
+        {
+            await Navigation.PushAsync(new GreenCosmosCorsage());
+        }
+        else if (selectedIndex == 267)
+        {
+            await Navigation.PushAsync(new OrangeCosmosCorsage());
+        }
+        else if (selectedIndex == 268)
+        {
+            await Navigation.PushAsync(new PurpleCosmosCorsage());
+        }
+        else if (selectedIndex == 269)
+        {
+            await Navigation.PushAsync(new WhiteCosmosCorsage());
+        }
+        else if (selectedIndex == 270)
+        {
+            await Navigation.PushAsync(new BlackCosmosCorsage());
+        }
+        else if (selectedIndex == 271)
+        {
+            await Navigation.PushAsync(new RainbowCosmosCorsage());
+        }
+        else if (selectedIndex == 272)
+        {
+            await Navigation.PushAsync(new RedMorningGloryCorsage());
+        }
+        else if (selectedIndex == 273)
+        {
+            await Navigation.PushAsync(new BlueMorningGloryCorsage());
+        }
+        else if (selectedIndex == 274)
+        {
+            await Navigation.PushAsync(new YellowMorningGloryCorsage());
+        }
+        else if (selectedIndex == 275)
+        {
+            await Navigation.PushAsync(new GreenMorningGloryCorsage());
+        }
+        else if (selectedIndex == 276)
+        {
+            await Navigation.PushAsync(new OrangeMorningGloryCorsage());
+        }
+        else if (selectedIndex == 277)
+        {
+            await Navigation.PushAsync(new PurpleMorningGloryCorsage());
+        }
+        else if (selectedIndex == 278)
+        {
+            await Navigation.PushAsync(new WhiteMorningGloryCorsage());
+        }
+        else if (selectedIndex == 279)
+        {
+            await Navigation.PushAsync(new BlackMorningGloryCorsage());
+        }
+        else if (selectedIndex == 280)
+        {
+            await Navigation.PushAsync(new RainbowMorningGloryCorsage());
+        }
+        else if (selectedIndex == 281)
+        {
+            await Navigation.PushAsync(new RedChrysanthemumCorsage());
+        }
+        else if (selectedIndex == 282)
+        {
+            await Navigation.PushAsync(new BlueChrysanthemumCorsage());
+        }
+        else if (selectedIndex == 283)
+        {
+            await Navigation.PushAsync(new YellowChrysanthemumCorsage());
+        }
+        else if (selectedIndex == 284)
+        {
+            await Navigation.PushAsync(new GreenChrysanthemumCorsage());
+        }
+        else if (selectedIndex == 285)
+        {
+            await Navigation.PushAsync(new OrangeChrysanthemumCorsage());
+        }
+        else if (selectedIndex == 286)
+        {
+            await Navigation.PushAsync(new PurpleChrysanthemumCorsage());
+        }
+        else if (selectedIndex == 287)
+        {
+            await Navigation.PushAsync(new WhiteChrysanthemumCorsage());
+        }
+        else if (selectedIndex == 288)
+        {
+            await Navigation.PushAsync(new BlackChrysanthemumCorsage());
+        }
+        else if (selectedIndex == 289)
+        {
+            await Navigation.PushAsync(new RainbowChrysanthemumCorsage());
+        }
+        else if (selectedIndex == 290)
+        {
+            await Navigation.PushAsync(new UsagiKabuto());
+        }
+        else if (selectedIndex == 291)
+        {
+            await Navigation.PushAsync(new DragonKabuto());
+        }
+        else if (selectedIndex == 292)
+        {
+            await Navigation.PushAsync(new CrimsonDragonKabuto());
+        }
+        else if (selectedIndex == 293)
+        {
+            await Navigation.PushAsync(new GoldenDragonKabuto());
+        }
+        else if (selectedIndex == 294)
+        {
+            await Navigation.PushAsync(new BlackDragonKabuto());
+        }
+        else if (selectedIndex == 295)
+        {
+            await Navigation.PushAsync(new SilverSnakeKabuto());
+        }
+        else if (selectedIndex == 296)
+        {
+            await Navigation.PushAsync(new UmaKabuto());
+        }
+        else if (selectedIndex == 297)
+        {
+            await Navigation.PushAsync(new CrimsonUmaKabuto());
+        }
+        else if (selectedIndex == 298)
+        {
+            await Navigation.PushAsync(new GoldenUmaKabuto());
+        }
+        else if (selectedIndex == 299)
+        {
+            await Navigation.PushAsync(new BlackUmaKabuto());
+        }
+        else if (selectedIndex == 300)
+        {
+            await Navigation.PushAsync(new HitsujiKabuto());
+        }
+        else if (selectedIndex == 301)
+        {
+            await Navigation.PushAsync(new BlackHitsujiKabuto());
+        }
+        else if (selectedIndex == 302)
+        {
+            await Navigation.PushAsync(new CrimsonHitsujiKabuto());
+        }
+        else if (selectedIndex == 303)
+        {
+            await Navigation.PushAsync(new SeeNoHelm());
+        }
+        else if (selectedIndex == 304)
+        {
+            await Navigation.PushAsync(new SpeakNoHelm());
+        }
+        else if (selectedIndex == 305)
+        {
+            await Navigation.PushAsync(new HearNoHelm());
+        }
+        else if (selectedIndex == 306)
+        {
+            await Navigation.PushAsync(new RedToriKabuto());
+        }
+        else if (selectedIndex == 307)
+        {
+            await Navigation.PushAsync(new BlackToriKabuto());
+        }
+        else if (selectedIndex == 308)
+        {
+            await Navigation.PushAsync(new WhiteInuKabuto());
+        }
+        else if (selectedIndex == 309)
+        {
+            await Navigation.PushAsync(new BlackInuKabuto());
+        }
+        else if (selectedIndex == 310)
+        {
+            await Navigation.PushAsync(new InoshishiKabuto());
+        }
+        else if (selectedIndex == 311)
+        {
+            await Navigation.PushAsync(new CrimsonInoshishiKabuto());
+        }
+        else if (selectedIndex == 312)
+        {
+            await Navigation.PushAsync(new CrimsonNezumiKabuto());
+        }
+        else if (selectedIndex == 313)
+        {
+            await Navigation.PushAsync(new CobaltNezumiKabuto());
+        }
+        else if (selectedIndex == 314)
+        {
+            await Navigation.PushAsync(new CrimsonUshiKabuto());
+        }
+        else if (selectedIndex == 315)
+        {
+            await Navigation.PushAsync(new BlackUshiKabuto());
+        }
+        else if (selectedIndex == 316)
+        {
+            await Navigation.PushAsync(new GoldenToraKabuto());
+        }
+        else if (selectedIndex == 317)
+        {
+            await Navigation.PushAsync(new SilverToraKabuto());
+        }
+        else if (selectedIndex == 318)
+        {
+            await Navigation.PushAsync(new ValentioneHat());
+        }
+        else if (selectedIndex == 319)
+        {
+            await Navigation.PushAsync(new BlackfeatheredFlatHat());
+        }
+        else if (selectedIndex == 320)
+        {
+            await Navigation.PushAsync(new RedfeatheredFlatHat());
+        }
+        else if (selectedIndex == 321)
+        {
+            await Navigation.PushAsync(new ValentioneRoseHat());
+        }
+        else if (selectedIndex == 322)
+        {
+            await Navigation.PushAsync(new ValentioneForgetmenotHat());
+        }
+        else if (selectedIndex == 323)
+        {
+            await Navigation.PushAsync(new ValentioneAcaciaHat());
+        }
+        else if (selectedIndex == 324)
+        {
+            await Navigation.PushAsync(new ValentioneRoseRibbonedHat());
+        }
+        else if (selectedIndex == 325)
+        {
+            await Navigation.PushAsync(new ValentioneForgetMeNotRibbonedHat());
+        }
+        else if (selectedIndex == 326)
+        {
+            await Navigation.PushAsync(new ValentioneAcaciaRibbonedHat());
+        }
+        else if (selectedIndex == 327)
+        {
+            await Navigation.PushAsync(new LovelyMoogleCap());
+        }
+        else if (selectedIndex == 328)
+        {
+            await Navigation.PushAsync(new ValentioneEmissaryHat());
+        }
+        else if (selectedIndex == 329)
+        {
+            await Navigation.PushAsync(new ValentioneEmissaryDressHat());
+        }
+        else if (selectedIndex == 330)
+        {
+            await Navigation.PushAsync(new SongbirdHat());
+        }
+        else if (selectedIndex == 331)
+        {
+            await Navigation.PushAsync(new FlowerCrown());
+        }
+        else if (selectedIndex == 332)
+        {
+            await Navigation.PushAsync(new SeneschalsMonocle());
+        }
+        else if (selectedIndex == 333)
+        {
+            await Navigation.PushAsync(new PrincessPeachCorsage());
+        }
+        else if (selectedIndex == 334)
+        {
+            await Navigation.PushAsync(new LittleLadyCrown());
+        }
+        else if (selectedIndex == 335)
+        {
+            await Navigation.PushAsync(new RabbitHead());
+        }
+        else if (selectedIndex == 336)
+        {
+            await Navigation.PushAsync(new ChickenHead());
+        }
+        else if (selectedIndex == 337)
+        {
+            await Navigation.PushAsync(new TonberryHead());
+        }
+        else if (selectedIndex == 338)
+        {
+            await Navigation.PushAsync(new OschonRoselleCapeline());
+        }
+        else if (selectedIndex == 339)
+        {
+            await Navigation.PushAsync(new GoldRoselleCapeline());
+        }
+        else if (selectedIndex == 340)
+        {
+            await Navigation.PushAsync(new PearlRoselleCapeline());
+        }
+        else if (selectedIndex == 341)
+        {
+            await Navigation.PushAsync(new StrawCapeline());
+        }
+        else if (selectedIndex == 342)
+        {
+            await Navigation.PushAsync(new EndlessSummerGlasses());
+        }
+        else if (selectedIndex == 343)
+        {
+            await Navigation.PushAsync(new MoonfireHachimaki());
+        }
+        else if (selectedIndex == 344)
+        {
+            await Navigation.PushAsync(new WhitePaintedMoogleMask());
+        }
+        else if (selectedIndex == 345)
+        {
+            await Navigation.PushAsync(new BlackPaintedMoogleMask());
+        }
+        else if (selectedIndex == 346)
+        {
+            await Navigation.PushAsync(new PaintedNamazuMask());
+        }
+        else if (selectedIndex == 347)
+        {
+            await Navigation.PushAsync(new SummerFlameHat());
+        }
+        else if (selectedIndex == 348)
+        {
+            await Navigation.PushAsync(new SummerSunsetBandana());
+        }
+        else if (selectedIndex == 349)
+        {
+            await Navigation.PushAsync(new PumpkinHead());
+        }
+        else if (selectedIndex == 350)
+        {
+            await Navigation.PushAsync(new UnripenedPumpkinHead());
+        }
+        else if (selectedIndex == 351)
+        {
+            await Navigation.PushAsync(new WhitePumpkinHead());
+        }
+        else if (selectedIndex == 352)
+        {
+            await Navigation.PushAsync(new RipenedPumpkinHead());
+        }
+        else if (selectedIndex == 353)
+        {
+            await Navigation.PushAsync(new EerieHat());
+        }
+        else if (selectedIndex == 354)
+        {
+            await Navigation.PushAsync(new WitchsHat());
+        }
+        else if (selectedIndex == 355)
+        {
+            await Navigation.PushAsync(new WerewolfHead());
+        }
+        else if (selectedIndex == 356)
+        {
+            await Navigation.PushAsync(new ClownsHat());
+        }
+        else if (selectedIndex == 357)
+        {
+            await Navigation.PushAsync(new WakeDoctorsMask());
+        }
+        else if (selectedIndex == 358)
+        {
+            await Navigation.PushAsync(new DreamHat());
+        }
+        else if (selectedIndex == 359)
+        {
+            await Navigation.PushAsync(new ReindeerAntlers());
+        }
+        else if (selectedIndex == 360)
+        {
+            await Navigation.PushAsync(new SnowmanHead());
+        }
+        else if (selectedIndex == 361)
+        {
+            await Navigation.PushAsync(new StarlightSugarloafHat());
+        }
+        else if (selectedIndex == 362)
+        {
+            await Navigation.PushAsync(new FalseMustache());
+        }
+        else if (selectedIndex == 363)
+        {
+            await Navigation.PushAsync(new ReindeerAntlerHeadband());
+        }
+        else if (selectedIndex == 364)
+        {
+            await Navigation.PushAsync(new SaintsBeard());
+        }
+        else if (selectedIndex == 365)
+        {
+            await Navigation.PushAsync(new SaintsCap());
+        }
+        else if (selectedIndex == 366)
+        {
+            await Navigation.PushAsync(new ChoirHat());
+        }
+        else if (selectedIndex == 367)
+        {
+            await Navigation.PushAsync(new BaronHelm());
+        }
+        else if (selectedIndex == 368)
+        {
+            await Navigation.PushAsync(new BaronCirclet());
+        }
+        else if (selectedIndex == 369)
+        {
+            await Navigation.PushAsync(new WildRoseBandana());
+        }
+        else if (selectedIndex == 370)
+        {
+            await Navigation.PushAsync(new AmatsuHachigane());
+        }
+        else if (selectedIndex == 371)
+        {
+            await Navigation.PushAsync(new LegacyWarriorCoronet());
+        }
+        else if (selectedIndex == 372)
+        {
+            await Navigation.PushAsync(new KingSlimeCrown());
+        }
+        else if (selectedIndex == 373)
+        {
+            await Navigation.PushAsync(new AugRathHelmM());
+        }
+        else if (selectedIndex == 374)
+        {
+            await Navigation.PushAsync(new AugRathHelmF());
+        }
+        else if (selectedIndex == 375)
+        {
+            await Navigation.PushAsync(new RathHelmM());
+        }
+        else if (selectedIndex == 376)
+        {
+            await Navigation.PushAsync(new RathHelmF());
+        }
+        else if (selectedIndex == 377)
+        {
+            await Navigation.PushAsync(new No2TypeBGoggles());
+        }
+        else if (selectedIndex == 378)
+        {
+            await Navigation.PushAsync(new SweetDreamCap());
+        }
+        else if (selectedIndex == 379)
+        {
+            await Navigation.PushAsync(new TetsujiUsagiKabuto());
+        }
+        else if (selectedIndex == 380)
+        {
+            await Navigation.PushAsync(new BlackTetsujiUsagiKabuto());
+        }
+        else if (selectedIndex == 381)
+        {
+            await Navigation.PushAsync(new SilverTetsujiUsagiKabuto());
+        }
+        else if (selectedIndex == 382)
+        {
+            await Navigation.PushAsync(new VeilEternalInnocence());
+        }
+        else if (selectedIndex == 383)
+        {
+            await Navigation.PushAsync(new VeilEternalPassion());
+        }
+        else if (selectedIndex == 384)
+        {
+            await Navigation.PushAsync(new VeilEternalDevotion());
+        }
+        else if (selectedIndex == 385)
+        {
+            await Navigation.PushAsync(new MoogleHead());
+        }
+        else if (selectedIndex == 386)
+        {
+            await Navigation.PushAsync(new YellowpommedMoogleCap());
+        }
+        else if (selectedIndex == 387)
+        {
+            await Navigation.PushAsync(new ScionStrikersVisor());
+        }
+        else if (selectedIndex == 388)
+        {
+            await Navigation.PushAsync(new ScionThauMonocle());
+        }
+        else if (selectedIndex == 389)
+        {
+            await Navigation.PushAsync(new HeadEngineerGoggles());
+        }
+        else if (selectedIndex == 390)
+        {
+            await Navigation.PushAsync(new IronworksEngineerGoggles());
+        }
+        else if (selectedIndex == 391)
+        {
+            await Navigation.PushAsync(new HousemaidsBrim());
+        }
+        else if (selectedIndex == 392)
+        {
+            await Navigation.PushAsync(new ButlersMonocle());
+        }
+        else if (selectedIndex == 393)
+        {
+            await Navigation.PushAsync(new FarEasternNobleMortarboard());
+        }
+        else if (selectedIndex == 394)
+        {
+            await Navigation.PushAsync(new AngelicCirclet());
+        }
+        else if (selectedIndex == 395)
+        {
+            await Navigation.PushAsync(new DemonicHorns());
+        }
+        else if (selectedIndex == 396)
+        {
+            await Navigation.PushAsync(new FarEastGentlemansHat());
+        }
+        else if (selectedIndex == 397)
+        {
+            await Navigation.PushAsync(new FarEasternBeautysHairpin());
+        }
+        else if (selectedIndex == 398)
+        {
+            await Navigation.PushAsync(new StarNezhaLord());
+        }
+        else if (selectedIndex == 399)
+        {
+            await Navigation.PushAsync(new StarNezhaLady());
+        }
+        else if (selectedIndex == 400)
+        {
+            await Navigation.PushAsync(new LoyalHousemaidsBrim());
+        }
+        else if (selectedIndex == 401)
+        {
+            await Navigation.PushAsync(new LoyalButlersMonocle());
+        }
+        else if (selectedIndex == 402)
+        {
+            await Navigation.PushAsync(new BlackbosomHat());
+        }
+        else if (selectedIndex == 403)
+        {
+            await Navigation.PushAsync(new EmeraldCarbuncleEars());
+        }
+        else if (selectedIndex == 404)
+        {
+            await Navigation.PushAsync(new TopazCarbuncleEars());
+        }
+        else if (selectedIndex == 405)
+        {
+            await Navigation.PushAsync(new FaerieTalePrincesCirclet());
+        }
+        else if (selectedIndex == 406)
+        {
+            await Navigation.PushAsync(new FaerieTalePrincessTiara());
+        }
+        else if (selectedIndex == 407)
+        {
+            await Navigation.PushAsync(new CrackedMandervilleMonocle());
+        }
+        else if (selectedIndex == 408)
+        {
+            await Navigation.PushAsync(new MungaekHat());
+        }
+        else if (selectedIndex == 409)
+        {
+            await Navigation.PushAsync(new EasternSocialiteHat());
+        }
+        else if (selectedIndex == 410)
+        {
+            await Navigation.PushAsync(new FarEasternOfficerHat());
+        }
+        else if (selectedIndex == 411)
+        {
+            await Navigation.PushAsync(new FarEasternMaidenHat());
+        }
+        else if (selectedIndex == 412)
+        {
+            await Navigation.PushAsync(new LealSamuraiKasa());
+        }
+        else if (selectedIndex == 413)
+        {
+            await Navigation.PushAsync(new FESchoolboyHat());
+        }
+        else if (selectedIndex == 414)
+        {
+            await Navigation.PushAsync(new FESchoolgirlHairRibbon());
+        }
+        else if (selectedIndex == 415)
+        {
+            await Navigation.PushAsync(new ScionHearerHood());
+        }
+        else if (selectedIndex == 416)
+        {
+            await Navigation.PushAsync(new PeacockHat());
+        }
+        else if (selectedIndex == 417)
+        {
+            await Navigation.PushAsync(new EasternLordErrantHat());
+        }
+        else if (selectedIndex == 418)
+        {
+            await Navigation.PushAsync(new EasternLadyErrantHat());
+        }
+        else if (selectedIndex == 419)
+        {
+            await Navigation.PushAsync(new MhegDeacaCirclet());
+        }
+        else if (selectedIndex == 420)
+        {
+            await Navigation.PushAsync(new ScionSorceressHeaddress());
+        }
+        else if (selectedIndex == 421)
+        {
+            await Navigation.PushAsync(new RubyCarbuncleEars());
+        }
+        else if (selectedIndex == 422)
+        {
+            await Navigation.PushAsync(new BergHat());
+        }
+        else if (selectedIndex == 423)
+        {
+            await Navigation.PushAsync(new DirndlHat());
+        }
+        else if (selectedIndex == 424)
+        {
+            await Navigation.PushAsync(new ResshiHachigane());
+        }
+        else if (selectedIndex == 425)
+        {
+            await Navigation.PushAsync(new StreetCap());
+        }
+        else if (selectedIndex == 426)
+        {
+            await Navigation.PushAsync(new FatCatHood());
+        }
+        else if (selectedIndex == 427)
+        {
+            await Navigation.PushAsync(new FarNorthernHeadpiece());
+        }
+        else if (selectedIndex == 428)
+        {
+            await Navigation.PushAsync(new EducandsCap());
+        }
+        else if (selectedIndex == 429)
+        {
+            await Navigation.PushAsync(new ScarfWondrousWit());
+        }
+        else if (selectedIndex == 430)
+        {
+            await Navigation.PushAsync(new FriendshipCirclet());
+        }
+        else if (selectedIndex == 431)
+        {
+            await Navigation.PushAsync(new InfernoMask());
+        }
+        else if (selectedIndex == 432)
+        {
+            await Navigation.PushAsync(new CragMask());
+        }
+        else if (selectedIndex == 433)
+        {
+            await Navigation.PushAsync(new EasternJourneyCirclet());
+        }
+        else if (selectedIndex == 434)
+        {
+            await Navigation.PushAsync(new CaitSithEars());
+        }
+        else if (selectedIndex == 435)
+        {
+            await Navigation.PushAsync(new ExclusiveEasternJourneyCirclet());
+        }
+        else if (selectedIndex == 436)
+        {
+            await Navigation.PushAsync(new MatoyaHat());
+        }
+        else if (selectedIndex == 437)
+        {
+            await Navigation.PushAsync(new LeatherEyepatch());
+        }
+        else if (selectedIndex == 438)
+        {
+            await Navigation.PushAsync(new HempenBandana());
+        }
+        else if (selectedIndex == 439)
+        {
+            await Navigation.PushAsync(new HempenHat());
+        }
+        else if (selectedIndex == 440)
+        {
+            await Navigation.PushAsync(new BronzeChainCoif());
+        }
+        else if (selectedIndex == 441)
+        {
+            await Navigation.PushAsync(new HardLeatherPotHelm());
+        }
+        else if (selectedIndex == 442)
+        {
+            await Navigation.PushAsync(new BronzeSallet());
+        }
+        else if (selectedIndex == 443)
+        {
+            await Navigation.PushAsync(new StrawHat());
+        }
+        else if (selectedIndex == 444)
+        {
+            await Navigation.PushAsync(new AmateurHeadgear());
+        }
+        else if (selectedIndex == 445)
+        {
+            await Navigation.PushAsync(new AmateurHempenCoif());
+        }
+        else if (selectedIndex == 446)
+        {
+            await Navigation.PushAsync(new PristineEggCap());
+        }
+        else if (selectedIndex == 447)
+        {
+            await Navigation.PushAsync(new ThugsMug());
+        }
+        else
+        {
+            await Navigation.PushAsync(new EglbkCwn());
         }
     }
 }
