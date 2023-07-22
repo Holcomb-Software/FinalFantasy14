@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Gladiator.GladWpns.Level11_20.Lv11_20"
+             Title="Lv11_20">
+    <VerticalStackLayout>
+        
+        <Button Text="Aetherial Brass Bastard Sword"
+                Clicked="Button_Clicked"/>
+
+        <Button Text="Aetherial Brass Viking Sword"
+                Clicked="Button_Clicked_1"/>
+
+        <Button Text="Aetherial Carnage Sword"
+                Clicked="Button_Clicked_2"/>
+
+        <Button Text="Blazefire Saber"
+                Clicked="Button_Clicked_3"/>
+
+        <Button Text="Brass Bastard Sword"
+                Clicked="Button_Clicked_4"/>
+
+        <Button Text="Brass Viking Sword"
+                Clicked="Button_Clicked_5"/>
+
+        <Button Text="Bronze Spatha"
+                Clicked="Button_Clicked_6"/>
+
+        <Button Text="Carnage Sword"
+                Clicked="Button_Clicked_7"/>
+
+        <Button Text="Doctore's Scimitar"
+                Clicked="Button_Clicked_8"/>
+
+        <Button Text="Plundered Falchion"
+                Clicked="Button_Clicked_9"/>
+        
+    </VerticalStackLayout>
+</ContentPage>
