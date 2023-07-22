@@ -160,6 +160,39 @@
 	  <MauiXaml Update="Gladiator\GladWpns\GladWpn.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level11_20\AethBrassBstdSwrd.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level11_20\AethBrassVkngSwrd.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level11_20\AethCrngSwrd.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level11_20\BlazefireSaber.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level11_20\BrassBstdSwrd.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level11_20\BrassVkngSwrd.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level11_20\BronzeSpatha.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level11_20\CarnageSword.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level11_20\DoctoresScimitar.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level11_20\Lv11_20.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level11_20\PlunderedFlachion.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Gladiator\GladWpns\Level1_10\AOScimitar.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
