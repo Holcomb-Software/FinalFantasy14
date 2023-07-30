@@ -229,6 +229,54 @@
 	  <MauiXaml Update="Gladiator\GladWpns\Level1_10\Lv1_10.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level21_30\AethElmMacua.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level21_30\AethIronSpatha.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level21_30\ElmMacua.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level21_30\FlmPrivSpatha.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level21_30\FlmPrivSwrd.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level21_30\Frostbite.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level21_30\InquistorsTuck.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level21_30\IronShortsword.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level21_30\IronSpatha.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level21_30\Lv21_30.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level21_30\SrpntPrivSpatha.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level21_30\SrpntPrivSword.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level21_30\SteelBroadsword.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level21_30\StormPrivSpatha.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level21_30\StormPrivSword.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level21_30\WhiskerBraveCat.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Items\ItemsMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
