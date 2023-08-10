@@ -19,5 +19,8 @@
         <Button Text="Level 21-30"
                 Clicked="Button_Clicked_2"/>
 
+        <Button Text="Level 31-40"
+                Clicked="Button_Clicked_3"/>
+
     </VerticalStackLayout>
 </ContentPage>

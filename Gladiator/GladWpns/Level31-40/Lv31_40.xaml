@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Gladiator.GladWpns.Level31_40.Lv31_40"
+             Title="Lv31_40">
+    <VerticalStackLayout>
+
+        <Button Text="Aetherial Cobalt Katzbalger"
+                Clicked="Button_Clicked"/>
+
+        <Button Text="Aetherial Mythril Broadsword"
+                Clicked="Button_Clicked_1"/>
+
+        <Button Text="Aetherial Steel Falchion"
+                Clicked="Button_Clicked_2"/>
+
+        <Button Text="Aetherial Steel Longsword"
+                Clicked="Button_Clicked_3"/>
+
+        <Button Text="Aetherial Walnut Macuahuitl"
+                Clicked="Button_Clicked_4"/>
+
+        <Button Text="Blunt Bastard Sword"
+                Clicked="Button_Clicked_5"/>
+
+        <Button Text="Crier's Broadsword"
+                Clicked="Button_Clicked_6"/>
+
+        <Button Text="Flametongue"
+                Clicked="Button_Clicked_7"/>
+
+        <Button Text="Gridanian Macuahuitl"
+                Clicked="Button_Clicked_8"/>
+
+        <Button Text="Lominsan Shortsword"
+                Clicked="Button_Clicked_9"/>
+
+        <Button Text="Longstop Sword"
+                Clicked="Button_Clicked_10"/>
+
+        <Button Text="Mythril Broadsword"
+                Clicked="Button_Clicked_11"/>
+
+        <Button Text="Nicked Viking Sword"
+                Clicked="Button_Clicked_12"/>
+
+        <Button Text="Steel Falchion"
+                Clicked="Button_Clicked_13"/>
+
+        <Button Text="Steel Longsword"
+                Clicked="Button_Clicked_14"/>
+
+        <Button Text="Ul'dahn Falchion"
+                Clicked="Button_Clicked_15"/>
+
+        <Button Text="Vintage Bastard Sword"
+                Clicked="Button_Clicked_16"/>
+
+        <Button Text="Vintage Viking Sword"
+                Clicked="Button_Clicked_17"/>
+
+        <Button Text="Walnut Macuahuitl"
+                Clicked="Button_Clicked_18"/>
+
+    </VerticalStackLayout>
+</ContentPage>
