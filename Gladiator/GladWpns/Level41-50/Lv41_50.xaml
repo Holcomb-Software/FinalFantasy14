@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Gladiator.GladWpns.Level41_50.Lv41_50"
+             Title="Lv41_50">
+    <VerticalStackLayout>
+
+        <Button Text="Aeolian Scimitar"/>
+
+        <Button Text="Aetherial Cobalt Shamshir"/>
+
+        <Button Text="Aetherial Plumed Walnut Macuahuitl"/>
+
+        <Button Text="Allagan Blade"/>
+
+        <Button Text="Ancient Sword"/>
+
+        <Button Text="Augmented Ironworks Magitek Sword"/>
+
+        <Button Text="Blood Sword"/>
+
+        <Button Text="Blunt Aeolian Scimitar"/>
+
+        <Button Text="Blunt Goblin Longsword"/>
+
+        <Button Text="Blunt Goblin Scimitar"/>
+
+        <Button Text="Break Blade"/>
+
+        <Button Text="Burtgang"/>
+
+        <Button Text="Cobalt Katzbalger"/>
+
+        <Button Text="Cobalt Shamshir"/>
+
+        <Button Text="Cobalt Winglet"/>
+
+        <Button Text="Curtana"/>
+
+        <Button Text="Curtana Animus"/>
+
+        <Button Text="Curtana Animus Replica"/>
+
+        <Button Text="Curtana Atma"/>
+
+        <Button Text="Curtana Atma Replica"/>
+
+        <Button Text="Curtana Nexus"/>
+
+        <Button Text="Curtana Nexus Replica"/>
+
+        <Button Text="Curtana Novus"/>
+
+        <Button Text="Curtana Novus Replica"/>
+
+        <Button Text="Curtana Replica"/>
+
+        <Button Text="Curtana Zenith"/>
+
+        <Button Text="Curtana Zenith Replica"/>
+
+        <Button Text="Darklight Macuahuitl"/>
+
+        <Button Text="Direwolf Longsword"/>
+
+        <Button Text="Dreadwyrm Blade"/>
+
+        <Button Text="Dzemael Winglet"/>
+
+        <Button Text="Excalibur"/>
+
+        <Button Text="Excalibur Replica"/>
+
+        <Button Text="Excalibur Zeta"/>
+
+        <Button Text="Excalibur Zeta Replica"/>
+
+        <Button Text="Flame Captain's Katzbalger"/>
+
+        <Button Text="Flame Elite's Katzbalger"/>
+
+        <Button Text="Flame Officer's Katzbalger"/>
+
+        <Button Text="Garuda's Gaze"/>
+
+        <Button Text="Gaze of the Vortex"/>
+
+        <Button Text="Giantsgall Longsword"/>
+
+        <Button Text="Goblin Longsword"/>
+
+        <Button Text="Goblin Scimitar"/>
+
+        <Button Text="Gridanian Spatha"/>
+
+        <Button Text="High Allagan Blade"/>
+
+        <Button Text="Ifrit's Blade"/>
+
+        <Button Text="Inferno Blade"/>
+
+        <Button Text="Ironworks Magitek Sword"/>
+
+        <Button Text="Lionliege Blade"/>
+
+        <Button Text="Lionsmane Blade"/>
+
+        <Button Text="Lominsan Broadsword"/>
+
+        <Button Text="Mailbreaker"/>
+
+        <Button Text="Mighty Thunderstrike"/>
+
+        <Button Text="Morbid Mogblade"/>
+
+        <Button Text="Morbid Moggle Mogblade"/>
+
+        <Button Text="Mythrite Katzbalger"/>
+
+        <Button Text="Plumed Oak Macuahuitl"/>
+
+        <Button Text="Replica Allagan Blade"/>
+
+        <Button Text="Replica High Allagan Blade"/>
+
+        <Button Text="Senor Sabotender's Blade"/>
+
+        <Button Text="Serpent Captain's Longsword"/>
+
+        <Button Text="Serpent Elite's Longsword"/>
+
+        <Button Text="Serpent Officer's Longsword"/>
+
+        <Button Text="Shiva's Diamond Brand"/>
+
+        <Button Text="Storm Captain's Cutlass"/>
+
+        <Button Text="Storm Elite's Cutlass"/>
+
+        <Button Text="Storm Officer's Cutlass"/>
+
+        <Button Text="Templar's Falchion"/>
+
+        <Button Text="Thormoen's Pride"/>
+
+        <Button Text="Thunderstrike"/>
+
+        <Button Text="Tidal Wave Shamshir"/>
+
+        <Button Text="True Ice Brand"/>
+
+        <Button Text="Ul'dahn Scimitar"/>
+
+        <Button Text="Ul'dahn Winglet"/>
+
+        <Button Text="Unfinished Curtana"/>
+
+        <Button Text="Unfinished Curtana Replica"/>
+
+        <Button Text="Warwolf Blade"/>
+
+        <Button Text="Wave Shamshir"/>
+
+        <Button Text="Weathered Burtgang"/>
+
+        <Button Text="Wolf Winglet"/>
+
+        <Button Text="Wootz Scimitar"/>
+
+        <Button Text="Zantetsuken"/>
+
+    </VerticalStackLayout>
+</ContentPage>
