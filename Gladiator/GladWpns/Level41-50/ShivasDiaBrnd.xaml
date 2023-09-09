@@ -5,8 +5,62 @@
              Title="ShivasDiaBrnd">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Shiva's Diamond Brand"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/56/56babfcc5fa31a5eaddcfb1b3cd808d7fc26b679.png?n6.48"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Item Level 115"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+        <Label Text="      64                         |       42.66          |    2.00   |"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="GLA PLD"/>
+        <Label Text="Level 50"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Bonuses:"/>
+        <Label Text="Strength +32       Vitality +33"/>
+        <Label Text="Skill Speed +23    Tenacity +33"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level       Goldsmith Lv. 40"/>
+        <Label Text="Materials          Grade 5 Dark Matter"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Extractable: Yes           Projectable: Yes"/>
+        <Label Text="Desynthesizable: 115.00    Dyeable: Yes"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Available for Purchase: Yes (Restricted)"/>
+        <Label Text="Sells for 410 gil  ***Market Prohibited***"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Obtained From:"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Required Items                 |       Selling NPC         "/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="True Ice Brand x1                   |       Aelina               "/>
+        <Label Text="Diamond Dust x3                     |       Mor Dhona (X:22.6, Y:6.6)"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="True Ice Brand x1                   |       Rowena's Representative               "/>
+        <Label Text="Diamond Dust x3                     |       Limsa Lominsa Lower Decks (X: 9.0 Y: 11.1)"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="True Ice Brand x1                   |       Rowena's Representative               "/>
+        <Label Text="Diamond Dust x3                     |       Ul'dah - Steps of Nald (X: 9.1 Y: 8.3)"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="True Ice Brand x1                   |       Rowena's Representative               "/>
+        <Label Text="Diamond Dust x3                     |       New Gridania (X: 11.9 Y: 12.3)"/>
     </VerticalStackLayout>
 </ContentPage>

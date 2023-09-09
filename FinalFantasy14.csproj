@@ -385,42 +385,6 @@
 	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\CobaltWing.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\CurAnimRep.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\CurAtma.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\CurAtmaRep.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\CurNexus.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\CurNexusRep.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\CurNovus.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\CurNovusRep.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\CurRep.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\Curtana.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\CurtanaAnimus.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\CurZen.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\CurZenRep.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\DirewolfLongswrd.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -431,18 +395,6 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\DzemaelWinglet.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\Excalibur.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\ExcaliburRep.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\ExcaliburZeta.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\ExcaliburZetaRep.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\FlmeCptKatz.xaml">
@@ -553,6 +505,9 @@
 	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\Thunderstrike.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\TidalWaveShamshir.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\TrueIceBrand.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -560,12 +515,6 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\UldahnWinglet.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\UnfinishedCur.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\UnfinishedCurRep.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\WarwolfBlade.xaml">

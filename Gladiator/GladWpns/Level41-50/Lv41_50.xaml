@@ -5,9 +5,11 @@
              Title="Lv41_50">
     <VerticalStackLayout>
 
-        <Button Text="Aeolian Scimitar"/>
+        <Button Text="Aeolian Scimitar"
+                Clicked="Button_Clicked"/>
 
-        <Button Text="Aetherial Cobalt Shamshir"/>
+        <Button Text="Aetherial Cobalt Shamshir"
+                Clicked="Button_Clicked_1"/>
 
         <Button Text="Aetherial Plumed Walnut Macuahuitl"/>
 
@@ -35,30 +37,6 @@
 
         <Button Text="Cobalt Winglet"/>
 
-        <Button Text="Curtana"/>
-
-        <Button Text="Curtana Animus"/>
-
-        <Button Text="Curtana Animus Replica"/>
-
-        <Button Text="Curtana Atma"/>
-
-        <Button Text="Curtana Atma Replica"/>
-
-        <Button Text="Curtana Nexus"/>
-
-        <Button Text="Curtana Nexus Replica"/>
-
-        <Button Text="Curtana Novus"/>
-
-        <Button Text="Curtana Novus Replica"/>
-
-        <Button Text="Curtana Replica"/>
-
-        <Button Text="Curtana Zenith"/>
-
-        <Button Text="Curtana Zenith Replica"/>
-
         <Button Text="Darklight Macuahuitl"/>
 
         <Button Text="Direwolf Longsword"/>
@@ -66,14 +44,6 @@
         <Button Text="Dreadwyrm Blade"/>
 
         <Button Text="Dzemael Winglet"/>
-
-        <Button Text="Excalibur"/>
-
-        <Button Text="Excalibur Replica"/>
-
-        <Button Text="Excalibur Zeta"/>
-
-        <Button Text="Excalibur Zeta Replica"/>
 
         <Button Text="Flame Captain's Katzbalger"/>
 

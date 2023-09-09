@@ -5,8 +5,62 @@
              Title="BluntGobLongswrd">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Blunt Goblin Longsword"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+            <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/ed/ed1a1947dae09cf49411a3e261f32665c08a23ff.png?n6.48"/>
+            <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+            <Label Text="Item Level 40"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+            <Label Text="      43                         |       29.81          |    2.08   |"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="GLA PLD"/>
+            <Label Text="Level 45"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Bonuses:"/>
+            <Label Text="Strength +7       Vitality +8"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Crafting and Repairs"/>
+            <Label Text="Repair Level     Blacksmith Lv. 35"/>
+            <Label Text="Materials        Grade 5 Dark Matter"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Extractable: Yes      Projectable: Yes"/>
+            <Label Text="Desynthesizable: 40.00   Dyeable: Yes"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Sale Price: 2,862 gil"/>
+            <Label Text="Sells for 49 gil"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Obtained From:"/>
+            <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+            <Label Text="Selling NPC                           |   Area"/>
+            <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+            <Label Text="Junkmonger             |   Upper La Noscea (X:14.8, Y:24.2)"/>
+            <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+            <Label Text="Junkmonger             |   Upper La Noscea (X:26.1, Y:26.4)"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Related Crafting Log:"/>
+            <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+            <Label Text="Title            |   Recipe Level      |   Item Level      |"/>
+            <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+            <Label Text="Blacksmith    |        45                   |       48           |"/>
+            <Label Text="Goblin Longsword"/>
     </VerticalStackLayout>
 </ContentPage>
