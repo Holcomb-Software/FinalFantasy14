@@ -58,6 +58,12 @@
 	  <Compile Update="Gladiator\GladWpns\Level41-50\Lv41_50.xaml.cs">
 	    <DependentUpon>Lv41_50.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Gladiator\GladWpns\Level51_60\TheFangedWolf.xaml.cs">
+	    <DependentUpon>TheFangedWolf.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Gladiator\GladWpns\Level51_60\Lv51_60.xaml.cs">
+	    <DependentUpon>Lv51_60.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Maraudar\MarArm\MarArmMain.xaml.cs">
 	    <DependentUpon>MarArmMain.xaml</DependentUpon>
 	  </Compile>
@@ -533,6 +539,135 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Gladiator\GladWpns\Level41-50\Zantetsuken.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\AdamBrdswrd.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\AdamWinglet.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\AlexMtlBld.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\AugHellfreBld.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\AugShireSwrd.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\BaldurSwrd.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\BelAnelace.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\BladeBehemothKng.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\BladeDemon.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\BladeFiend.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\BladeGoddess.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\BladeSephirot.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\CovenBlade.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\DeadHiveShamshir.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\Dissector.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\EndlessExpanseSword.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\ExpanseSword.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\TheFangedWolf.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\GordianBlade.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\HalInqSwrd.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\HellfireBlade.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\HighSteelKatz.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\HiveShamshir.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\HordeBlade.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\HvyMtlLngswrd.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\KinnaBlade.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\Lv51_60.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\MartialSwrd.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\MidanMetalSword.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\MythriteFlametongue.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\Onikiri.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\OnikiriKai.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\PadjaliBlade.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\SeeingHordeBlade.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\ShireSword.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\SophicBlade.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\SwordFury.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\SwordHeavens.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\SwordRound.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\TitaniumBstrdSwrd.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\TitaniumLongsword.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\Tyrfing.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Gladiator\GladWpns\Level51_60\ZurvaniteBlade.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Items\ItemsMain.xaml">
