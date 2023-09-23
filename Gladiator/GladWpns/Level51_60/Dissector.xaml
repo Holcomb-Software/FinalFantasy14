@@ -5,8 +5,50 @@
              Title="Dissector">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Dissector"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/22/22efcf0de39ea3f1597f65a7dbafea8c99f2862f.png?n6.48"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Item Level 130"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+        <Label Text="      65                         |       450.26          |    2.32   |"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="GLA PLD"/>
+        <Label Text="Level 53"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Bonuses:"/>
+        <Label Text="Strength +39       Vitality +41"/>
+        <Label Text="Determination +25   Tenacity +36"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Blacksmith Lv. 43"/>
+        <Label Text="Materials        Grade 6 Dark Matter"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Extractable: Yes      Projectable: Yes"/>
+        <Label Text="Desynthesizable: 130.00   Dyeable: Yes"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Available for Purchase: No"/>
+        <Label Text="Sells for 348 gil   ***Market Prohibited***"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Acquired From:"/>
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/b6/b6b0379e0588605dcae2c849895a920503514048.png?n6.48"/>
+        <Label Text="Paladin's Dissector Arms (IL 130)"/>
     </VerticalStackLayout>
 </ContentPage>

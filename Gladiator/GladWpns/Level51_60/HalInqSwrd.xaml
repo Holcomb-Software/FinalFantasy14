@@ -5,8 +5,50 @@
              Title="HalInqSwrd">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Halonic Inquisitor's Sword"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/30/30a2109c81787a2175d08a8b9bc03411a7cf45f9.png?n6.48"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Item Level 142"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+        <Label Text="      66                         |       49.28          |    2.24   |"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="GLA PLD"/>
+        <Label Text="Level 57"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Bonuses:"/>
+        <Label Text="Strength +41       Vitality +43"/>
+        <Label Text="Determination +45   Tenacity +32"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Blacksmith Lv. 47"/>
+        <Label Text="Materials        Grade 6 Dark Matter"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Extractable: Yes      Projectable: Yes"/>
+        <Label Text="Desynthesizable: 142.00   Dyeable: Yes"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Available for Purchase: Yes"/>
+        <Label Text="Sells for 380 gil  ***Market Prohibited***"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Acquired From:"/>
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5c/5c253d583ff892bf2e9662bbf85e4bf7567b9e2b.png?n6.41"/>
+        <Label Text="Paladin's Halonic Inquisitor Arms (IL 142)"/>
     </VerticalStackLayout>
 </ContentPage>
