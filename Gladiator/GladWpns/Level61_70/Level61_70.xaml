@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Gladiator.GladWpns.Level61_70.Level61_70"
+             Title="Level61_70">
+    <VerticalStackLayout>
+        <Button Text="Ala Mhigan Kilij"
+                Clicked="Button_Clicked"/>
+
+        <Button Text="Augmented Lost Allagan Saber"
+                Clicked="Button_Clicked_1"/>
+
+        <Button Text="Augmented Nightsteel Sword"
+                Clicked="Button_Clicked_2"/>
+
+        <Button Text="Augmented Scaevan Magitek Katzbalger"
+                Clicked="Button_Clicked_3"/>
+
+        <Button Text="Blade of the Crimson Lotus"
+                Clicked="Button_Clicked_4"/>
+
+        <Button Text="Byakko's Enspirited Stone Sword"
+                Clicked="Button_Clicked_5"/>
+
+        <Button Text="Byakko's Stone Sword"
+                Clicked="Button_Clicked_6"/>
+
+        <Button Text="Chromite Sword"
+                Clicked="Button_Clicked_7"/>
+
+        <Button Text="Curtana Ultima"
+                Clicked="Button_Clicked_8"/>
+
+        <Button Text="Deepgold Anelace"
+                Clicked="Button_Clicked_9"/>
+
+        <Button Text="Diamond Sword"
+                Clicked="Button_Clicked_10"/>
+
+        <Button Text="Doman Iron Longsword"
+                Clicked="Button_Clicked_11"/>
+
+        <Button Text="Doman Steel Longsword"
+                Clicked="Button_Clicked_12"/>
+
+        <Button Text="Empyrean Blade"
+                Clicked="Button_Clicked_13"/>
+
+        <Button Text="Enhancing Sword"
+                Clicked="Button_Clicked_14"/>
+
+        <Button Text="Genji Shichishito"
+                Clicked="Button_Clicked_15"/>
+
+        <Button Text="Ghost Barque Anelace"
+                Clicked="Button_Clicked_16"/>
+
+        <Button Text="High Steel Longsword"
+                Clicked="Button_Clicked_17"/>
+
+        <Button Text="Homura"
+                Clicked="Button_Clicked_18"/>
+
+        <Button Text="Homura Kai"
+                Clicked="Button_Clicked_19"/>
+
+        <Button Text="Lost Allagan Saber"
+                Clicked="Button_Clicked_20"/>
+
+        <Button Text="Molybdenum Longsword"
+                Clicked="Button_Clicked_21"/>
+
+        <Button Text="Nightsteel Sword"
+                Clicked="Button_Clicked_22"/>
+
+        <Button Text="Omega Sword"
+                Clicked="Button_Clicked_23"/>
+
+        <Button Text="Onikiri Shin"
+                Clicked="Button_Clicked_24"/>
+
+        <Button Text="Rakshasa Blade"
+                Clicked="Button_Clicked_25"/>
+
+        <Button Text="Ruby Tide Blade"
+                Clicked="Button_Clicked_26"/>
+
+        <Button Text="Scaevan Magitek Katzbalger"
+                Clicked="Button_Clicked_27"/>
+
+        <Button Text="Seiryu's Longsword"
+                Clicked="Button_Clicked_28"/>
+
+        <Button Text="Seiryu's Sanctified Longsword"
+                Clicked="Button_Clicked_29"/>
+
+        <Button Text="Shinryu's Ephemeral Longsword"
+                Clicked="Button_Clicked_30"/>
+
+        <Button Text="Shinryu's Longsword"
+                Clicked="Button_Clicked_31"/>
+
+        <Button Text="Susano's Longsword"
+                Clicked="Button_Clicked_32"/>
+
+        <Button Text="Susano's Rapturous Longsword"
+                Clicked="Button_Clicked_33"/>
+
+        <Button Text="Suzaku's Flame-kissed Longsword"
+                Clicked="Button_Clicked_34"/>
+
+        <Button Text="Suzaku's Longsword"
+                Clicked="Button_Clicked_35"/>
+
+        <Button Text="The Eminent Dominion"
+                Clicked="Button_Clicked_36"/>
+
+        <Button Text="Tsukuyomi's Longsword"
+                Clicked="Button_Clicked_37"/>
+
+        <Button Text="Tsukuyomi's Moonlit Longsword"
+                Clicked="Button_Clicked_38"/>
+
+        <Button Text="Ultimate Dreadwyrm Blade"
+                Clicked="Button_Clicked_39"/>
+
+        <Button Text="Yama Blade"
+                Clicked="Button_Clicked_40"/>
+    </VerticalStackLayout>
+</ContentPage>
