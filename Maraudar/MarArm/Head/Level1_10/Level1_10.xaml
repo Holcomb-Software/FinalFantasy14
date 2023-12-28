@@ -6,9 +6,9 @@
     <VerticalStackLayout>
         <Picker 
                 Title="Select Marauder's Helmet"
-        SelectedIndexChanged="OnPickerSelectedIndexChanged"/>
+        SelectedIndexChanged="OnPickerSelectedIndexChanged">
 
-        <Picker.Items>
+            <Picker.Items>
                 <x:String>Far Eastern Patriarch's Hat</x:String>
                 <x:String>Far Eastern Matriarch's Sun Hat</x:String>
                 <x:String>Helm of Light</x:String>
@@ -457,6 +457,7 @@
                 <x:String>Pristine Egg Cap</x:String>
                 <x:String>Thug's Mug</x:String>
             </Picker.Items>
+        </Picker>
 
     </VerticalStackLayout>
 </ContentPage>
