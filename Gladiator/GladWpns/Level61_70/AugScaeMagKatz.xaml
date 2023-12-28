@@ -5,8 +5,77 @@
              Title="AugScaeMagKatz">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Augmented Scaevan Magitek Katzbalger"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Image Source="https://lds-img.finalfantasyxiv.com/itemicon/5d/5d9079b65d2e26c058b5d266a967333621a620d3.png?n6.51"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Item Level 400"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+        <Label Text="      92                         |       68.69          |    2.24   |"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="GLA PLD"/>
+        <Label Text="Level 70"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Bonuses:"/>
+        <Label Text="Strength +106       Vitality +115"/>
+        <Label Text="Determination +103  Tenacity +72"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Materia:"/>
+        <Label Text="x2 Slots"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Blacksmith Lv. 60"/>
+        <Label Text="Materials        Grade 7 Dark Matter"/>
+        <Label Text="Materia Melding  Blacksmith Lv. 70"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Extractable: Yes      Projectable: Yes"/>
+        <Label Text="Desynthesizable: 400.00   Dyeable: Yes"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="***Advanced Melding Forbidden***"/>
+        <Label Text="Available for Purchase: Yes"/>
+        <Label Text="Sells for 1,078 gil ***Market Prohibited***"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Obtained From:"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Required Items                           |   Selling NPC"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Scaevan Magitek Katzbalger x1                             |  E'bolaff  "/>
+        <Label Text="Scaevan Magitek Shield x1                              |   Rhalgr's Reach"/>
+        <Label Text="Allagan Tomestone of Poetics x100                      |   (X: 13.7; Y: 12.2)"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Allagan Tomestone of Poetics      |           Eschina"/>
+        <Label Text="x430                           |       Rhalgr's Reach (X: 13.8; Y: 11.8)"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Allagan Tomestone of Poetics       |       Rowena's Representative"/>
+        <Label Text="x600                               |   Kugane (X: 12.2; Y: 10.8)"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Silver Chocobo Feather         |   Calamity Salvager"/>
+        <Label Text="x5                         |   Old Gridania (X:10.0; Y: 8.4)"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Silver Chocobo Feather         |   Calamity Salvager"/>
+        <Label Text="x5                         |   Limsa Lominsa Upper Decks (X: 11.3 Y: 14.3)"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Silver Chocobo Feather         |   Calamity Salvager"/>
+        <Label Text="x5                         |   Ul'dah - Steps of Thal (X: 12.6 Y: 13.1)"/>
+
     </VerticalStackLayout>
 </ContentPage>
