@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Gladiator.GladWpns.Level71_80.Lv71_80"
+             Title="Lv71_80">
+    <VerticalStackLayout>
+        <Button Text="Augmented Cryptlurker's Sword"
+                Clicked="Button_Clicked"/>
+
+        <Button Text="Augmented Crystarium Sword"
+                Clicked="Button_Clicked_1"/>
+
+        <Button Text="Augmented Deepshadow Sword"
+                Clicked="Button_Clicked_2"/>
+
+        <Button Text="Augmented Exarchic Sword"
+                Clicked="Button_Clicked_3"/>
+
+        <Button Text="Augmented Misos"
+                Clicked="Button_Clicked_4"/>
+
+        <Button Text="Augmented Neo-Ishgardian Sword"
+                Clicked="Button_Clicked_5"/>
+
+        <Button Text="Augmented Sinfender"
+                Clicked="Button_Clicked_6"/>
+
+        <Button Text="Bluespirit Sword"
+                Clicked="Button_Clicked_7"/>
+
+        <Button Text="Cryptlurker's Sword"
+                Clicked="Button_Clicked_8"/>
+
+        <Button Text="Crystarium Sword"
+                Clicked="Button_Clicked_9"/>
+
+        <Button Text="Deepgold Sword"
+                Clicked="Button_Clicked_10"/>
+
+        <Button Text="Deepshadow Sword"
+                Clicked="Button_Clicked_11"/>
+
+        <Button Text="Diamond Zeta Bastard Sword"
+                Clicked="Button_Clicked_12"/>
+
+        <Button Text="Dwarven Mytrhil Pikenstock"
+                Clicked="Button_Clicked_13"/>
+
+        <Button Text="Edenchoir Bastard Sword"
+                Clicked="Button_Clicked_14"/>
+
+        <Button Text="Edengrace Bastard Sword"
+                Clicked="Button_Clicked_15"/>
+
+        <Button Text="Edenmorn Bastard Sword"
+                Clicked="Button_Clicked_16"/>
+
+        <Button Text="Emerald Bastard Sword"
+                Clicked="Button_Clicked_17"/>
+
+        <Button Text="Exarchic Sword"
+                Clicked="Button_Clicked_18"/>
+
+        <Button Text="Fae Sword"
+                Clicked="Button_Clicked_19"/>
+
+        <Button Text="High Dirium Sword"
+                Clicked="Button_Clicked_20"/>
+
+        <Button Text="Lakeland Longsword"
+                Clicked="Button_Clicked_21"/>
+
+        <Button Text="Misos"
+                Clicked="Button_Clicked_22"/>
+
+        <Button Text="Nabaath Sword"
+                Clicked="Button_Clicked_23"/>
+
+        <Button Text="Neo-Ishgardian Sword"
+                Clicked="Button_Clicked_24"/>
+
+        <Button Text="Ravel Keeper's Sword"
+                Clicked="Button_Clicked_25"/>
+
+        <Button Text="Ronkan Sword"
+                Clicked="Button_Clicked_26"/>
+
+        <Button Text="Rubellux Broadsword"
+                Clicked="Button_Clicked_27"/>
+
+        <Button Text="Ruby Broadsword"
+                Clicked="Button_Clicked_28"/>
+
+        <Button Text="Sinfender"
+                Clicked="Button_Clicked_29"/>
+
+        <Button Text="Smaragdine Bastard Sword"
+                Clicked="Button_Clicked_30"/>
+
+        <Button Text="Sword of Light"
+                Clicked="Button_Clicked_31"/>
+
+        <Button Text="Sword of the Forgiven"
+                Clicked="Button_Clicked_32"/>
+
+        <Button Text="The Fae's Crown Sword"
+                Clicked="Button_Clicked_33"/>
+
+        <Button Text="The King's Sword"
+                Clicked="Button_Clicked_34"/>
+
+        <Button Text="Titanbronze Kilij"
+                Clicked="Button_Clicked_35"/>
+
+        <Button Text="Ultimate Almace"
+                Clicked="Button_Clicked_36"/>
+    </VerticalStackLayout>
+</ContentPage>
