@@ -27,4 +27,24 @@ public partial class GladWpn : ContentPage
     {
         await Navigation.PushAsync(new Gladiator.GladWpns.Level31_40.Lv31_40());
     }
+
+    private async void Button_Clicked_4(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Gladiator.GladWpns.Level41_50.Lv41_50());
+    }
+
+    private async void Button_Clicked_5(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Gladiator.GladWpns.Level51_60.Lv51_60());
+    }
+
+    private async void Button_Clicked_6(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Gladiator.GladWpns.Level61_70.Level61_70());
+    }
+
+    private async void Button_Clicked_7(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Gladiator.GladWpns.Level71_80.Lv71_80());
+    }
 }
