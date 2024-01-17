@@ -5,8 +5,52 @@
              Title="DeepshadowSwrd">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Deepshadow Sword"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Image Source="https://lds-img.finalfantasyxiv.com/itemicon/e0/e038df04dda05cdfe166408c37f529ec85f7b997.png?n6.51"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Item Level 460"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+        <Label Text="      98                         |       73.17          |    2.24   |"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="GLA PLD"/>
+        <Label Text="Level 80"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Bonuses:"/>
+        <Label Text="Strength +127       Vitality +128"/>
+        <Label Text="Critical Hit +127   Determination +89"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Materia:"/>
+        <Label Text="x2 Slots"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Blacksmith Lv. 70"/>
+        <Label Text="Materials        Grade 7 Dark Matter"/>
+        <Label Text="Materia Melding  Blacksmith Lv. 80"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Extractable: Yes      Projectable: Yes"/>
+        <Label Text="Desynthesizable: 460.00   Dyeable: Yes"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="***Advanced Melding Forbidden***"/>
+        <Label Text="Available for Purchase: No"/>
+        <Label Text="Sells for 1,182 gil ***Market Prohibited***"/>
+
     </VerticalStackLayout>
 </ContentPage>

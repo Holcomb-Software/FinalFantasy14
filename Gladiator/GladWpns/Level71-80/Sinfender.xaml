@@ -5,8 +5,59 @@
              Title="Sinfender">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Sinfender"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Image Source="https://lds-img.finalfantasyxiv.com/itemicon/25/259dbd39bd26a010208d8fb06185409a69af5691.png?n6.55"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Item Level 450"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+        <Label Text="      87                         |       64.96          |    2.24   |"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="GLA PLD"/>
+        <Label Text="Level 80"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Bonuses:"/>
+        <Label Text="Strength +112       Vitality +112"/>
+        <Label Text="Determination +78   Tenacity +112"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Materia:"/>
+        <Label Text="x2 Slots"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Blacksmith Lv. 70"/>
+        <Label Text="Materials        Grade 7 Dark Matter"/>
+        <Label Text="Materia Melding  Blacksmith Lv. 80"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Extractable: Yes      Projectable: Yes"/>
+        <Label Text="Desynthesizable: 450.00   Dyeable: Yes"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Available for Purchase: No"/>
+        <Label Text="Sells for 473 gil"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Crafting Log:"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Title            |   Recipe Level      |   Item Level      |"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Blacksmith    |        80                   |       450           |"/>
+
     </VerticalStackLayout>
 </ContentPage>

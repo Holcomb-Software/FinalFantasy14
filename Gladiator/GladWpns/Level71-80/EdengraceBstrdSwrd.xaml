@@ -5,8 +5,75 @@
              Title="EdengraceBstrdSwrd">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Edengrace Bastard Sword"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Image Source="https://lds-img.finalfantasyxiv.com/itemicon/ce/ce6dc5e30ceb9be049fdb27b9b7481e12f5d19ed.png?n6.55"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Item Level 475"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+        <Label Text="      100                         |       74.66          |    2.24   |"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="GLA PLD"/>
+        <Label Text="Level 80"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Bonuses:"/>
+        <Label Text="Strength +132       Vitality +135"/>
+        <Label Text="Critical Hit +92    Determination +131"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Materia:"/>
+        <Label Text="x2 Slots"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Blacksmith Lv. 70"/>
+        <Label Text="Materials        Grade 7 Dark Matter"/>
+        <Label Text="Materia Melding  Blacksmith Lv. 80"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Extractable: Yes      Projectable: Yes"/>
+        <Label Text="Desynthesizable: 475.00   Dyeable: Yes"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="***Advanced Melding Forbidden***"/>
+        <Label Text="Available for Purchase: Yes"/>
+        <Label Text="Sells for 1,241 gil ***Market Prohibited***"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Acquired From:"/>
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5c/5c253d583ff892bf2e9662bbf85e4bf7567b9e2b.png?n6.41"/>
+        <Label Text="Edengrace Weapon Coffer (IL 475)"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Acquired From:"/>
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5c/5c253d583ff892bf2e9662bbf85e4bf7567b9e2b.png?n6.41"/>
+        <Label Text="Paladin's Edengrace Arms (IL 475)"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Obtained From:"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Selling NPC                           |   Area"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Book of Sepulture x5                              |   Ghul Gul Amh Araeng (X: 26.6 Y: 16.4)"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Book of Sepulture x5              |   Yhal Yal Eulmore (X: 10.0 Y: 11.5)"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Book of Sepulture x8                                 |   Mowen's Merchant The Crystarium (X: 10.1 Y: 11.8)"/>
     </VerticalStackLayout>
 </ContentPage>
