@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Gladiator.GladWpns.Level81_90.Lv81_90"
+             Title="Lv81_90">
+    <VerticalStackLayout>
+        <Button Text="Abyssos Bastard Sword"
+                Clicked="Button_Clicked"/>
+
+        <Button Text="Asphodelos Longsword"
+                Clicked="Button_Clicked_1"/>
+
+        <Button Text="Augmented Classical Longsword"
+                Clicked="Button_Clicked_2"/>
+
+        <Button Text="Augmented Diadochos Sword"
+                Clicked="Button_Clicked_3"/>
+
+        <Button Text="Augmented Lunar Envoy's Longsword"
+                Clicked="Button_Clicked_4"/>
+
+        <Button Text="Augmented Polaris Point"
+                Clicked="Button_Clicked_5"/>
+
+        <Button Text="Augmented Radiant's Bastard Sword"
+                Clicked="Button_Clicked_6"/>
+
+        <Button Text="Augmented Rinascita Sword"
+                Clicked="Button_Clicked_7"/>
+
+        <Button Text="Bastard Sword of Divine Light"
+                Clicked="Button_Clicked_8"/>
+
+        <Button Text="Bismuth Katzbalger"
+                Clicked="Button_Clicked_9"/>
+
+        <Button Text="Bluefeather Sword"
+                Clicked="Button_Clicked_10"/>
+
+        <Button Text="Chondrite Magitek Sword"
+                Clicked="Button_Clicked_11"/>
+
+        <Button Text="Classical Longsword"
+                Clicked="Button_Clicked_12"/>
+
+        <Button Text="Diadochos Sword"
+                Clicked="Button_Clicked_13"/>
+
+        <Button Text="Enaretos Katzbalger"
+                Clicked="Button_Clicked_14"/>
+
+        <Button Text="Exquisite Polaris Point"
+                Clicked="Button_Clicked_15"/>
+
+        <Button Text="Flamecloaked Broadsword"
+                Clicked="Button_Clicked_16"/>
+
+        <Button Text="High Durium Longsword"
+                Clicked="Button_Clicked_17"/>
+
+        <Button Text="Imperial Magitek Sword"
+                Clicked="Button_Clicked_18"/>
+
+        <Button Text="Ktiseos Sword"
+                Clicked="Button_Clicked_19"/>
+
+        <Button Text="Lunar Envoy's Longsword"
+                Clicked="Button_Clicked_20"/>
+
+        <Button Text="Manganese Sword"
+                Clicked="Button_Clicked_21"/>
+
+        <Button Text="Monstrorum Falchion"
+                Clicked="Button_Clicked_22"/>
+
+        <Button Text="Moonward Longsword"
+                Clicked="Button_Clicked_23"/>
+
+        <Button Text="Orthos Katzbalger"
+                Clicked="Button_Clicked_24"/>
+
+        <Button Text="Palaka Shamshir"
+                Clicked="Button_Clicked_25"/>
+
+        <Button Text="Polaris Point"
+                Clicked="Button_Clicked_26"/>
+
+        <Button Text="Radiant's Bastard Sword"
+                Clicked="Button_Clicked_27"/>
+
+        <Button Text="Rinascita Sword"
+                Clicked="Button_Clicked_28"/>
+
+        <Button Text="Sword of Ascension"
+                Clicked="Button_Clicked_29"/>
+
+        <Button Text="Ultimate Omega Sword"
+                Clicked="Button_Clicked_30"/>
+
+        <Button Text="Ultimate Sword of the Heavens"
+                Clicked="Button_Clicked_31"/>
+
+        <Button Text="Voidcast Falchion"
+                Clicked="Button_Clicked_32"/>
+
+        <Button Text="Voidvessel Bastard Sword"
+                Clicked="Button_Clicked_33"/>
+
+        <Button Text="Windswept Shamshir"
+                Clicked="Button_Clicked_34"/>
+    </VerticalStackLayout>
+</ContentPage>
