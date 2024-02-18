@@ -27,7 +27,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- App Icon -->
-    <MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appicon.svg" Color="#d71a1a"/>
+    <MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appicon.svg" Color="#d71a1a" />
     <!-- <MauiIcon Include="Resources\Raw\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" /> -->
     <!-- Splash Screen -->
     <MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
@@ -40,6 +40,38 @@
     <MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Remove="Gladiator\GladArm\Body\**" />
+    <AndroidResource Remove="Gladiator\GladArm\Feet\**" />
+    <AndroidResource Remove="Gladiator\GladArm\Hands\**" />
+    <AndroidResource Remove="Gladiator\GladArm\Head\**" />
+    <AndroidResource Remove="Gladiator\GladArm\Legs\**" />
+    <Compile Remove="Gladiator\GladArm\Body\**" />
+    <Compile Remove="Gladiator\GladArm\Feet\**" />
+    <Compile Remove="Gladiator\GladArm\Hands\**" />
+    <Compile Remove="Gladiator\GladArm\Head\**" />
+    <Compile Remove="Gladiator\GladArm\Legs\**" />
+    <EmbeddedResource Remove="Gladiator\GladArm\Body\**" />
+    <EmbeddedResource Remove="Gladiator\GladArm\Feet\**" />
+    <EmbeddedResource Remove="Gladiator\GladArm\Hands\**" />
+    <EmbeddedResource Remove="Gladiator\GladArm\Head\**" />
+    <EmbeddedResource Remove="Gladiator\GladArm\Legs\**" />
+    <MauiCss Remove="Gladiator\GladArm\Body\**" />
+    <MauiCss Remove="Gladiator\GladArm\Feet\**" />
+    <MauiCss Remove="Gladiator\GladArm\Hands\**" />
+    <MauiCss Remove="Gladiator\GladArm\Head\**" />
+    <MauiCss Remove="Gladiator\GladArm\Legs\**" />
+    <MauiXaml Remove="Gladiator\GladArm\Body\**" />
+    <MauiXaml Remove="Gladiator\GladArm\Feet\**" />
+    <MauiXaml Remove="Gladiator\GladArm\Hands\**" />
+    <MauiXaml Remove="Gladiator\GladArm\Head\**" />
+    <MauiXaml Remove="Gladiator\GladArm\Legs\**" />
+    <None Remove="Gladiator\GladArm\Body\**" />
+    <None Remove="Gladiator\GladArm\Feet\**" />
+    <None Remove="Gladiator\GladArm\Hands\**" />
+    <None Remove="Gladiator\GladArm\Head\**" />
+    <None Remove="Gladiator\GladArm\Legs\**" />
+  </ItemGroup>
+  <ItemGroup>
     <None Remove="Resources\AppIcon\appicon.svg" />
   </ItemGroup>
   <ItemGroup>
@@ -49,7 +81,7 @@
     <Compile Update="Gladiator\GladArm\Shield\Level1_10\ShieldLv1_10 .xaml.cs">
       <DependentUpon>ShieldLv1_10 .xaml</DependentUpon>
     </Compile>
-    <Compile Update="Gladiator\GladWpns\Level41-50\Lv41_50.xaml.cs">
+    <Compile Update="Gladiator\GladWpns\Level41_50\Lv41_50.xaml.cs">
       <DependentUpon>Lv41_50.xaml</DependentUpon>
     </Compile>
     <Compile Update="Gladiator\GladWpns\Level51_60\TheFangedWolf.xaml.cs">
@@ -61,10 +93,10 @@
     <Compile Update="Gladiator\GladWpns\Level61_70\GenjiShichi.xaml.cs">
       <DependentUpon>GenjiShichi.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Gladiator\GladWpns\Level81-90\Lv81_90.xaml.cs">
+    <Compile Update="Gladiator\GladWpns\Level81_90\Lv81_90.xaml.cs">
       <DependentUpon>Lv81_90.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Gladiator\GladWpns\Level81-90\MonstFal.xaml.cs">
+    <Compile Update="Gladiator\GladWpns\Level81_90\MonstFal.xaml.cs">
       <DependentUpon>MonstFal.xaml</DependentUpon>
     </Compile>
     <Compile Update="Maraudar\MarArm\MarArmMain.xaml.cs">
@@ -288,259 +320,259 @@
     <MauiXaml Update="Gladiator\GladWpns\Level21_30\WhiskerBraveCat.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level31-40\AethCobaltKatz.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level31_40\AethCobaltKatz.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level31-40\AethMythBrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level31_40\AethMythBrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level31-40\AethStlFal.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level31_40\AethStlFal.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level31-40\AethStlLong.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level31_40\AethStlLong.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level31-40\AethWalMac.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level31_40\AethWalMac.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level31-40\BltBstSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level31_40\BltBstSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level31-40\CriersBrdswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level31_40\CriersBrdswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level31-40\Flametongue.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level31_40\Flametongue.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level31-40\GridaniaMac.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level31_40\GridaniaMac.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level31-40\LominsanShrtswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level31_40\LominsanShrtswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level31-40\LongstopSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level31_40\LongstopSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level31-40\Lv31_40.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level31_40\Lv31_40.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level31-40\MythrilBrdswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level31_40\MythrilBrdswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level31-40\NickedVkngSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level31_40\NickedVkngSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level31-40\SteelFalchion.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level31_40\SteelFalchion.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level31-40\SteelLongswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level31_40\SteelLongswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level31-40\UldahnFalchion.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level31_40\UldahnFalchion.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level31-40\VntgeBstdSwd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level31_40\VntgeBstdSwd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level31-40\VntgeVkngSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level31_40\VntgeVkngSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level31-40\WalnutMac.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level31_40\WalnutMac.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\AeolScimitar.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\AeolScimitar.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\AethCobSham.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\AethCobSham.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\AethPlumWalMac.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\AethPlumWalMac.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\AllaganBlade.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\AllaganBlade.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\AncientSword.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\AncientSword.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\AugIronMagSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\AugIronMagSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\BloodSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\BloodSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\BluntAeoScim.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\BluntAeoScim.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\BluntGobLongswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\BluntGobLongswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\BluntGobScim.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\BluntGobScim.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\BreakBlade.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\BreakBlade.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\Burtgang.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\Burtgang.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\CobaltKatz.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\CobaltKatz.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\CobaltSham.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\CobaltSham.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\CobaltWing.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\CobaltWing.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\DirewolfLongswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\DirewolfLongswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\DrdwyrmBlde.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\DrdwyrmBlde.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\DrklghtMac.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\DrklghtMac.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\DzemaelWinglet.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\DzemaelWinglet.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\FlmeCptKatz.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\FlmeCptKatz.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\FlmElteKatz.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\FlmElteKatz.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\FlmOffcrKatz.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\FlmOffcrKatz.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\GarudaGaze.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\GarudaGaze.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\GazeVortex.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\GazeVortex.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\GntsgallLngswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\GntsgallLngswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\GobLngswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\GobLngswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\GobScmtr.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\GobScmtr.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\GrdnaSptha.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\GrdnaSptha.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\HghAlgnBlde.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\HghAlgnBlde.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\IfritsBlade.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\IfritsBlade.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\InfernoBlade.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\InfernoBlade.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\IrnwrksMgtkSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\IrnwrksMgtkSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\LionsliegeBlade.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\LionsliegeBlade.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\LionsmaneBlade.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\LionsmaneBlade.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\LominsanBroadswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\LominsanBroadswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\Lv41_50.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\Lv41_50.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\Mailbreaker.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\Mailbreaker.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\MghtyThndrstke.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\MghtyThndrstke.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\MrbdMgblde.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\MrbdMgblde.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\MrbdMoggleMgbld.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\MrbdMoggleMgbld.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\MthriteKatz.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\MthriteKatz.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\PlmdOakMac.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\PlmdOakMac.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\RepAllaganBlde.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\RepAllaganBlde.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\RepHghAllaganBlde.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\RepHghAllaganBlde.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\SerpCptLngswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\SerpCptLngswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\SerpElteLngswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\SerpElteLngswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\SerpOffcersLngswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\SerpOffcersLngswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\ShivasDiaBrnd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\ShivasDiaBrnd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\SnrSbtndrsBlde.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\SnrSbtndrsBlde.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\StrmCptCutlass.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\StrmCptCutlass.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\StrmEliteCutlass.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\StrmEliteCutlass.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\StrmOfficerCutlass.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\StrmOfficerCutlass.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\TemplarsFalchion.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\TemplarsFalchion.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\ThormPride.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\ThormPride.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\Thunderstrike.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\Thunderstrike.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\TidalWaveShamshir.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\TidalWaveShamshir.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\TrueIceBrand.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\TrueIceBrand.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\UldahnScim.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\UldahnScim.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\UldahnWinglet.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\UldahnWinglet.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\WarwolfBlade.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\WarwolfBlade.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\WaveShamshir.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\WaveShamshir.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\WeatheredBurtgang.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\WeatheredBurtgang.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\WolfWinglet.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\WolfWinglet.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\WootzScim.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\WootzScim.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level41-50\Zantetsuken.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level41_50\Zantetsuken.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
     <MauiXaml Update="Gladiator\GladWpns\Level51_60\AdamBrdswrd.xaml">
@@ -798,226 +830,226 @@
     <MauiXaml Update="Gladiator\GladWpns\Level61_70\YamaBlade.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\AugCryptSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\AugCryptSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\AugCrystSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\AugCrystSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\AugDeepSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\AugDeepSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\AugExSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\AugExSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\AugMisos.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\AugMisos.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\AugNeoIshSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\AugNeoIshSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\AugSinfender.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\AugSinfender.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\BluespiritSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\BluespiritSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\CryptlurkerSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\CryptlurkerSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\CrystariumSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\CrystariumSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\DeepgoldSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\DeepgoldSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\DeepshadowSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\DeepshadowSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\DiaZetaBstrdSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\DiaZetaBstrdSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\DwarvenMythPknstck.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\DwarvenMythPknstck.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\EdenchoirBstrdSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\EdenchoirBstrdSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\EdengraceBstrdSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\EdengraceBstrdSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\EdenmornBstrdSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\EdenmornBstrdSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\EmeraldBstrdSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\EmeraldBstrdSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\ExarchicSword.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\ExarchicSword.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\FaeSword.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\FaeSword.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\HighDiriumSword.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\HighDiriumSword.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\LakelandLngswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\LakelandLngswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\Lv71_80.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\Lv71_80.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\Misos.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\Misos.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\NabaathSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\NabaathSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\NeoIshSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\NeoIshSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\RavelKeeperSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\RavelKeeperSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\RonkanSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\RonkanSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\RubelluxBrdswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\RubelluxBrdswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\RubyBrdswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\RubyBrdswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\Sinfender.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\Sinfender.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\SmaragdineBstSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\SmaragdineBstSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\SwrdoftheForgiven.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\SwrdoftheForgiven.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\SwrdoLght.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\SwrdoLght.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\TheFaeCrwnSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\TheFaeCrwnSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\TheKngSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\TheKngSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\TtanbrnzKlj.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\TtanbrnzKlj.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level71-80\UltAlmce.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level71_80\UltAlmce.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\AbyssBstrdSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\AbyssBstrdSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\AsphLngswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\AsphLngswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\AugClssLngswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\AugClssLngswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\AugDiaSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\AugDiaSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\AugLunarEnvoyLngsSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\AugLunarEnvoyLngsSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\AugPolPnt.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\AugPolPnt.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\AugRadBstrdSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\AugRadBstrdSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\AugRinSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\AugRinSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\BisKatz.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\BisKatz.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\BluefeatherSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\BluefeatherSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\BstrdSwrdDivLght.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\BstrdSwrdDivLght.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\ChonMagSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\ChonMagSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\ClassLngswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\ClassLngswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\DiaSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\DiaSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\EnaKatz.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\EnaKatz.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\ExPolPnt.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\ExPolPnt.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\FlmclkdBrdswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\FlmclkdBrdswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\HighDirLngswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\HighDirLngswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\ImpMagSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\ImpMagSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\KitSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\KitSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\LunarEnvLngswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\LunarEnvLngswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\Lv81_90.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\Lv81_90.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\MangSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\MangSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\MonstFal.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\MonstFal.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\MoonwardLngswrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\MoonwardLngswrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\OrthKatz.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\OrthKatz.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\PalaSham.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\PalaSham.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\PolPnt.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\PolPnt.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\RadBstrdSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\RadBstrdSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\RinSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\RinSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\SwrdoAsc.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\SwrdoAsc.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\UltimateSwrdHeavens.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\UltimateSwrdHeavens.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\UltOmegaSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\UltOmegaSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\VoidcastFalchion.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\VoidcastFalchion.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\VoidvesselBstrdSwrd.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\VoidvesselBstrdSwrd.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Gladiator\GladWpns\Level81-90\WindsweptShamshir.xaml">
+    <MauiXaml Update="Gladiator\GladWpns\Level81_90\WindsweptShamshir.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
     <MauiXaml Update="Items\ItemsMain.xaml">
@@ -2394,52 +2426,52 @@
     <MauiXaml Update="Warrior\WarArm\WarriorArm.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Warrior\WarWpns\Lvl1_10\Lv1_10.xaml">
+    <MauiXaml Update="Warrior\WarWpns\Level1_10\Lv1_10.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Warrior\WarWpns\Lvl1_10\AugmentedHellhoundBattleaxe.xaml">
+    <MauiXaml Update="Warrior\WarWpns\Level1_10\AugmentedHellhoundBattleaxe.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Warrior\WarWpns\Lvl1_10\BlackBsmReaper.xaml">
+    <MauiXaml Update="Warrior\WarWpns\Level1_10\BlackBsmReaper.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Warrior\WarWpns\Lvl1_10\BlackHypo.xaml">
+    <MauiXaml Update="Warrior\WarWpns\Level1_10\BlackHypo.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Warrior\WarWpns\Lvl1_10\BloodyAnne.xaml">
+    <MauiXaml Update="Warrior\WarWpns\Level1_10\BloodyAnne.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Warrior\WarWpns\Lvl1_10\BronzeLabrys.xaml">
+    <MauiXaml Update="Warrior\WarWpns\Level1_10\BronzeLabrys.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Warrior\WarWpns\Lvl1_10\BronzeWarAxe.xaml">
+    <MauiXaml Update="Warrior\WarWpns\Level1_10\BronzeWarAxe.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Warrior\WarWpns\Lvl1_10\CloudAxe.xaml">
+    <MauiXaml Update="Warrior\WarWpns\Level1_10\CloudAxe.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Warrior\WarWpns\Lvl1_10\GiantAxe.xaml">
+    <MauiXaml Update="Warrior\WarWpns\Level1_10\GiantAxe.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Warrior\WarWpns\Lvl1_10\Greycloud.xaml">
+    <MauiXaml Update="Warrior\WarWpns\Level1_10\Greycloud.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Warrior\WarWpns\Lvl1_10\HellhoundAxe.xaml">
+    <MauiXaml Update="Warrior\WarWpns\Level1_10\HellhoundAxe.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Warrior\WarWpns\Lvl1_10\ShoryuAxe.xaml">
+    <MauiXaml Update="Warrior\WarWpns\Level1_10\ShoryuAxe.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Warrior\WarWpns\Lvl1_10\Stampede.xaml">
+    <MauiXaml Update="Warrior\WarWpns\Level1_10\Stampede.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Warrior\WarWpns\Lvl1_10\TarnishedDarkness.xaml">
+    <MauiXaml Update="Warrior\WarWpns\Level1_10\TarnishedDarkness.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Warrior\WarWpns\Lvl1_10\TropWarAxe.xaml">
+    <MauiXaml Update="Warrior\WarWpns\Level1_10\TropWarAxe.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Warrior\WarWpns\Lvl1_10\WeatheredWarAxe.xaml">
+    <MauiXaml Update="Warrior\WarWpns\Level1_10\WeatheredWarAxe.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
     <MauiXaml Update="Warrior\WarWpns\WarWpn.xaml">
@@ -2448,13 +2480,6 @@
     <MauiXaml Update="Weapons\WeaponsMain.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Gladiator\GladArm\Head\" />
-    <Folder Include="Gladiator\GladArm\Body\" />
-    <Folder Include="Gladiator\GladArm\Hands\" />
-    <Folder Include="Gladiator\GladArm\Legs\" />
-    <Folder Include="Gladiator\GladArm\Feet\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Maui.Controls" Version="8.0.3" />
