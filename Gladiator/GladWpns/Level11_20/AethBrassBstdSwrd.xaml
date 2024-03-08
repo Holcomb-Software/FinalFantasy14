@@ -16,7 +16,7 @@
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
         <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
-        <Label Text="      22                         |       14.08          |    1.92   |"/>
+        <Label Text="      22                    |       14.08       |    1.92  |"/>
 
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 

@@ -9,14 +9,14 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
-        <Image Source="Aetherial Carnage Sword"/>
+        <Image Source="https://lds-img.finalfantasyxiv.com/itemicon/e1/e1ffa2217aa53d1e414838763f2386029356d819.png?n6.57"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
         <Label Text="Item Level 20"/>
 
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
         <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
-        <Label Text="      28                         |       17.92          |    1.92   |"/>
+        <Label Text="      28                    |       17.92       |    1.92  |"/>
 
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 

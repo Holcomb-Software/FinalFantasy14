@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.BronzeHoplon"
-             Title="BronzeHoplon">
+             Title="Bronze Hoplon">
     <ScrollView Margin="10">
     <VerticalStackLayout>
         <Label 
@@ -17,7 +17,7 @@
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
         <Label Text="Block Strength   |  Block Rate   |"/>
-        <Label Text="      44                   |       44             |"/>
+        <Label Text="      44                 |       44            |"/>
         
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
@@ -55,13 +55,13 @@
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
         <Label Text="Geraint                           |   Old Gridania (X: 14.6, Y: 9.7)"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
-        <Label Text="Jealous Juggernaut       |   Ul'dah - Steps of Thal (X: 13.9, Y: 11.0)"/>
+        <Label Text="Jealous Juggernaut        |   Ul'dah - Steps of Thal (X: 13.9, Y: 11.0)"/>
         
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
         <Label Text="Quest                                  |    Area              |          Level   |"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
-        <Label Text="Ul'dah's Most Wanted     |    Ul'dah           |           10       |"/>
+        <Label Text="Ul'dah's Most Wanted       |    Ul'dah           |           10       |"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

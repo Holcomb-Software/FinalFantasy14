@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.RoundShd"
-             Title="RoundShd">
+             Title="Round Shield">
     <ScrollView Margin="10">
     <VerticalStackLayout>
         <Label 
@@ -17,7 +17,7 @@
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
         <Label Text="Block Strength   |  Block Rate   |"/>
-        <Label Text="      23                   |       23             |"/>
+        <Label Text="      23                 |       23            |"/>
         
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
@@ -49,9 +49,9 @@
 
         <Label Text="Obtained From:"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
-        <Label Text="Selling NPC                           |   Area"/>
+        <Label Text="Selling NPC                         |   Area"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
-        <Label Text="Faezghim                              |   Limsa Lominsa Lower Decks (X: 6.5, Y: 11.9)"/>
+        <Label Text="Faezghim                            |   Limsa Lominsa Lower Decks (X: 6.5, Y: 11.9)"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
         <Label Text="Merchant and Mender      |   Lower La Noscea (X: 32.5, Y: 20.4)"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
@@ -65,11 +65,11 @@
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
         <Label Text="Merchant and Mender      |   East Shroud (X: 11.8, Y: 25.5)"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
-        <Label Text="Hamlet Smithy                    |   North Shroud (X: 29.9, Y: 19.0"/>
+        <Label Text="Hamlet Smithy                   |   North Shroud (X: 29.9, Y: 19.0"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
         <Label Text="Merchant and Mender      |   North Shroud (X: 28.1, Y: 28.1)"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
-        <Label Text="Geraint                                 |   Old Gridania (X: 14.6, Y: 9.7)"/>
+        <Label Text="Geraint                                |   Old Gridania (X: 14.6, Y: 9.7)"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
         <Label Text="Jealous Juggernaut             |   Ul'dah - Steps of Thal (X: 13.9, Y: 11.0)"/>
         
@@ -77,9 +77,9 @@
 
         <Label Text="Crafting Log:"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
-        <Label Text="Title                 |    Recipe Level     |      Item Level  |"/>
+        <Label Text="Title                |    Recipe Level     |      Item Level  |"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
-        <Label Text="Carpenter      |        9                      |          10            |"/>
+        <Label Text="Carpenter      |        9                    |          10           |"/>
     </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

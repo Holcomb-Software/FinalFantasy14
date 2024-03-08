@@ -15,7 +15,7 @@
             <Label Text="Item Level 10"/>
 
             <Label Text="Physical Damage   |  Auto-attack  |   Delay  |"/>
-            <Label Text="      14                       |       9.33           |    2.00    |"/>
+            <Label Text="      14                     |       9.33         |    2.00   |"/>
 
             <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
@@ -54,15 +54,15 @@
             <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
             <Label Text="Geraint                              |   Old Gridania (X:14.6, Y:9.7)"/>
             <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-            <Label Text="Jealous Juggernaut          |   Ul'dah - Steps of Thal (X:13.9, Y:11.0)"/>
+            <Label Text="Jealous Juggernaut           |   Ul'dah - Steps of Thal (X:13.9, Y:11.0)"/>
             <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-            <Label Text="Merchant and Mender   |   Western Thanalan (X:22.3, Y16.1)"/>
+            <Label Text="Merchant and Mender     |   Western Thanalan (X:22.3, Y16.1)"/>
             <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-            <Label Text="Merchant and Mender   |   Western Thanalan (X:15.3, Y18.5)"/>
+            <Label Text="Merchant and Mender     |   Western Thanalan (X:15.3, Y18.5)"/>
 
             <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
-            <Label Text="Quest                                     |    Area               |     Level"/>
+            <Label Text="Quest                                   |    Area               |     Level"/>
             <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
             <Label Text="Ul'dah's Most Wanted        |  Ul'dah              |       10"/>
             <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>

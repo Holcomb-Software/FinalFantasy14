@@ -17,7 +17,7 @@
             <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
             <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
-            <Label Text="      9                         |       6.72          |    2.24   |"/>
+            <Label Text="      9                      |       6.72         |    2.24  |"/>
 
             <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
@@ -48,7 +48,7 @@
             <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
             <Label Text="Wolf Mark             |   Mark Quartermaster"/>
             <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-            <Label Text="2,100x                    |   Wolves' Den Pier (X4.4, Y6.0)"/>
+            <Label Text="2,100x                   |   Wolves' Den Pier (X4.4, Y6.0)"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

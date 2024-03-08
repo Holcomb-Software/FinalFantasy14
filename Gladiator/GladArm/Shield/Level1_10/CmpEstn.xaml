@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.CmpEstn"
-             Title="CmpEstn">
+             Title="Company Escutcheon">
     <ScrollView Margin="10">
     <VerticalStackLayout>
         <Label 
@@ -17,7 +17,7 @@
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
         
         <Label Text="Block Strength   |  Block Rate     |"/>
-        <Label Text="      33                   |       33              |"/>
+        <Label Text="      33                 |       33              |"/>
         
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
         
@@ -46,7 +46,7 @@
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
         <Label Text="Title            |   Recipe Level      |   Item Level      |"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="Armorer    |        55                   |       1           |"/>
+        <Label Text="Armorer    |        55                  |       1                 |"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
         <Label Text="Master Armorer III"/>
         </VerticalStackLayout>

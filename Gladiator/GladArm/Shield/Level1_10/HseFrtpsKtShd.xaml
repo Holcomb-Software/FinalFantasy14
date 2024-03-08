@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.HseFrtpsKtShd"
-             Title="HseFrtpsKtShd">
+             Title="House Fortemps Kite Shield">
     <ScrollView Margin="10">
     <VerticalStackLayout>
         <Label 
@@ -17,7 +17,7 @@
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
         <Label Text="Block Strength   |  Block Rate   |"/>
-        <Label Text="      37                   |       37             |"/>
+        <Label Text="      37                 |       37            |"/>
         
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
@@ -46,16 +46,17 @@
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
         <Label Text="Selling NPC                 |   Area"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
-        <Label Text="Calamity Salvager     |   Limsa Lominsa Upper Decks (X: 11.3, Y: 14.3)"/>
+        <Label Text="Calamity Salvager      |   Limsa Lominsa Upper Decks (X: 11.3, Y: 14.3)"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
-        <Label Text="Calamity Salvager     |   Old Gridania (X: 10.0, Y: 8.4)"/>
+        <Label Text="Calamity Salvager      |   Old Gridania (X: 10.0, Y: 8.4)"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/> 
-        <Label Text="Calamity Salvager     |   Ul'dah - Steps of Thald (X: 12.6, Y: 13.1)"/>
+        <Label Text="Calamity Salvager      |   Ul'dah - Steps of Thald (X: 12.6, Y: 13.1)"/>
             
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
-        <Label Text="Quest                  |      Area            |      Level           "/>
-        <Label Text="As Goes Light, So Goes Darkness    |   Ishgard      |       60              "/>
+        <Label Text="Quest                                                 |      Area            |      Level           "/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="As Goes Light, So Goes Darkness    |   Ishgard          |       60              "/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
