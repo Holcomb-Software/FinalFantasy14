@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Gladiator.GladWpns.Level51_60.SwordRound"
+             Title="SwordRound">
+    <VerticalStackLayout>
+        <Label 
+            Text="Sword of the Round"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/41/41b57b326c5aab85ae69810f0030e982f2204210.png?n6.48"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Item Level 180"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+        <Label Text="      63                         |       47.04         |    2.24   |"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="GLA PLD"/>
+        <Label Text="Level 60"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Bonuses:"/>
+        <Label Text="Strength +45       Vitality +43"/>
+        <Label Text="Critical Hit +35   Determination +50"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Materia Slots: "/>
+        <Label Text="x1"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Blacksmith Lv. 50"/>
+        <Label Text="Materials        Grade 6 Dark Matter"/>
+        <Label Text="Materia Melding  Blacksmith Lv. 60"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Extractable: Yes      Projectable: Yes"/>
+        <Label Text="Desynthesizable: 180.00   Dyeable: Yes"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Available for Purchase: No"/>
+        <Label Text="Sells for 257 gil"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Acquired From:"/>
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5c/5c253d583ff892bf2e9662bbf85e4bf7567b9e2b.png?n6.41"/>
+        <Label Text="Paladin's Arms of the Round"/>
+    </VerticalStackLayout>
+</ContentPage>

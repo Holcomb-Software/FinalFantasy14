@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Gladiator.GladWpns.Level41_50.GrdnaSptha"
+             Title="GrdnaSptha">
+    <VerticalStackLayout>
+        <Label 
+            Text="Gridanian Spatha"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/45/450908b9ee6072ebd9e502f0e0bc14f73eb3d4ab.png?n6.48"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Item Level 43"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+        <Label Text="      47                         |       31.33          |    2.00   |"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="GLA PLD"/>
+        <Label Text="Level 42"/>
+        <Label Text="Order of the Twin Adder Uniform"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Bonuses:"/>
+        <Label Text="Strength +8       Vitality +10"/>
+        <Label Text="Critical Hit +12"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Set Bonus: Order of the Twin Adder Uniform"/>
+        <Label Text="2 Equipped: Direct Hit Rate +12"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level       Blacksmith Lv. 32"/>
+        <Label Text="Materials          Grade 5 Dark Matter"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Extractable: Yes      Projectable: Yes"/>
+        <Label Text="Desynthesizable: 43.00   Dyeable: Yes"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Available for Purchase: Yes"/>
+        <Label Text="Sells for 104 gil  ***Market Prohibited***"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+
+        <Label Text="Required Company Seals and Rank            |           Selling NPC             "/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="3,530 Seals                                |           Serpent Quartermaster   "/>
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+        <Label Text="Serpent Sergeant First Class               |       New Gridania (X: 9.8 Y: 11.0)"/>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Gladiator.GladWpns.Level41_50.Mailbreaker"
+             Title="Mailbreaker">
+    <VerticalStackLayout>
+        <Label 
+            Text="Mailbreaker"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/8e/8ec79a333975bea0fc40f099fbf565da4a5156bf.png?n6.48"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Item Level 70"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+        <Label Text="      53                         |       38.16          |    2.16   |"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="GLA PLD"/>
+        <Label Text="Level 50"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Bonuses:"/>
+        <Label Text="Strength +14       Vitality +15"/>
+        <Label Text="Skill Speed +14    Tenacity +19"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Materia Slots"/>
+        <Label Text="x1"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level       Blacksmith Lv. 40"/>
+        <Label Text="Materials          Grade 5 Dark Matter"/>
+        <Label Text="Materia Melding    Blacksmith Lv. 50"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Extractable: Yes      Projectable: Yes"/>
+        <Label Text="Desynthesizable: 70.00   Dyeable: Yes"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Available for Purchase: No"/>
+        <Label Text="Sells for 100 gil"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Crafting Log:"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Title            |   Recipe Level      |   Item Level      |"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Blacksmith    |        50                   |       70           |"/>
+    </VerticalStackLayout>
+</ContentPage>

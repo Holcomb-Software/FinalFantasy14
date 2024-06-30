@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Gladiator.GladWpns.Level51_60.PadjaliBlade"
+             Title="PadjaliBlade">
+    <VerticalStackLayout>
+        <Label 
+            Text="Padjali Blade"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/02/02ca20710dcc04f21e7149a4a44f85d9e33ef62e.png?n6.48"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Item Level 235"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+        <Label Text="      76                         |       56.74          |    2.24   |"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="GLA PLD"/>
+        <Label Text="Level 60"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Bonuses:"/>
+        <Label Text="Strength +62       Vitality +63"/>
+        <Label Text="Critical Hit +63   Determination +44"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Materia Slots: "/>
+        <Label Text="x1"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Alchemist Lv. 50"/>
+        <Label Text="Materials        Grade 6 Dark Matter"/>
+        <Label Text="Materia Melding  Alchemist Lv. 60"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Extractable: Yes      Projectable: Yes"/>
+        <Label Text="Desynthesizable: No   Dyeable: Yes"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Advanced Melding Forbidden"/>
+        <Label Text="Available for Purchase: Yes"/>
+        <Label Text="***Unsellable Market Prohibited***"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Obtained From:"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Required Items                    |  Selling NPC           "/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Aetherpool Grip                     |  E-Una-Kotor South Shroud (X: 25.0 Y: 20.6)"/>
+    </VerticalStackLayout>
+</ContentPage>

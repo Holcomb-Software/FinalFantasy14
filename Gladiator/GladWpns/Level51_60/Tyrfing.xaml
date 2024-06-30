@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Gladiator.GladWpns.Level51_60.Tyrfing"
+             Title="Tyrfing">
+    <VerticalStackLayout>
+        <Label 
+            Text="Tyrfing"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/45/45a832686245c9c2c749e1a0c7ff71bd6ae0c3ae.png?n6.48"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Item Level 136"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+        <Label Text="      66                         |       45.76          |    2.08   |"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="GLA PLD"/>
+        <Label Text="Level 55"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Bonuses:"/>
+        <Label Text="Strength +40       Vitality +42"/>
+        <Label Text="Critical Hit +27   Tenacity +39"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Blacksmith Lv. 45"/>
+        <Label Text="Materials        Grade 6 Dark Matter"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Extractable: Yes         Projectable: Yes"/>
+        <Label Text="Desynthesizable: 136.00   Dyeable: Yes"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Available for Purchase: No"/>
+        <Label Text="Sells for 364 gil  ***Market Prohibited***"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Acquired From:"/>
+        <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5c/5c253d583ff892bf2e9662bbf85e4bf7567b9e2b.png?n6.41"/>
+        <Label Text="Paladin's Tyrfing Arms (IL 136)"/>
+    </VerticalStackLayout>
+</ContentPage>

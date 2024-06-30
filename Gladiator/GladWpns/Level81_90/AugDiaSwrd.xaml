@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Gladiator.GladWpns.Level81_90.AugDiaSwrd"
+             Title="AugDiaSwrd">
+    <VerticalStackLayout>
+        <Label 
+            Text="Augmented Diadochos Sword"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Image Source="https://lds-img.finalfantasyxiv.com/itemicon/a2/a230d88816873cef1787954d8df4f7e4e223179c.png?n6.55"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Item Level 650"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+        <Label Text="      116                         |       86.61          |    2.24   |"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="GLA PLD"/>
+        <Label Text="Level 90"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Bonuses:"/>
+        <Label Text="Strength +249       Vitality +275"/>
+        <Label Text="Critical Hit +133   Determination +191"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Materia:"/>
+        <Label Text="x2 Slots"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Crafting and Repairs"/>
+        <Label Text="Repair Level     Blacksmith Lv. 80"/>
+        <Label Text="Materials        Grade 8 Dark Matter"/>
+        <Label Text="Materia Melding  Blacksmith Lv. 90"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="Extractable: Yes      Projectable: Yes"/>
+        <Label Text="Desynthesizable: 650.00   Dyeable: Yes"/>
+
+        <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+        <Label Text="***Advanced Melding Forbidden***"/>
+        <Label Text="Available for Purchase: Yes (Restricted)"/>
+        <Label Text="Sells for 1,182 gil ***Market Prohibited***"/>
+
+    </VerticalStackLayout>
+</ContentPage>

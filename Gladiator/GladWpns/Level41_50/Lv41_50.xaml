@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Gladiator.GladWpns.Level41_50.Lv41_50"
+             Title="Lv41_50">
+    <VerticalStackLayout>
+
+        <Button Text="Aeolian Scimitar"
+                Clicked="Button_Clicked"/>
+
+        <Button Text="Aetherial Cobalt Shamshir"
+                Clicked="Button_Clicked_1"/>
+
+        <Button Text="Aetherial Plumed Walnut Macuahuitl"
+                Clicked="Button_Clicked_2"/>
+
+        <Button Text="Allagan Blade"
+                Clicked="Button_Clicked_3"/>
+
+        <Button Text="Ancient Sword"
+                Clicked="Button_Clicked_4"/>
+
+        <Button Text="Augmented Ironworks Magitek Sword"
+                Clicked="Button_Clicked_5"/>
+
+        <Button Text="Blood Sword"
+                Clicked="Button_Clicked_6"/>
+
+        <Button Text="Blunt Aeolian Scimitar"
+                Clicked="Button_Clicked_7"/>
+
+        <Button Text="Blunt Goblin Longsword"
+                Clicked="Button_Clicked_8"/>
+
+        <Button Text="Blunt Goblin Scimitar"
+                Clicked="Button_Clicked_9"/>
+
+        <Button Text="Break Blade"
+                Clicked="Button_Clicked_10"/>
+
+        <Button Text="Burtgang"
+                Clicked="Button_Clicked_11"/>
+
+        <Button Text="Cobalt Katzbalger"
+                Clicked="Button_Clicked_12"/>
+
+        <Button Text="Cobalt Shamshir"
+                Clicked="Button_Clicked_13"/>
+
+        <Button Text="Cobalt Winglet"
+                Clicked="Button_Clicked_14"/>
+
+        <Button Text="Darklight Macuahuitl"
+                Clicked="Button_Clicked_15"/>
+
+        <Button Text="Direwolf Longsword"
+                Clicked="Button_Clicked_16"/>
+
+        <Button Text="Dreadwyrm Blade"
+                Clicked="Button_Clicked_17"/>
+
+        <Button Text="Dzemael Winglet"
+                Clicked="Button_Clicked_18"/>
+
+        <Button Text="Flame Captain's Katzbalger"
+                Clicked="Button_Clicked_19"/>
+
+        <Button Text="Flame Elite's Katzbalger"
+                Clicked="Button_Clicked_20"/>
+
+        <Button Text="Flame Officer's Katzbalger"
+                Clicked="Button_Clicked_21"/>
+
+        <Button Text="Garuda's Gaze"
+                Clicked="Button_Clicked_22"/>
+
+        <Button Text="Gaze of the Vortex"
+                Clicked="Button_Clicked_23"/>
+
+        <Button Text="Giantsgall Longsword"
+                Clicked="Button_Clicked_24"/>
+
+        <Button Text="Goblin Longsword"
+                Clicked="Button_Clicked_25"/>
+
+        <Button Text="Goblin Scimitar"
+                Clicked="Button_Clicked_26"/>
+
+        <Button Text="Gridanian Spatha"
+                Clicked="Button_Clicked_27"/>
+
+        <Button Text="High Allagan Blade"
+                Clicked="Button_Clicked_28"/>
+
+        <Button Text="Ifrit's Blade"
+                Clicked="Button_Clicked_29"/>
+
+        <Button Text="Inferno Blade"
+                Clicked="Button_Clicked_30"/>
+
+        <Button Text="Ironworks Magitek Sword"
+                Clicked="Button_Clicked_31"/>
+
+        <Button Text="Lionliege Blade"
+                Clicked="Button_Clicked_32"/>
+
+        <Button Text="Lionsmane Blade"
+                Clicked="Button_Clicked_33"/>
+
+        <Button Text="Lominsan Broadsword"
+                Clicked="Button_Clicked_34"/>
+
+        <Button Text="Mailbreaker"
+                Clicked="Button_Clicked_35"/>
+
+        <Button Text="Mighty Thunderstrike"
+                Clicked="Button_Clicked_36"/>
+
+        <Button Text="Morbid Mogblade"
+                Clicked="Button_Clicked_37"/>
+
+        <Button Text="Morbid Moggle Mogblade"
+                Clicked="Button_Clicked_38"/>
+
+        <Button Text="Mythrite Katzbalger"
+                Clicked="Button_Clicked_39"/>
+
+        <Button Text="Plumed Oak Macuahuitl"
+                Clicked="Button_Clicked_40"/>
+
+        <Button Text="Replica Allagan Blade"
+                Clicked="Button_Clicked_41"/>
+
+        <Button Text="Replica High Allagan Blade"
+                Clicked="Button_Clicked_42"/>
+
+        <Button Text="Senor Sabotender's Blade"
+                Clicked="Button_Clicked_43"/>
+
+        <Button Text="Serpent Captain's Longsword"
+                Clicked="Button_Clicked_44"/>
+
+        <Button Text="Serpent Elite's Longsword"
+                Clicked="Button_Clicked_45"/>
+
+        <Button Text="Serpent Officer's Longsword"
+                Clicked="Button_Clicked_46"/>
+
+        <Button Text="Shiva's Diamond Brand"
+                Clicked="Button_Clicked_47"/>
+
+        <Button Text="Storm Captain's Cutlass"
+                Clicked="Button_Clicked_48"/>
+
+        <Button Text="Storm Elite's Cutlass"
+                Clicked="Button_Clicked_49"/>
+
+        <Button Text="Storm Officer's Cutlass"
+                Clicked="Button_Clicked_50"/>
+
+        <Button Text="Templar's Falchion"
+                Clicked="Button_Clicked_51"/>
+
+        <Button Text="Thormoen's Pride"
+                Clicked="Button_Clicked_52"/>
+
+        <Button Text="Thunderstrike"
+                Clicked="Button_Clicked_53"/>
+
+        <Button Text="Tidal Wave Shamshir"
+                Clicked="Button_Clicked_54"/>
+
+        <Button Text="True Ice Brand"
+                Clicked="Button_Clicked_55"/>
+
+        <Button Text="Ul'dahn Scimitar"
+                Clicked="Button_Clicked_56"/>
+
+        <Button Text="Ul'dahn Winglet"
+                Clicked="Button_Clicked_57"/>
+
+        <Button Text="Warwolf Blade"
+                Clicked="Button_Clicked_58"/>
+
+        <Button Text="Wave Shamshir"
+                Clicked="Button_Clicked_59"/>
+
+        <Button Text="Weathered Burtgang"
+                Clicked="Button_Clicked_60"/>
+
+        <Button Text="Wolf Winglet"
+                Clicked="Button_Clicked_61"/>
+
+        <Button Text="Wootz Scimitar"
+                Clicked="Button_Clicked_62"/>
+
+        <Button Text="Zantetsuken"
+                Clicked="Button_Clicked_63"/>
+
+    </VerticalStackLayout>
+</ContentPage>

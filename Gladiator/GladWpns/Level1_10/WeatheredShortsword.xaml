@@ -17,7 +17,7 @@
             <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
             <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
-            <Label Text="      8                         |       5.33          |    2.00   |"/>
+            <Label Text="      8                      |       5.33         |    2.00  |"/>
 
             <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
@@ -50,7 +50,7 @@
             <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
             <Label Text="Geraint                      |   Old Gridania (X:14.6, Y:9.7)"/>
             <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-            <Label Text="Jealous Juggernaut  |   Ul'dah - Steps of Thal (X:13.9, Y:11.0)"/>
+            <Label Text="Jealous Juggernaut   |   Ul'dah - Steps of Thal (X:13.9, Y:11.0)"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalFantasy14.Gladiator.GladArm.Shield.Level1_10.WrdKnghtShd"
-             Title="WrdKnghtShd">
+             Title="Ward Knight's Shield">
     <ScrollView Margin="10">
         <VerticalStackLayout>
         <Label 
@@ -17,7 +17,7 @@
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 
         <Label Text="Block Strength   |  Block Rate   |"/>
-        <Label Text="      37                   |       37             |"/>
+        <Label Text="      37                 |       37            |"/>
             
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/> 
 

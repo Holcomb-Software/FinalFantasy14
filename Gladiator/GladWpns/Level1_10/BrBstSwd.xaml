@@ -17,7 +17,7 @@
             <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
             <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
-            <Label Text="      11                      |       7.04           |    1.92  |"/>
+            <Label Text="      11                    |       7.04         |    1.92  |"/>
 
             <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
@@ -55,21 +55,21 @@
             <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
             <Label Text="Geraint                              |   Old Gridania (X:14.6, Y:9.7)"/>
             <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-            <Label Text="Merchant and Mender   |   Central Thanalan (X:21.3, Y18.4)"/>
+            <Label Text="Merchant and Mender    |   Central Thanalan (X:21.3, Y18.4)"/>
             <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
             <Label Text="Jealous Juggernaut          |   Ul'dah - Steps of Thal (X:13.9, Y:11.0)"/>
             <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-            <Label Text="Merchant and Mender   |   Western Thanalan (X:25.6, Y24.1)"/>
+            <Label Text="Merchant and Mender    |   Western Thanalan (X:25.6, Y24.1)"/>
             <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-            <Label Text="Merchant and Mender   |   Western Thanalan (X:15.1, Y29.3)"/>
+            <Label Text="Merchant and Mender    |   Western Thanalan (X:15.1, Y29.3)"/>
 
             <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
             <Label Text="Quest                                      |    Area                        |     Level"/>
             <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-            <Label Text="Kicking the Hornet's Nest   |  Ul'dah                       |       5"/>
+            <Label Text="Kicking the Hornet's Nest      |  Ul'dah                      |       5"/>
             <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-            <Label Text="Nothing to See Here            |  Central Thanalan    |       5"/>
+            <Label Text="Nothing to See Here              |  Central Thanalan    |       5"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

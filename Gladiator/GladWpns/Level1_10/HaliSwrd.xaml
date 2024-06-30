@@ -17,7 +17,7 @@
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
         <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
-        <Label Text="      9                         |       6.72          |    2.24   |"/>
+        <Label Text="      9                      |       6.72         |    2.24  |"/>
         
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
@@ -46,9 +46,9 @@
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
         <Label Text="Required Items    |   Selling NPC"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="MGP                       |   Gold Saucer Attendant"/>
+        <Label Text="MGP                      |   Gold Saucer Attendant"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="100,000x               |   The Gold Saucer (X5.1, Y6.6)"/>
+        <Label Text="100,000x              |   The Gold Saucer (X5.1, Y6.6)"/>
     </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

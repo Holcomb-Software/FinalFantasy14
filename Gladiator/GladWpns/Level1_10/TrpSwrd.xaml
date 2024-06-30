@@ -17,7 +17,7 @@
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
         <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
-        <Label Text="      9                         |       6.72          |    2.24   |"/>
+        <Label Text="      9                      |       6.72         |    2.24  |"/>
 
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
@@ -48,7 +48,7 @@
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
         <Label Text="Trophy Crystal     |   Crystal Quartermaster"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="2,000x                    |   Wolves' Den Pier (X4.4, Y6.1)"/>
+        <Label Text="2,000x                  |   Wolves' Den Pier (X4.4, Y6.1)"/>
     </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
