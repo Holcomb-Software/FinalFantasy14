@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalFantasy14.Gladiator.GladWpns.Level31_40.LongstopSwrd"
              Title="LongstopSwrd">
+    <ScrollView>
     <VerticalStackLayout>
         <Label 
             Text="Longstop Sword"
@@ -15,7 +16,7 @@
 
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
-        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+        <Label Text="Physical Damage       |  Auto-attack     |  Delay   |"/>
         <Label Text="      39                         |       29.12          |    2.24   |"/>
 
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
@@ -51,4 +52,5 @@
         <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/28/28eb9fe3db3b44c87124bb9dd3c53003d11607d1.png?n6.48"/>
         <Label Text="Paladin's Longstop Arms (Lv. 32)"/>
     </VerticalStackLayout>
+</ScrollView>
 </ContentPage>

@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalFantasy14.Gladiator.GladWpns.Level31_40.NickedVkngSwrd"
              Title="NickedVkngSwrd">
-    <VerticalStackLayout>
+    <ScrollView>
+        <VerticalStackLayout>
         <Label 
             Text="Nicked Viking Sword"
             VerticalOptions="Center" 
@@ -15,7 +16,7 @@
 
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
-        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+        <Label Text="Physical Damage       |  Auto-attack     |  Delay   |"/>
         <Label Text="      38                         |       25.33          |    2.00   |"/>
 
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
@@ -50,17 +51,18 @@
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
         <Label Text="Selling NPC                    |   Area"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="Junkmonger             |   Upper La Noscea (X:14.8, Y:24.2)"/>
+        <Label Text="Junkmonger                   |   Upper La Noscea (X:14.8, Y:24.2)"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="Junkmonger             |   Upper La Noscea (X:26.1, Y:26.4)"/>
+        <Label Text="Junkmonger                   |   Upper La Noscea (X:26.1, Y:26.4)"/>
 
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
         <Label Text="Related Crafting Log:"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="Title            |   Recipe Level      |   Item Level      |"/>
+        <Label Text="Title               |   Recipe Level        |   Item Level  |"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
         <Label Text="Blacksmith    |        38                   |       41           |"/>
         <Label Text="Vintage Viking Sword"/>
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

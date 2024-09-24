@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalFantasy14.Gladiator.GladWpns.Level31_40.UldahnFalchion"
              Title="UldahnFalchion">
-    <VerticalStackLayout>
+    <ScrollView>
+        <VerticalStackLayout>
         <Label 
             Text="Ul'dahn Falchion"
             VerticalOptions="Center" 
@@ -15,7 +16,7 @@
 
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
-        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+        <Label Text="Physical Damage       |  Auto-attack     |  Delay   |"/>
         <Label Text="      43                         |       29.81          |    2.08   |"/>
 
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
@@ -55,9 +56,10 @@
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
         <Label Text="Required Company Seals and Rank          |   Selling NPC"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="2,970                              |   Flame Quartermaster"/>
+        <Label Text="2,970                                                            |   Flame Quartermaster"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="Flame Sergeant Second Class                        |   Ul'dah - Steps of Nald (X: 8.3, Y: 9.0)"/>
+        <Label Text="Flame Sergeant Second Class                    |   Ul'dah - Steps of Nald (X: 8.3, Y: 9.0)"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

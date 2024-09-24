@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalFantasy14.Gladiator.GladWpns.Level41_50.AugIronMagSwrd"
              Title="AugIronMagSwrd">
-    <VerticalStackLayout>
+    <ScrollView>
+        <VerticalStackLayout>
         <Label 
             Text="Augmented Ironworks Magitek Sword"
             VerticalOptions="Center" 
@@ -15,7 +16,7 @@
 
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
-        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+        <Label Text="Physical Damage       |  Auto-attack     |  Delay   |"/>
         <Label Text="      65                         |       43.33          |    2.00   |"/>
 
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
@@ -49,11 +50,11 @@
 
         <Label Text="Obtained From:"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="Required Items             |           Selling NPC         "/>
+        <Label Text="Required Items                                    |           Selling NPC         "/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="Ironworks Magitek Sword x1 |       Drake           "/>
+        <Label Text="Ironworks Magitek Sword x1             |       Drake           "/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="Ironworks Magitek Shield x1 |      North Shroud        "/>
+        <Label Text="Ironworks Magitek Shield x1             |      North Shroud        "/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
         <Label Text="Allagan Tomestone of Poetics x100  |   (X:30.3, Y:20.1)"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
@@ -65,10 +66,11 @@
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
         <Label Text="Allagan Tomestone of Poetics x600  | Rowena's Representative New Gridania (X: 11.9, Y: 12.3)"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="Silver Chocobo Feather x5      |       Calamity Salvager Old Gridania (X: 10.0, Y: 8.4)"/>
+        <Label Text="Silver Chocobo Feather x5                 |       Calamity Salvager Old Gridania (X: 10.0, Y: 8.4)"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="Silver Chocobo Feather x5      |   Calamity Salvager Limsa Lominsa Upper Decks (X: 11.3 Y: 14.3)"/>
+        <Label Text="Silver Chocobo Feather x5                 |   Calamity Salvager Limsa Lominsa Upper Decks (X: 11.3 Y: 14.3)"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="Silver Chocobo Feather x5      |   Calamity Salvager Ul'dah - Steps of Thal (X: 12.6 Y: 13.1)"/>
+        <Label Text="Silver Chocobo Feather x5                 |   Calamity Salvager Ul'dah - Steps of Thal (X: 12.6 Y: 13.1)"/>
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

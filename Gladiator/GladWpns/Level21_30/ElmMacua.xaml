@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalFantasy14.Gladiator.GladWpns.Level21_30.ElmMacua"
              Title="ElmMacua">
+    <ScrollView>
     <VerticalStackLayout>
         <Label 
             Text="Elm Macuahuitl"
@@ -15,7 +16,7 @@
 
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
-        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+        <Label Text="Physical Damage       |  Auto-attack     |  Delay   |"/>
         <Label Text="      31                         |       20.66          |    2.00   |"/>
 
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
@@ -56,31 +57,33 @@
 
         <Label Text="Obtained From:"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="Selling NPC                           |   Area"/>
+        <Label Text="Selling NPC                                |   Area"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="Faezghim                              |   Limsa Lominsa Lower Decks (X: 6.5, Y: 11.9)"/>
+        <Label Text="Faezghim                                   |   Limsa Lominsa Lower Decks (X: 6.5, Y: 11.9)"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
         <Label Text="Merchant and Mender             |   North Shroud (X:21.6, Y:25.8)"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="Geraint                                 |   Old Gridania (X: 14.6, Y: 9.7)"/>
+        <Label Text="Geraint                                      |   Old Gridania (X: 14.6, Y: 9.7)"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="Arms Supplier                                 |   South Shroud (X:25.5, Y:20.1))"/>
+        <Label Text="Arms Supplier                           |   South Shroud (X:25.5, Y:20.1))"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
         <Label Text="Merchant and Mender             |   Southern Thanalan (X:18.3, Y:12.7)"/>
-        <Label Text="Jealous Juggernaut             |   Ul'dah - Steps of Thal (X: 13.9, Y: 11.0)"/>
+        <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+        <Label Text="Jealous Juggernaut                   |   Ul'dah - Steps of Thal (X: 13.9, Y: 11.0)"/>
 
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
         <Label Text="Quest                                  |    Area              |          Level   |"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="The Rematch     |    Ul'dah           |           30       |"/>
+        <Label Text="The Rematch                      |    Ul'dah           |           30       |"/>
 
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
         <Label Text="Crafting Log:"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-        <Label Text="Title            |   Recipe Level      |   Item Level      |"/>
+        <Label Text="Title              |   Recipe Level       |   Item Level   |"/>
         <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
         <Label Text="Carpenter    |        28                   |       28           |"/>
-    </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

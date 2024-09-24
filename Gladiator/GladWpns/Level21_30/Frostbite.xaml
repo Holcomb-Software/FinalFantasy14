@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalFantasy14.Gladiator.GladWpns.Level21_30.Frostbite"
              Title="Frostbite">
-    <VerticalStackLayout>
+    <ScrollView>
+        <VerticalStackLayout>
         <Label 
             Text="Frostbite"
             VerticalOptions="Center" 
@@ -15,7 +16,7 @@
 
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
 
-        <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+        <Label Text="Physical Damage       |  Auto-attack     |  Delay   |"/>
         <Label Text="      33                         |       22.00          |    2.00   |"/>
 
         <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
@@ -51,4 +52,5 @@
         <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/28/28eb9fe3db3b44c87124bb9dd3c53003d11607d1.png?n6.45"/>
         <Label Text="Gladiator's Frostbite Arms (Lv. 24)"/>
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

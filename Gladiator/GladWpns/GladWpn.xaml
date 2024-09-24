@@ -25,13 +25,13 @@
         <Button Text="Level 41-50"
                 Clicked="Button_Clicked_4"/>
 
-        <Button Text="51-60"
+        <Button Text="Level 51-60"
                 Clicked="Button_Clicked_5"/>
 
-        <Button Text="61-70"
+        <Button Text="Level 61-70"
                 Clicked="Button_Clicked_6"/>
 
-        <Button Text="71-80"
+        <Button Text="Level 71-80"
                 Clicked="Button_Clicked_7"/>
 
     </VerticalStackLayout>

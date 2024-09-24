@@ -69,7 +69,7 @@
             
             <Label Text="Quest                                       |    Area                         |     Level"/>
             <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
-            <Label Text="Out of House and Home       |   Central Thanalan     |       9"/>
+            <Label Text="Out of House and Home        |   Central Thanalan     |       9"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
