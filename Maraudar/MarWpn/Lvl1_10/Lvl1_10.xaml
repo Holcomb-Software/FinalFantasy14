@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Maraudar.MarWpn.Lvl1_10.Lvl1_10"
+             Title="Lvl1_10">
+    <VerticalStackLayout>
+
+        <Button Text="Cloud Axe"
+                Clicked="Button_Clicked"/>
+
+        <Button Text="Bronze Labrys"
+                Clicked="Button_Clicked_1"/>
+
+        <Button Text="Bronze War Axe"
+                Clicked="Button_Clicked_2"/>
+
+        <Button Text="Augmented Hellhound Battleaxe"
+                Clicked="Button_Clicked_3"/>
+
+        <Button Text="Weathered War Axe"
+                Clicked="Button_Clicked_4"/>
+
+        <Button Text="Hellhound Battleaxe"
+                Clicked="Button_Clicked_5"/>
+
+        <Button Text="Shoryu Axe"
+                Clicked="Button_Clicked_6"/>
+
+        <Button Text="Tropaios War Axe"
+                Clicked="Button_Clicked_7"/>
+
+        <Button Text="Giant Axe"
+                Clicked="Button_Clicked_8"/>
+
+        <Button Text="Figmental Fish Stick"
+                Clicked="Button_Clicked_9"/>
+
+        <Button Text="Tarnished Darkness"
+                Clicked="Button_Clicked_10"/>
+
+        <Button Text="Greycloud"
+                Clicked="Button_Clicked_11"/>
+
+        <Button Text="Bloody Anne"
+                Clicked="Button_Clicked_12"/>
+
+        <Button Text="Stampede"
+                Clicked="Button_Clicked_13"/>
+
+        <Button Text="Blackbosom Grim Reaper"
+                Clicked="Button_Clicked_14"/>
+
+        <Button Text="Black Hyposkhesphyra"
+                Clicked="Button_Clicked_15"/>
+
+    </VerticalStackLayout>
+</ContentPage>
