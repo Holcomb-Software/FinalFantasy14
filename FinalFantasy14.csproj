@@ -1064,6 +1064,60 @@
     <MauiXaml Update="Maraudar\MarArm\MarArmMain.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\AugHellhoundBaxe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\BlackbosomGrimReaper.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\BlackHypo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\BloodyAnne.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\BronzeLabrys.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\BronzeWarAxe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\CloudAxe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\FigmentalFishStick.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\GiantAxe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\Greycloud.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\HellhoundBaxe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\Lvl1_10.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\ShroyuAxe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\Stampede.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\TarnishedDarkness.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\TropaiosWarAxe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\WeatheredWarAxe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\MarWpnMain.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
     <MauiXaml Update="Warrior\WarArm\ArmParts.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
