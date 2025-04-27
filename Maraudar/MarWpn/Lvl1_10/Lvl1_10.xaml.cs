@@ -44,45 +44,40 @@ public partial class Lvl1_10 : ContentPage
 
     private async void Button_Clicked_7(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new Maraudar.MarWpn.Lvl1_10.TropaiosWarAxe());
+        await Navigation.PushAsync(new Maraudar.MarWpn.Lvl1_10.GiantAxe());
     }
 
     private async void Button_Clicked_8(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new Maraudar.MarWpn.Lvl1_10.GiantAxe());
+        await Navigation.PushAsync(new Maraudar.MarWpn.Lvl1_10.FigmentalFishStick());
     }
 
     private async void Button_Clicked_9(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new Maraudar.MarWpn.Lvl1_10.FigmentalFishStick());
+        await Navigation.PushAsync(new Maraudar.MarWpn.Lvl1_10.TarnishedDarkness());
     }
 
     private async void Button_Clicked_10(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new Maraudar.MarWpn.Lvl1_10.TarnishedDarkness());
+        await Navigation.PushAsync(new Maraudar.MarWpn.Lvl1_10.Greycloud());
     }
 
     private async void Button_Clicked_11(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new Maraudar.MarWpn.Lvl1_10.Greycloud());
+        await Navigation.PushAsync(new Maraudar.MarWpn.Lvl1_10.BloodyAnne());
     }
 
     private async void Button_Clicked_12(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new Maraudar.MarWpn.Lvl1_10.BloodyAnne());
+        await Navigation.PushAsync(new Maraudar.MarWpn.Lvl1_10.Stampede());
     }
 
     private async void Button_Clicked_13(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new Maraudar.MarWpn.Lvl1_10.Stampede());
-    }
-
-    private async void Button_Clicked_14(object sender, EventArgs e)
-    {
         await Navigation.PushAsync(new Maraudar.MarWpn.Lvl1_10.BlackbosomGrimReaper());
     }
 
-    private async void Button_Clicked_15(object sender, EventArgs e)
+    private async void Button_Clicked_14(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new Maraudar.MarWpn.Lvl1_10.BlackHypo());
     }

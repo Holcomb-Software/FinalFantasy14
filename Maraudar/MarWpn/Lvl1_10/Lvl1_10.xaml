@@ -26,32 +26,29 @@
         <Button Text="Shoryu Axe"
                 Clicked="Button_Clicked_6"/>
 
-        <Button Text="Tropaios War Axe"
+        <Button Text="Giant Axe"
                 Clicked="Button_Clicked_7"/>
 
-        <Button Text="Giant Axe"
+        <Button Text="Figmental Fish Stick"
                 Clicked="Button_Clicked_8"/>
 
-        <Button Text="Figmental Fish Stick"
+        <Button Text="Tarnished Darkness"
                 Clicked="Button_Clicked_9"/>
 
-        <Button Text="Tarnished Darkness"
+        <Button Text="Greycloud"
                 Clicked="Button_Clicked_10"/>
 
-        <Button Text="Greycloud"
+        <Button Text="Bloody Anne"
                 Clicked="Button_Clicked_11"/>
 
-        <Button Text="Bloody Anne"
+        <Button Text="Stampede"
                 Clicked="Button_Clicked_12"/>
 
-        <Button Text="Stampede"
+        <Button Text="Blackbosom Grim Reaper"
                 Clicked="Button_Clicked_13"/>
 
-        <Button Text="Blackbosom Grim Reaper"
-                Clicked="Button_Clicked_14"/>
-
         <Button Text="Black Hyposkhesphyra"
-                Clicked="Button_Clicked_15"/>
+                Clicked="Button_Clicked_14"/>
 
     </VerticalStackLayout>
 </ContentPage>
