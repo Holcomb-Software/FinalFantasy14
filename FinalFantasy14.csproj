@@ -102,6 +102,9 @@
     <Compile Update="Maraudar\MarArm\MarArmMain.xaml.cs">
       <DependentUpon>MarArmMain.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Maraudar\MarWpn\Lvl11_20\Lvl11_20.xaml.cs">
+      <DependentUpon>Lvl11_20.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Warrior\WarArm\ArmParts.xaml.cs">
       <DependentUpon>ArmParts.xaml</DependentUpon>
     </Compile>
@@ -1062,6 +1065,39 @@
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
     <MauiXaml Update="Maraudar\MarArm\MarArmMain.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl11_20\AethInfernoAxe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl11_20\AethIronLabrys.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl11_20\AethIronWarAxe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl11_20\DoctoresBill.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl11_20\ICie_Bardiche.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl11_20\InfernoAxe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl11_20\IronLabrys.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl11_20\IronWarAxe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl11_20\Lvl11_20.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl11_20\PlunderedBattleaxe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl11_20\SpikedBrnzLabrys.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
     <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\AugHellhoundBaxe.xaml">
