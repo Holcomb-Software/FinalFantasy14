@@ -52,4 +52,17 @@
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Armor\" />
+    <Folder Include="Items\" />
+    <Folder Include="Quests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <MauiXaml Update="Weapons\Weapon_Main.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Weapons\Weapon_Viewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+  </ItemGroup>
 </Project>
