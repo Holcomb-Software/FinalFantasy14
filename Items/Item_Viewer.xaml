@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FinalFantasy14.Weapons.Weapon_Main"
-             Title="Weapon_Main
-             BackgroundColor=#1A1A1A">
+             x:Class="FinalFantasy14.Items.Item_Viewer"
+             Title="Item_Viewer"
+             BackgroundColor="#1A1A1A">
     <ScrollView>
         <Border Margin="16" Padding="16" BackgroundColor="#2A2A2A" Stroke="#D4B106" StrokeThickness="1">
             <Border.StrokeShape>
