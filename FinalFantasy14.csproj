@@ -53,11 +53,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Armor\" />
-    <Folder Include="Items\" />
     <Folder Include="Quests\" />
   </ItemGroup>
   <ItemGroup>
+    <MauiXaml Update="Armor\Armor_Viewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Items\Item_Viewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
     <MauiXaml Update="Weapons\Weapon_Main.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
