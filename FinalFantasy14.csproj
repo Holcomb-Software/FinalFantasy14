@@ -2608,6 +2608,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Update\" />
     <Folder Include="Quests\" />
   </ItemGroup>
   <ItemGroup>
