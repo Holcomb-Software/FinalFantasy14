@@ -63,6 +63,9 @@
     <MauiXaml Update="Items\Item_Viewer.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
+    <MauiXaml Update="Update\Update.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
     <MauiXaml Update="Weapons\Weapon_Main.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
@@ -70,4 +73,13 @@
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
   </ItemGroup>
+
+  <ItemGroup>
+		<Content Include="Update\armor_scraper.py">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Update\weapon_scraper.py">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
 </Project>
