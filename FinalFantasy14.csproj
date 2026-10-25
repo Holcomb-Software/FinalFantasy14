@@ -45,41 +45,10 @@
     <MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Remove="Gladiator\GladArm\Body\**" />
-    <AndroidResource Remove="Gladiator\GladArm\Feet\**" />
-    <AndroidResource Remove="Gladiator\GladArm\Hands\**" />
-    <AndroidResource Remove="Gladiator\GladArm\Head\**" />
-    <AndroidResource Remove="Gladiator\GladArm\Legs\**" />
-    <Compile Remove="Gladiator\GladArm\Body\**" />
-    <Compile Remove="Gladiator\GladArm\Feet\**" />
-    <Compile Remove="Gladiator\GladArm\Hands\**" />
-    <Compile Remove="Gladiator\GladArm\Head\**" />
-    <Compile Remove="Gladiator\GladArm\Legs\**" />
-    <EmbeddedResource Remove="Gladiator\GladArm\Body\**" />
-    <EmbeddedResource Remove="Gladiator\GladArm\Feet\**" />
-    <EmbeddedResource Remove="Gladiator\GladArm\Hands\**" />
-    <EmbeddedResource Remove="Gladiator\GladArm\Head\**" />
-    <EmbeddedResource Remove="Gladiator\GladArm\Legs\**" />
-    <MauiCss Remove="Gladiator\GladArm\Body\**" />
-    <MauiCss Remove="Gladiator\GladArm\Feet\**" />
-    <MauiCss Remove="Gladiator\GladArm\Hands\**" />
-    <MauiCss Remove="Gladiator\GladArm\Head\**" />
-    <MauiCss Remove="Gladiator\GladArm\Legs\**" />
-    <MauiXaml Remove="Gladiator\GladArm\Body\**" />
-    <MauiXaml Remove="Gladiator\GladArm\Feet\**" />
-    <MauiXaml Remove="Gladiator\GladArm\Hands\**" />
-    <MauiXaml Remove="Gladiator\GladArm\Head\**" />
-    <MauiXaml Remove="Gladiator\GladArm\Legs\**" />
-    <None Remove="Gladiator\GladArm\Body\**" />
-    <None Remove="Gladiator\GladArm\Feet\**" />
-    <None Remove="Gladiator\GladArm\Hands\**" />
-    <None Remove="Gladiator\GladArm\Head\**" />
-    <None Remove="Gladiator\GladArm\Legs\**" />
-  </ItemGroup>
-  <ItemGroup>
     <None Remove="Resources\AppIcon\appicon.svg" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Update="Gladiator\GladArm\GladiatorArm.xaml.cs">
       <DependentUpon>GladiatorArm.xaml</DependentUpon>
     </Compile>
@@ -2626,6 +2595,8 @@
     <PackageReference Include="Microsoft.Maui.Controls" Version="10.0.90" />
     <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="10.0.90" />
 =======
+=======
+>>>>>>> 17f913e (Removed all previous work.)
     <PackageReference Include="Microsoft.Maui.Controls" Version="9.0.110" />
     <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="9.0.110" />
 >>>>>>> 964aeb5 (FMA-50: Create Level 21-30 Weapon pages for Marauder Class. DJH)
