@@ -2599,6 +2599,8 @@
     <PackageReference Include="Microsoft.Maui.Controls" Version="10.0.90" />
     <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="10.0.90" />
 =======
+=======
+>>>>>>> 17f913e (Removed all previous work.)
     <PackageReference Include="Microsoft.Maui.Controls" Version="9.0.110" />
     <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="9.0.110" />
 <<<<<<< HEAD

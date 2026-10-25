@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "version": 4,
   "targets": {
 <<<<<<< HEAD
@@ -55,8 +56,11 @@
 >>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
 =======
   "version": 3,
+=======
+  "version": 4,
+>>>>>>> 6e43f81 (Still fixing.)
   "targets": {
-    "net9.0-android35.0": {
+    "net9.0-android": {
       "GoogleGson/2.13.0.1": {
         "type": "package",
         "dependencies": {
@@ -1418,6 +1422,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/10.0.10": {
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.20": {
@@ -1428,6 +1433,9 @@
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.9": {
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+      "Microsoft.NET.ILLink.Tasks/9.0.19": {
+>>>>>>> 6e43f81 (Still fixing.)
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -7476,7 +7484,7 @@
         }
       }
     },
-    "net9.0-android35.0/android-arm64": {
+    "net9.0-android/android-arm64": {
       "GoogleGson/2.13.0.1": {
         "type": "package",
         "dependencies": {
@@ -8838,6 +8846,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/10.0.10": {
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.20": {
@@ -8848,6 +8857,9 @@
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.9": {
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+      "Microsoft.NET.ILLink.Tasks/9.0.19": {
+>>>>>>> 6e43f81 (Still fixing.)
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -14896,7 +14908,7 @@
         }
       }
     },
-    "net9.0-android35.0/android-x64": {
+    "net9.0-android/android-x64": {
       "GoogleGson/2.13.0.1": {
         "type": "package",
         "dependencies": {
@@ -16258,6 +16270,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/10.0.10": {
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.20": {
@@ -16268,6 +16281,9 @@
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.9": {
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+      "Microsoft.NET.ILLink.Tasks/9.0.19": {
+>>>>>>> 6e43f81 (Still fixing.)
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -22316,7 +22332,7 @@
         }
       }
     },
-    "net9.0-android35.0/iossimulator-x64": {
+    "net9.0-android/iossimulator-x64": {
       "GoogleGson/2.13.0.1": {
         "type": "package",
         "dependencies": {
@@ -23678,6 +23694,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/10.0.10": {
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.20": {
@@ -23688,6 +23705,9 @@
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.9": {
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+      "Microsoft.NET.ILLink.Tasks/9.0.19": {
+>>>>>>> 6e43f81 (Still fixing.)
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -29736,7 +29756,7 @@
         }
       }
     },
-    "net9.0-android35.0/maccatalyst-x64": {
+    "net9.0-android/maccatalyst-x64": {
       "GoogleGson/2.13.0.1": {
         "type": "package",
         "dependencies": {
@@ -31098,6 +31118,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/10.0.10": {
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.20": {
@@ -31108,6 +31129,9 @@
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.9": {
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+      "Microsoft.NET.ILLink.Tasks/9.0.19": {
+>>>>>>> 6e43f81 (Still fixing.)
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -37156,7 +37180,7 @@
         }
       }
     },
-    "net9.0-android35.0/win10-x64": {
+    "net9.0-android/win10-x64": {
       "GoogleGson/2.13.0.1": {
         "type": "package",
         "dependencies": {
@@ -38518,6 +38542,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/10.0.10": {
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.20": {
@@ -38528,6 +38553,9 @@
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.9": {
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+      "Microsoft.NET.ILLink.Tasks/9.0.19": {
+>>>>>>> 6e43f81 (Still fixing.)
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -44536,6 +44564,7 @@
       }
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "net8.0-android34.0/maccatalyst-x64": {
       "GoogleGson/2.10.1.4": {
         "type": "package",
@@ -44687,6 +44716,8 @@
         "compile": {
           "lib/net10.0/Microsoft.Extensions.Diagnostics.Abstractions.dll": {
 =======
+=======
+>>>>>>> 6e43f81 (Still fixing.)
     "net9.0-ios": {
       "Microsoft.Extensions.Configuration/9.0.8": {
         "type": "package",
@@ -50133,6 +50164,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/10.0.10": {
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.20": {
@@ -50143,12 +50175,16 @@
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.9": {
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+      "Microsoft.NET.ILLink.Tasks/9.0.19": {
+>>>>>>> 6e43f81 (Still fixing.)
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50162,6 +50198,8 @@
         "compile": {
           "lib/net10.0/Microsoft.Extensions.Configuration.dll": {
 =======
+=======
+>>>>>>> 6e43f81 (Still fixing.)
     "net9.0-ios/android-arm64": {
       "Microsoft.Extensions.Configuration/9.0.8": {
         "type": "package",
@@ -51491,6 +51529,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/10.0.10": {
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.20": {
@@ -51501,12 +51540,16 @@
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.9": {
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+      "Microsoft.NET.ILLink.Tasks/9.0.19": {
+>>>>>>> 6e43f81 (Still fixing.)
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51520,6 +51563,8 @@
         "compile": {
           "lib/net10.0/Microsoft.Extensions.Configuration.dll": {
 =======
+=======
+>>>>>>> 6e43f81 (Still fixing.)
     "net9.0-ios/android-x64": {
       "Microsoft.Extensions.Configuration/9.0.8": {
         "type": "package",
@@ -52849,6 +52894,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/10.0.10": {
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.20": {
@@ -52859,12 +52905,16 @@
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.9": {
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+      "Microsoft.NET.ILLink.Tasks/9.0.19": {
+>>>>>>> 6e43f81 (Still fixing.)
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52878,6 +52928,8 @@
         "compile": {
           "lib/net10.0/Microsoft.Extensions.Configuration.dll": {
 =======
+=======
+>>>>>>> 6e43f81 (Still fixing.)
     "net9.0-ios/iossimulator-x64": {
       "Microsoft.Extensions.Configuration/9.0.8": {
         "type": "package",
@@ -54207,6 +54259,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/10.0.10": {
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.20": {
@@ -54217,12 +54270,16 @@
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.9": {
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+      "Microsoft.NET.ILLink.Tasks/9.0.19": {
+>>>>>>> 6e43f81 (Still fixing.)
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54236,6 +54293,8 @@
         "compile": {
           "lib/net10.0/Microsoft.Extensions.Configuration.dll": {
 =======
+=======
+>>>>>>> 6e43f81 (Still fixing.)
     "net9.0-ios/maccatalyst-x64": {
       "Microsoft.Extensions.Configuration/9.0.8": {
         "type": "package",
@@ -55565,6 +55624,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/10.0.10": {
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.20": {
@@ -55575,12 +55635,16 @@
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.9": {
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+      "Microsoft.NET.ILLink.Tasks/9.0.19": {
+>>>>>>> 6e43f81 (Still fixing.)
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55594,6 +55658,8 @@
         "compile": {
           "lib/net10.0/Microsoft.Extensions.Configuration.dll": {
 =======
+=======
+>>>>>>> 6e43f81 (Still fixing.)
     "net9.0-ios/win10-x64": {
       "Microsoft.Extensions.Configuration/9.0.8": {
         "type": "package",
@@ -56923,6 +56989,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/10.0.10": {
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.20": {
@@ -56933,12 +57000,16 @@
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.9": {
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+      "Microsoft.NET.ILLink.Tasks/9.0.19": {
+>>>>>>> 6e43f81 (Still fixing.)
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56952,6 +57023,8 @@
         "compile": {
           "lib/net10.0/Microsoft.Extensions.Configuration.dll": {
 =======
+=======
+>>>>>>> 6e43f81 (Still fixing.)
     "net9.0-maccatalyst": {
       "Microsoft.Extensions.Configuration/9.0.8": {
         "type": "package",
@@ -59077,6 +59150,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/10.0.10": {
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.20": {
@@ -59087,12 +59161,16 @@
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.9": {
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+      "Microsoft.NET.ILLink.Tasks/9.0.19": {
+>>>>>>> 6e43f81 (Still fixing.)
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59106,6 +59184,8 @@
         "compile": {
           "lib/net10.0/Microsoft.Extensions.Configuration.dll": {
 =======
+=======
+>>>>>>> 6e43f81 (Still fixing.)
     "net9.0-maccatalyst/android-arm64": {
       "Microsoft.Extensions.Configuration/9.0.8": {
         "type": "package",
@@ -60435,6 +60515,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/10.0.10": {
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.20": {
@@ -60445,12 +60526,16 @@
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.9": {
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+      "Microsoft.NET.ILLink.Tasks/9.0.19": {
+>>>>>>> 6e43f81 (Still fixing.)
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60464,6 +60549,8 @@
         "compile": {
           "lib/net10.0/Microsoft.Extensions.Configuration.dll": {
 =======
+=======
+>>>>>>> 6e43f81 (Still fixing.)
     "net9.0-maccatalyst/android-x64": {
       "Microsoft.Extensions.Configuration/9.0.8": {
         "type": "package",
@@ -61793,6 +61880,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/10.0.10": {
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.20": {
@@ -61803,12 +61891,16 @@
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.9": {
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+      "Microsoft.NET.ILLink.Tasks/9.0.19": {
+>>>>>>> 6e43f81 (Still fixing.)
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61822,6 +61914,8 @@
         "compile": {
           "lib/net10.0/Microsoft.Extensions.Configuration.dll": {
 =======
+=======
+>>>>>>> 6e43f81 (Still fixing.)
     "net9.0-maccatalyst/iossimulator-x64": {
       "Microsoft.Extensions.Configuration/9.0.8": {
         "type": "package",
@@ -63151,6 +63245,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/10.0.10": {
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.20": {
@@ -63161,12 +63256,16 @@
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.9": {
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+      "Microsoft.NET.ILLink.Tasks/9.0.19": {
+>>>>>>> 6e43f81 (Still fixing.)
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63180,6 +63279,8 @@
         "compile": {
           "lib/net10.0/Microsoft.Extensions.Configuration.dll": {
 =======
+=======
+>>>>>>> 6e43f81 (Still fixing.)
     "net9.0-maccatalyst/maccatalyst-x64": {
       "Microsoft.Extensions.Configuration/9.0.8": {
         "type": "package",
@@ -64509,6 +64610,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/10.0.10": {
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.20": {
@@ -64519,12 +64621,16 @@
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.9": {
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+      "Microsoft.NET.ILLink.Tasks/9.0.19": {
+>>>>>>> 6e43f81 (Still fixing.)
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64538,6 +64644,8 @@
         "compile": {
           "lib/net10.0/Microsoft.Extensions.Configuration.dll": {
 =======
+=======
+>>>>>>> 6e43f81 (Still fixing.)
     "net9.0-maccatalyst/win10-x64": {
       "Microsoft.Extensions.Configuration/9.0.8": {
         "type": "package",
@@ -65867,6 +65975,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks/10.0.10": {
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.20": {
@@ -65877,12 +65986,16 @@
 =======
       "Microsoft.NET.ILLink.Tasks/9.0.9": {
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+      "Microsoft.NET.ILLink.Tasks/9.0.19": {
+>>>>>>> 6e43f81 (Still fixing.)
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       }
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -65911,6 +66024,9 @@
       "Microsoft.Extensions.Configuration/8.0.0": {
 =======
     "net9.0-windows10.0.19041": {
+=======
+    "net9.0-windows10.0.19041.0": {
+>>>>>>> 6e43f81 (Still fixing.)
       "Microsoft.Extensions.Configuration/9.0.8": {
 >>>>>>> c8f0d57 (Still fixing.)
         "type": "package",
@@ -70243,6 +70359,7 @@
       }
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "net10.0-windows10.0.19041.0/android-arm64": {
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
@@ -70254,6 +70371,9 @@
           "lib/net10.0/Microsoft.Extensions.Configuration.dll": {
 =======
     "net9.0-windows10.0.19041.0/android-x64": {
+=======
+    "net9.0-windows10.0.19041.0/android-arm64": {
+>>>>>>> 6e43f81 (Still fixing.)
       "Microsoft.Extensions.Configuration/9.0.8": {
         "type": "package",
         "dependencies": {
@@ -70266,7 +70386,7 @@
 =======
       }
     },
-    "net9.0-windows10.0.19041/android-x64": {
+    "net9.0-windows10.0.19041.0/android-x64": {
       "Microsoft.Extensions.Configuration/9.0.8": {
         "type": "package",
         "dependencies": {
@@ -72347,7 +72467,7 @@
 =======
       }
     },
-    "net9.0-windows10.0.19041/iossimulator-x64": {
+    "net9.0-windows10.0.19041.0/iossimulator-x64": {
       "Microsoft.Extensions.Configuration/9.0.8": {
         "type": "package",
         "dependencies": {
@@ -74428,7 +74548,7 @@
 =======
       }
     },
-    "net9.0-windows10.0.19041/maccatalyst-x64": {
+    "net9.0-windows10.0.19041.0/maccatalyst-x64": {
       "Microsoft.Extensions.Configuration/9.0.8": {
         "type": "package",
         "dependencies": {
@@ -76509,7 +76629,7 @@
 =======
       }
     },
-    "net9.0-windows10.0.19041/win10-x64": {
+    "net9.0-windows10.0.19041.0/win10-x64": {
       "Microsoft.Extensions.Configuration/9.0.8": {
         "type": "package",
         "dependencies": {
@@ -83792,6 +83912,7 @@
         "microsoft.maui.resizetizer.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.NET.ILLink.Tasks/9.0.20": {
       "sha512": "oPFydtjCgow3DXnL8z5gPbq3R1zGvBpcypgRhW172Hn8asJcI8oy7isudAnAAALIWyK+uRWCDP+/+om3s0PZHA==",
       "type": "package",
@@ -83815,6 +83936,12 @@
 =======
       "path": "microsoft.net.illink.tasks/9.0.9",
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+    "Microsoft.NET.ILLink.Tasks/9.0.19": {
+      "sha512": "I9GkKrCVjzxGU1hsKSurOW6P/ABPPHARfc/MTnzIgDb8YjJ/votxKN2z7K+J3DvlQXGH0O7KqdtBseRj8j7eNQ==",
+      "type": "package",
+      "path": "microsoft.net.illink.tasks/9.0.19",
+>>>>>>> 6e43f81 (Still fixing.)
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -83831,6 +83958,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83873,6 +84001,9 @@
 =======
         "microsoft.net.illink.tasks.9.0.9.nupkg.sha512",
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+        "microsoft.net.illink.tasks.9.0.19.nupkg.sha512",
+>>>>>>> 6e43f81 (Still fixing.)
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -93991,9 +94122,10 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net9.0-android35.0": [
+    "net9.0-android": [
       "Microsoft.Maui.Controls >= 9.0.110",
       "Microsoft.Maui.Controls.Compatibility >= 9.0.110",
+<<<<<<< HEAD
       "Microsoft.NET.ILLink.Tasks >= 9.0.9"
     ],
     "net9.0-ios18.5": [
@@ -94013,6 +94145,21 @@
 >>>>>>> db2c949 (Still fixing.)
 =======
     "net9.0-windows10.0.19041": [
+=======
+      "Microsoft.NET.ILLink.Tasks >= 9.0.19"
+    ],
+    "net9.0-ios": [
+      "Microsoft.Maui.Controls >= 9.0.110",
+      "Microsoft.Maui.Controls.Compatibility >= 9.0.110",
+      "Microsoft.NET.ILLink.Tasks >= 9.0.19"
+    ],
+    "net9.0-maccatalyst": [
+      "Microsoft.Maui.Controls >= 9.0.110",
+      "Microsoft.Maui.Controls.Compatibility >= 9.0.110",
+      "Microsoft.NET.ILLink.Tasks >= 9.0.19"
+    ],
+    "net9.0-windows10.0.19041.0": [
+>>>>>>> 6e43f81 (Still fixing.)
       "Microsoft.Maui.Controls >= 9.0.110",
       "Microsoft.Maui.Controls.Compatibility >= 9.0.110"
 >>>>>>> c8f0d57 (Still fixing.)
@@ -94091,6 +94238,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "net10.0-android": {
           "framework": "net10.0-android36.0",
           "targetAlias": "net10.0-android",
@@ -94110,6 +94258,8 @@
           "framework": "net10.0-windows10.0.19041",
           "targetAlias": "net10.0-windows10.0.19041.0",
 =======
+=======
+>>>>>>> 6e43f81 (Still fixing.)
         "net9.0-android": {
           "framework": "net9.0-android35.0",
           "targetAlias": "net9.0-android",
@@ -94127,6 +94277,7 @@
         },
         "net9.0-windows10.0.19041.0": {
           "framework": "net9.0-windows10.0.19041",
+<<<<<<< HEAD
           "targetAlias": "net9.0-windows10.0.19041.0",
 >>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
 =======
@@ -94152,6 +94303,8 @@
 >>>>>>> db2c949 (Still fixing.)
 =======
         "net9.0-windows10.0.19041": {
+=======
+>>>>>>> 6e43f81 (Still fixing.)
           "targetAlias": "net9.0-windows10.0.19041.0",
 >>>>>>> c8f0d57 (Still fixing.)
           "projectReferences": {}
@@ -94187,6 +94340,7 @@
         "auditMode": "direct"
       },
       "SdkAnalysisLevel": "10.0.400"
+<<<<<<< HEAD
     },
     "frameworks": {
       "net9.0-android": {
@@ -94205,9 +94359,12 @@
         "auditMode": "direct"
       },
       "SdkAnalysisLevel": "9.0.300"
+=======
+>>>>>>> 6e43f81 (Still fixing.)
     },
     "frameworks": {
-      "net9.0-android35.0": {
+      "net9.0-android": {
+        "framework": "net9.0-android35.0",
         "targetAlias": "net9.0-android",
         "dependencies": {
           "Microsoft.Maui.Controls": {
@@ -94229,6 +94386,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "[10.0.10, )",
 =======
             "version": "[9.0.20, )",
@@ -94239,6 +94397,9 @@
 =======
             "version": "[9.0.9, )",
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+            "version": "[9.0.19, )",
+>>>>>>> 6e43f81 (Still fixing.)
             "autoReferenced": true
           }
         },
@@ -94305,6 +94466,7 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94598,6 +94760,10 @@
 =======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
       },
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
+      },
+>>>>>>> 6e43f81 (Still fixing.)
       "net9.0-ios": {
         "framework": "net9.0-ios26.5",
         "targetAlias": "net9.0-ios",
@@ -94638,6 +94804,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "[10.0.10, )",
 =======
             "version": "[9.0.20, )",
@@ -94648,6 +94815,9 @@
 =======
             "version": "[9.0.9, )",
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+            "version": "[9.0.19, )",
+>>>>>>> 6e43f81 (Still fixing.)
             "autoReferenced": true
           }
         },
@@ -94666,12 +94836,16 @@
         "downloadDependencies": [
           {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6e43f81 (Still fixing.)
             "name": "Microsoft.iOS.Ref.net9.0_26.5",
             "version": "[26.5.9004, 26.5.9004]"
           },
           {
             "name": "Microsoft.iOS.Runtime.iossimulator-x64.net9.0_26.5",
             "version": "[26.5.9004, 26.5.9004]"
+<<<<<<< HEAD
 =======
             "name": "Microsoft.iOS.Ref.net8.0_18.0",
             "version": "[18.0.8319, 18.0.8319]"
@@ -94680,6 +94854,8 @@
             "name": "Microsoft.iOS.Runtime.iossimulator-x64.net8.0_18.0",
             "version": "[18.0.8319, 18.0.8319]"
 >>>>>>> db2c949 (Still fixing.)
+=======
+>>>>>>> 6e43f81 (Still fixing.)
           }
         ],
 =======
@@ -94698,6 +94874,7 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94991,6 +95168,10 @@
 =======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
       },
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
+      },
+>>>>>>> 6e43f81 (Still fixing.)
       "net9.0-maccatalyst": {
         "framework": "net9.0-maccatalyst26.5",
         "targetAlias": "net9.0-maccatalyst",
@@ -95031,6 +95212,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "[10.0.10, )",
 =======
             "version": "[9.0.20, )",
@@ -95041,6 +95223,9 @@
 =======
             "version": "[9.0.9, )",
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+            "version": "[9.0.19, )",
+>>>>>>> 6e43f81 (Still fixing.)
             "autoReferenced": true
           }
         },
@@ -95060,12 +95245,16 @@
         "downloadDependencies": [
           {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6e43f81 (Still fixing.)
             "name": "Microsoft.MacCatalyst.Ref.net9.0_26.5",
             "version": "[26.5.9004, 26.5.9004]"
           },
           {
             "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net9.0_26.5",
             "version": "[26.5.9004, 26.5.9004]"
+<<<<<<< HEAD
 =======
             "name": "Microsoft.MacCatalyst.Ref.net8.0_18.0",
             "version": "[18.0.8319, 18.0.8319]"
@@ -95074,6 +95263,8 @@
             "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net8.0_18.0",
             "version": "[18.0.8319, 18.0.8319]"
 >>>>>>> db2c949 (Still fixing.)
+=======
+>>>>>>> 6e43f81 (Still fixing.)
           }
         ],
 =======
@@ -95092,6 +95283,7 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -95402,8 +95594,12 @@
 =======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 6e43f81 (Still fixing.)
       },
-      "net9.0-windows10.0.19041": {
+      "net9.0-windows10.0.19041.0": {
+        "framework": "net9.0-windows10.0.19041",
         "targetAlias": "net9.0-windows10.0.19041.0",
         "dependencies": {
           "Microsoft.Maui.Controls": {
@@ -95445,6 +95641,7 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -95726,6 +95923,9 @@
 =======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401\\RuntimeIdentifierGraph.json"
 >>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400\\RuntimeIdentifierGraph.json"
+>>>>>>> 6e43f81 (Still fixing.)
       }
     },
     "runtimes": {

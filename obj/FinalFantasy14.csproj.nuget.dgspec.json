@@ -79,6 +79,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           "net10.0-android": {
             "framework": "net10.0-android36.0",
             "targetAlias": "net10.0-android",
@@ -98,6 +99,8 @@
             "framework": "net10.0-windows10.0.19041",
             "targetAlias": "net10.0-windows10.0.19041.0",
 =======
+=======
+>>>>>>> 6e43f81 (Still fixing.)
           "net9.0-android": {
             "framework": "net9.0-android35.0",
             "targetAlias": "net9.0-android",
@@ -115,6 +118,7 @@
           },
           "net9.0-windows10.0.19041.0": {
             "framework": "net9.0-windows10.0.19041",
+<<<<<<< HEAD
             "targetAlias": "net9.0-windows10.0.19041.0",
 >>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
 =======
@@ -140,6 +144,8 @@
 >>>>>>> db2c949 (Still fixing.)
 =======
           "net9.0-windows10.0.19041": {
+=======
+>>>>>>> 6e43f81 (Still fixing.)
             "targetAlias": "net9.0-windows10.0.19041.0",
 >>>>>>> c8f0d57 (Still fixing.)
             "projectReferences": {}
@@ -175,6 +181,7 @@
           "auditMode": "direct"
         },
         "SdkAnalysisLevel": "10.0.400"
+<<<<<<< HEAD
       },
       "frameworks": {
         "net9.0-android": {
@@ -193,9 +200,12 @@
           "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.300"
+=======
+>>>>>>> 6e43f81 (Still fixing.)
       },
       "frameworks": {
-        "net9.0-android35.0": {
+        "net9.0-android": {
+          "framework": "net9.0-android35.0",
           "targetAlias": "net9.0-android",
           "dependencies": {
             "Microsoft.Maui.Controls": {
@@ -217,6 +227,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               "version": "[10.0.10, )",
 =======
               "version": "[9.0.20, )",
@@ -227,6 +238,9 @@
 =======
               "version": "[9.0.9, )",
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+              "version": "[9.0.19, )",
+>>>>>>> 6e43f81 (Still fixing.)
               "autoReferenced": true
             }
           },
@@ -293,6 +307,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -586,6 +601,10 @@
 =======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
         },
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
+        },
+>>>>>>> 6e43f81 (Still fixing.)
         "net9.0-ios": {
           "framework": "net9.0-ios26.5",
           "targetAlias": "net9.0-ios",
@@ -626,6 +645,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               "version": "[10.0.10, )",
 =======
               "version": "[9.0.20, )",
@@ -636,6 +656,9 @@
 =======
               "version": "[9.0.9, )",
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+              "version": "[9.0.19, )",
+>>>>>>> 6e43f81 (Still fixing.)
               "autoReferenced": true
             }
           },
@@ -654,12 +677,16 @@
           "downloadDependencies": [
             {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6e43f81 (Still fixing.)
               "name": "Microsoft.iOS.Ref.net9.0_26.5",
               "version": "[26.5.9004, 26.5.9004]"
             },
             {
               "name": "Microsoft.iOS.Runtime.iossimulator-x64.net9.0_26.5",
               "version": "[26.5.9004, 26.5.9004]"
+<<<<<<< HEAD
 =======
               "name": "Microsoft.iOS.Ref.net8.0_18.0",
               "version": "[18.0.8319, 18.0.8319]"
@@ -668,6 +695,8 @@
               "name": "Microsoft.iOS.Runtime.iossimulator-x64.net8.0_18.0",
               "version": "[18.0.8319, 18.0.8319]"
 >>>>>>> db2c949 (Still fixing.)
+=======
+>>>>>>> 6e43f81 (Still fixing.)
             }
           ],
 =======
@@ -686,6 +715,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -979,6 +1009,10 @@
 =======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
         },
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
+        },
+>>>>>>> 6e43f81 (Still fixing.)
         "net9.0-maccatalyst": {
           "framework": "net9.0-maccatalyst26.5",
           "targetAlias": "net9.0-maccatalyst",
@@ -1019,6 +1053,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               "version": "[10.0.10, )",
 =======
               "version": "[9.0.20, )",
@@ -1029,6 +1064,9 @@
 =======
               "version": "[9.0.9, )",
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+              "version": "[9.0.19, )",
+>>>>>>> 6e43f81 (Still fixing.)
               "autoReferenced": true
             }
           },
@@ -1048,12 +1086,16 @@
           "downloadDependencies": [
             {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6e43f81 (Still fixing.)
               "name": "Microsoft.MacCatalyst.Ref.net9.0_26.5",
               "version": "[26.5.9004, 26.5.9004]"
             },
             {
               "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net9.0_26.5",
               "version": "[26.5.9004, 26.5.9004]"
+<<<<<<< HEAD
 =======
               "name": "Microsoft.MacCatalyst.Ref.net8.0_18.0",
               "version": "[18.0.8319, 18.0.8319]"
@@ -1062,6 +1104,8 @@
               "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net8.0_18.0",
               "version": "[18.0.8319, 18.0.8319]"
 >>>>>>> db2c949 (Still fixing.)
+=======
+>>>>>>> 6e43f81 (Still fixing.)
             }
           ],
 =======
@@ -1080,6 +1124,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1390,8 +1435,12 @@
 =======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
 >>>>>>> c8f0d57 (Still fixing.)
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 6e43f81 (Still fixing.)
         },
-        "net9.0-windows10.0.19041": {
+        "net9.0-windows10.0.19041.0": {
+          "framework": "net9.0-windows10.0.19041",
           "targetAlias": "net9.0-windows10.0.19041.0",
           "dependencies": {
             "Microsoft.Maui.Controls": {
@@ -1433,6 +1482,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1714,6 +1764,9 @@
 =======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401\\RuntimeIdentifierGraph.json"
 >>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400\\RuntimeIdentifierGraph.json"
+>>>>>>> 6e43f81 (Still fixing.)
         }
       },
       "runtimes": {
