@@ -1109,9 +1109,6 @@
     <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\TarnishedDarkness.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
-    <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\TropaiosWarAxe.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </MauiXaml>
     <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\WeatheredWarAxe.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>

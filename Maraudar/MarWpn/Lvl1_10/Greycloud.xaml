@@ -3,10 +3,46 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalFantasy14.Maraudar.MarWpn.Lvl1_10.Greycloud"
              Title="Greycloud">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
+    <ScrollView Margin="10">
+        <VerticalStackLayout>
+            <Label 
+            Text="Greycloud"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+            <Image Source="https://lds-img.finalfantasyxiv.com/itemicon/84/84c4ac7d8d1c4d9bb370103ea4507b9c4850bb43.png?n7.21"/>
+            <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+            <Label Text="Item Level 1"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+            <Label Text="      9                      |       10.08         |    3.36  |"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="MAR WAR"/>
+            <Label Text="Level 1"/>
+
+            <Rectangle Fill="White" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Holy arm of Ser Hermenost the Levinlight."/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Crafting and Repairs"/>
+            <Label Text="Repair Level     Blacksmith Lv. 1"/>
+            <Label Text="Materials        Grade 1 Dark Matter"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Extractable: Yes      Projectable: Yes"/>
+            <Label Text="Desynthesizable: No   Dyeable: No"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Available for Purchase: No"/>
+            <Label Text="***UnsellableMarket Prohibited***"/>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
