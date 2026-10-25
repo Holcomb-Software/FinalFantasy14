@@ -23,10 +23,17 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
+<<<<<<< HEAD
           "net10.0-android",
           "net10.0-ios",
           "net10.0-maccatalyst",
           "net10.0-windows10.0.19041.0"
+=======
+          "net9.0-android",
+          "net9.0-ios",
+          "net9.0-maccatalyst",
+          "net9.0-windows10.0.19041.0"
+>>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -34,6 +41,7 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
+<<<<<<< HEAD
           "net10.0-android": {
             "framework": "net10.0-android36.0",
             "targetAlias": "net10.0-android",
@@ -52,6 +60,26 @@
           "net10.0-windows10.0.19041.0": {
             "framework": "net10.0-windows10.0.19041",
             "targetAlias": "net10.0-windows10.0.19041.0",
+=======
+          "net9.0-android": {
+            "framework": "net9.0-android35.0",
+            "targetAlias": "net9.0-android",
+            "projectReferences": {}
+          },
+          "net9.0-ios": {
+            "framework": "net9.0-ios26.5",
+            "targetAlias": "net9.0-ios",
+            "projectReferences": {}
+          },
+          "net9.0-maccatalyst": {
+            "framework": "net9.0-maccatalyst26.5",
+            "targetAlias": "net9.0-maccatalyst",
+            "projectReferences": {}
+          },
+          "net9.0-windows10.0.19041.0": {
+            "framework": "net9.0-windows10.0.19041",
+            "targetAlias": "net9.0-windows10.0.19041.0",
+>>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
             "projectReferences": {}
           }
         },
@@ -63,6 +91,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
+<<<<<<< HEAD
           "auditMode": "all"
         },
         "SdkAnalysisLevel": "10.0.300"
@@ -79,11 +108,33 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[10.0.90, )"
+=======
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
+      },
+      "frameworks": {
+        "net9.0-android": {
+          "framework": "net9.0-android35.0",
+          "targetAlias": "net9.0-android",
+          "dependencies": {
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+            },
+            "Microsoft.Maui.Controls.Compatibility": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+>>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
+<<<<<<< HEAD
               "version": "[10.0.10, )",
+=======
+              "version": "[9.0.20, )",
+>>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
               "autoReferenced": true
             }
           },
@@ -98,6 +149,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Android.Ref.35",
+              "version": "[35.0.105, 35.0.105]"
+            },
+            {
+              "name": "Microsoft.Android.Runtime.35.android-arm64",
+              "version": "[35.0.105, 35.0.105]"
+            },
+            {
+              "name": "Microsoft.Android.Runtime.35.android-x64",
+              "version": "[35.0.105, 35.0.105]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.Android": {
               "privateAssets": "all"
@@ -109,6 +174,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
@@ -396,11 +462,30 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[10.0.90, )"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
+        },
+        "net9.0-ios": {
+          "framework": "net9.0-ios26.5",
+          "targetAlias": "net9.0-ios",
+          "dependencies": {
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+            },
+            "Microsoft.Maui.Controls.Compatibility": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+>>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
+<<<<<<< HEAD
               "version": "[10.0.10, )",
+=======
+              "version": "[9.0.20, )",
+>>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
               "autoReferenced": true
             }
           },
@@ -415,6 +500,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.iOS.Ref.net9.0_26.5",
+              "version": "[26.5.9004, 26.5.9004]"
+            },
+            {
+              "name": "Microsoft.iOS.Runtime.iossimulator-x64.net9.0_26.5",
+              "version": "[26.5.9004, 26.5.9004]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.iOS": {
               "privateAssets": "all"
@@ -426,6 +521,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
@@ -713,11 +809,30 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[10.0.90, )"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
+        },
+        "net9.0-maccatalyst": {
+          "framework": "net9.0-maccatalyst26.5",
+          "targetAlias": "net9.0-maccatalyst",
+          "dependencies": {
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+            },
+            "Microsoft.Maui.Controls.Compatibility": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+>>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
+<<<<<<< HEAD
               "version": "[10.0.10, )",
+=======
+              "version": "[9.0.20, )",
+>>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
               "autoReferenced": true
             }
           },
@@ -733,6 +848,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.MacCatalyst.Ref.net9.0_26.5",
+              "version": "[26.5.9004, 26.5.9004]"
+            },
+            {
+              "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net9.0_26.5",
+              "version": "[26.5.9004, 26.5.9004]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.MacCatalyst": {
               "privateAssets": "all"
@@ -744,6 +869,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
@@ -1031,6 +1157,21 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[10.0.90, )"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
+        },
+        "net9.0-windows10.0.19041.0": {
+          "framework": "net9.0-windows10.0.19041",
+          "targetAlias": "net9.0-windows10.0.19041.0",
+          "dependencies": {
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+            },
+            "Microsoft.Maui.Controls.Compatibility": {
+              "target": "Package",
+              "version": "[9.0.110, )"
+>>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
             }
           },
           "imports": [
@@ -1058,6 +1199,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
@@ -1333,6 +1475,9 @@
             "System.Xml.XPath": "(,4.3.32767]",
             "System.Xml.XPath.XDocument": "(,5.0.32767]"
           }
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401\\RuntimeIdentifierGraph.json"
+>>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
         }
       },
       "runtimes": {

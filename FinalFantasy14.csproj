@@ -1,7 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+<<<<<<< HEAD
     <TargetFrameworks>net10.0-android;net10.0-ios;net10.0-maccatalyst</TargetFrameworks>
     <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net10.0-windows10.0.19041.0</TargetFrameworks>
+=======
+    <TargetFrameworks>net9.0-android;net9.0-ios;net9.0-maccatalyst</TargetFrameworks>
+    <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net9.0-windows10.0.19041.0</TargetFrameworks>
+>>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
     <!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
     <!-- <TargetFrameworks>$(TargetFrameworks);net8.0-tizen</TargetFrameworks> -->
     <OutputType>Exe</OutputType>
@@ -40,41 +45,10 @@
     <MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Remove="Gladiator\GladArm\Body\**" />
-    <AndroidResource Remove="Gladiator\GladArm\Feet\**" />
-    <AndroidResource Remove="Gladiator\GladArm\Hands\**" />
-    <AndroidResource Remove="Gladiator\GladArm\Head\**" />
-    <AndroidResource Remove="Gladiator\GladArm\Legs\**" />
-    <Compile Remove="Gladiator\GladArm\Body\**" />
-    <Compile Remove="Gladiator\GladArm\Feet\**" />
-    <Compile Remove="Gladiator\GladArm\Hands\**" />
-    <Compile Remove="Gladiator\GladArm\Head\**" />
-    <Compile Remove="Gladiator\GladArm\Legs\**" />
-    <EmbeddedResource Remove="Gladiator\GladArm\Body\**" />
-    <EmbeddedResource Remove="Gladiator\GladArm\Feet\**" />
-    <EmbeddedResource Remove="Gladiator\GladArm\Hands\**" />
-    <EmbeddedResource Remove="Gladiator\GladArm\Head\**" />
-    <EmbeddedResource Remove="Gladiator\GladArm\Legs\**" />
-    <MauiCss Remove="Gladiator\GladArm\Body\**" />
-    <MauiCss Remove="Gladiator\GladArm\Feet\**" />
-    <MauiCss Remove="Gladiator\GladArm\Hands\**" />
-    <MauiCss Remove="Gladiator\GladArm\Head\**" />
-    <MauiCss Remove="Gladiator\GladArm\Legs\**" />
-    <MauiXaml Remove="Gladiator\GladArm\Body\**" />
-    <MauiXaml Remove="Gladiator\GladArm\Feet\**" />
-    <MauiXaml Remove="Gladiator\GladArm\Hands\**" />
-    <MauiXaml Remove="Gladiator\GladArm\Head\**" />
-    <MauiXaml Remove="Gladiator\GladArm\Legs\**" />
-    <None Remove="Gladiator\GladArm\Body\**" />
-    <None Remove="Gladiator\GladArm\Feet\**" />
-    <None Remove="Gladiator\GladArm\Hands\**" />
-    <None Remove="Gladiator\GladArm\Head\**" />
-    <None Remove="Gladiator\GladArm\Legs\**" />
-  </ItemGroup>
-  <ItemGroup>
     <None Remove="Resources\AppIcon\appicon.svg" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Update="Gladiator\GladArm\GladiatorArm.xaml.cs">
       <DependentUpon>GladiatorArm.xaml</DependentUpon>
     </Compile>
@@ -2484,6 +2458,10 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Maui.Controls" Version="10.0.90" />
     <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="10.0.90" />
+=======
+    <PackageReference Include="Microsoft.Maui.Controls" Version="9.0.110" />
+    <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="9.0.110" />
+>>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
   </ItemGroup>
   <ItemGroup>
     <None Update="Resources\AppIcon\icon1.jpg">
@@ -2491,4 +2469,34 @@
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Update\" />
+    <Folder Include="Quests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <MauiXaml Update="Armor\Armor_Viewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Items\Item_Viewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Update\Update.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Weapons\Weapon_Main.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Weapons\Weapon_Viewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+  </ItemGroup>
+
+  <ItemGroup>
+		<Content Include="Update\armor_scraper.py">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Update\weapon_scraper.py">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
 </Project>
