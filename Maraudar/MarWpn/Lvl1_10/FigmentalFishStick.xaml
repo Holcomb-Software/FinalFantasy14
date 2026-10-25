@@ -3,10 +3,48 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinalFantasy14.Maraudar.MarWpn.Lvl1_10.FigmentalFishStick"
              Title="FigmentalFishStick">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
+    <ScrollView Margin="10">
+        <VerticalStackLayout>
+            <Label 
+            Text="Figmental Fish Stick"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+            <Image Source="https://lds-img.finalfantasyxiv.com/itemicon/83/8316dd4e0463bc607c24fab57611b1df3ac7bdb6.png?n7.21"/>
+            <Rectangle Fill="white" HeightRequest="2" WidthRequest="1000"/>
+            <Label Text="Item Level 1"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Physical Damage  |  Auto-attack  |  Delay  |"/>
+            <Label Text="      9                      |       10.08         |    3.36  |"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="MAR WAR"/>
+            <Label Text="Level 1"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Crafting and Repairs"/>
+            <Label Text="Repair Level     Blacksmith Lv. 1"/>
+            <Label Text="Materials        Grade 1 Dark Matter"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Extractable: Yes      Projectable: Yes"/>
+            <Label Text="Desynthesizable: No   Dyeable: No"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Available for Purchase: No"/>
+            <Label Text="Sells for 1 gil ***Market Prohibited***"/>
+
+            <Rectangle Fill="white" HeightRequest="5" WidthRequest="1000"/>
+
+            <Label Text="Acquired From:"/>
+            <Image Source="https://img.finalfantasyxiv.com/lds/pc/global/images/itemicon/5c/5c253d583ff892bf2e9662bbf85e4bf7567b9e2b.png?n6.41"/>
+            <Label Text="Figmental Weapon Coffer"/>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
