@@ -6,7 +6,11 @@
 =======
     <TargetFrameworks>net9.0-android;net9.0-ios;net9.0-maccatalyst</TargetFrameworks>
     <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net9.0-windows10.0.19041.0</TargetFrameworks>
+<<<<<<< HEAD
 >>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
+=======
+>>>>>>> 964aeb5 (FMA-50: Create Level 21-30 Weapon pages for Marauder Class. DJH)
+>>>>>>> c8f0d57 (Still fixing.)
     <!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
     <!-- <TargetFrameworks>$(TargetFrameworks);net8.0-tizen</TargetFrameworks> -->
     <OutputType>Exe</OutputType>
@@ -1120,6 +1124,54 @@
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
     <MauiXaml Update="Maraudar\MarWpn\Lvl1_10\WeatheredWarAxe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl21_30\AethIronBill.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl21_30\AethSpikedSteelLab.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl21_30\AethThunderstormAxe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl21_30\CharredAxe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl21_30\ElmlordTusk.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl21_30\FlamePvtAxe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl21_30\FlamePvtLab.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl21_30\IronBill.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl21_30\Lvl21_30.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl21_30\PawCrimsonCat.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl21_30\SerpPvtAxe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl21_30\SerpPvtLab.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl21_30\SpikedSteelLab.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl21_30\StormPvtAxe.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl21_30\StormPvtLab.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Maraudar\MarWpn\Lvl21_30\ThunderstormAxe.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
     <MauiXaml Update="Maraudar\MarWpn\MarWpnMain.xaml">
@@ -2543,12 +2595,17 @@
     </MauiXaml>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <PackageReference Include="Microsoft.Maui.Controls" Version="10.0.90" />
     <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="10.0.90" />
 =======
     <PackageReference Include="Microsoft.Maui.Controls" Version="9.0.110" />
     <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="9.0.110" />
+<<<<<<< HEAD
 >>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
+=======
+>>>>>>> 964aeb5 (FMA-50: Create Level 21-30 Weapon pages for Marauder Class. DJH)
+>>>>>>> c8f0d57 (Still fixing.)
   </ItemGroup>
   <ItemGroup>
     <None Update="Resources\AppIcon\icon1.jpg">
