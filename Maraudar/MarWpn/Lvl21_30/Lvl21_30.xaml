@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalFantasy14.Maraudar.MarWpn.Lvl21_30.Lvl21_30"
+             Title="Lvl21_30">
+    <VerticalStackLayout>
+        <Button Text="Serpent Private's Axe"
+                Clicked="Button_Clicked"/>
+
+        <Button Text="Storm Private's Axe"
+                Clicked="Button_Clicked_1"/>
+
+        <Button Text="Flame Private's Axe"
+                Clicked="Button_Clicked_2"/>
+
+        <Button Text="Aetherial Iron Bill"
+                Clicked="Button_Clicked_3"/>
+
+        <Button Text="Iron Bill"
+                Clicked="Button_Clicked_4"/>
+
+        <Button Text="Aetherial Thunderstorm Axe"
+                Clicked="Button_Clicked_5"/>
+
+        <Button Text="Thunderstorm Axe"
+                Clicked="Button_Clicked_6"/>
+
+        <Button Text="Elmlord's Tusk"
+                Clicked="Button_Clicked_7"/>
+
+        <Button Text="Aetherial Spiked Steel Labrys"
+                Clicked="Button_Clicked_8"/>
+
+        <Button Text="Spiked Steel Labrys"
+                Clicked="Button_Clicked_9"/>
+
+        <Button Text="Paw of the Crimson Cat"
+                Clicked="Button_Clicked_10"/>
+
+        <Button Text="Charred Axe"
+                Clicked="Button_Clicked_11"/>
+
+        <Button Text="Serpent Private's Labrys"
+                Clicked="Button_Clicked_12"/>
+
+        <Button Text="Storm Private's Labrys"
+                Clicked="Button_Clicked_13"/>
+
+        <Button Text="Flame Private's Labrys"
+                Clicked="Button_Clicked_14"/>
+    </VerticalStackLayout>
+</ContentPage>
