@@ -1,0 +1,48 @@
+name: Security & Policy Audit
+
+on:
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  security-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install Security Tools
+        run: pip install bandit
+
+      - name: Run Security Scanner Script
+        run: |
+          chmod +x ./scripts/security_scan.sh
+          ./scripts/security_scan.sh -t "." -o "security_report.md"
+
+      - name: Post Report to Pull Request
+        uses: actions/github-script@v7
+        if: always()
+        with:
+          script: |
+            const fs = require('fs');
+            if (fs.existsSync('security_report.md')) {
+              const report = fs.readFileSync('security_report.md', 'utf8');
+              github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `### 🛡️ Automated Security Audit Results\n\n${report}`
+              });
+            }
+
+      - name: Enforce Blocking Gate
+        run: |
+          if grep -q "## BLOCKING Severity ([1-9]" security_report.md; then
+            echo "::error::Blocking security issues detected! Resolve them before merging."
+            exit 1
+          fi

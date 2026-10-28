@@ -1,0 +1,25 @@
+stages:
+  - test
+
+security_scan:
+  stage: test
+  image: python:3.11
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+  before_script:
+    - pip install bandit
+    - chmod +x ./scripts/security_scan.sh
+  script:
+    - ./scripts/security_scan.sh -t "." -o "security_report.md"
+    - cat security_report.md
+    # Fail job and block MR if BLOCKING issues are present
+    - |
+      if grep -q "## BLOCKING Severity ([1-9]" security_report.md; then
+        echo "BLOCKING security vulnerabilities found. Merge request blocked."
+        exit 1
+      fi
+  artifacts:
+    name: "security-report-$CI_COMMIT_REF_NAME"
+    paths:
+      - security_report.md
+    expire_in: 1 week
