@@ -1,16 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-<<<<<<< HEAD
     <TargetFrameworks>net10.0-android;net10.0-ios;net10.0-maccatalyst</TargetFrameworks>
     <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net10.0-windows10.0.19041.0</TargetFrameworks>
-=======
-    <TargetFrameworks>net9.0-android;net9.0-ios;net9.0-maccatalyst</TargetFrameworks>
-    <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net9.0-windows10.0.19041.0</TargetFrameworks>
-<<<<<<< HEAD
->>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
-=======
->>>>>>> 964aeb5 (FMA-50: Create Level 21-30 Weapon pages for Marauder Class. DJH)
->>>>>>> c8f0d57 (Still fixing.)
     <!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
     <!-- <TargetFrameworks>$(TargetFrameworks);net8.0-tizen</TargetFrameworks> -->
     <OutputType>Exe</OutputType>
@@ -52,7 +43,6 @@
     <None Remove="Resources\AppIcon\appicon.svg" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Update="Gladiator\GladArm\GladiatorArm.xaml.cs">
       <DependentUpon>GladiatorArm.xaml</DependentUpon>
     </Compile>
@@ -2595,19 +2585,10 @@
     </MauiXaml>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <PackageReference Include="Microsoft.Maui.Controls" Version="10.0.90" />
     <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="10.0.90" />
-=======
-=======
->>>>>>> 17f913e (Removed all previous work.)
     <PackageReference Include="Microsoft.Maui.Controls" Version="9.0.110" />
     <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="9.0.110" />
-<<<<<<< HEAD
->>>>>>> a6a344c3a2c9bd0e28abd7c2ab52823d71a62048
-=======
->>>>>>> 964aeb5 (FMA-50: Create Level 21-30 Weapon pages for Marauder Class. DJH)
->>>>>>> c8f0d57 (Still fixing.)
   </ItemGroup>
   <ItemGroup>
     <None Update="Resources\AppIcon\icon1.jpg">

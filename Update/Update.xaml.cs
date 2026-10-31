@@ -94,24 +94,25 @@ public partial class Update : ContentPage, INotifyPropertyChanged
 
         var startInfo = new ProcessStartInfo
         {
-            FileName = "python", // Uses 'python' or 'python3' on system PATH
-            Arguments = $"\"{scriptPath}\"",
+            FileName = "python", // Ensure 'python' or 'python3' is untampered on system PATH
             RedirectStandardOutput = true,
             RedirectStandardError = true,
             UseShellExecute = false,
             CreateNoWindow = true
         };
 
+        // Safely add arguments without manual string concatenation or escaping issues
+        startInfo.ArgumentList.Add(scriptPath);
+
         using var process = new Process { StartInfo = startInfo };
 
         process.Start();
 
-        // Optional: Read standard output line-by-line if script prints progress (e.g., "PROGRESS:50")
+        // Read standard output line-by-line if script prints progress (e.g., "PROGRESS:0.5")
         while (!process.StandardOutput.EndOfStream)
         {
             string line = process.StandardOutput.ReadLine();
 
-            // If python outputs progress lines like "PROGRESS:0.5", parse and report it:
             if (line != null && line.StartsWith("PROGRESS:"))
             {
                 if (double.TryParse(line.Replace("PROGRESS:", "").Trim(), out double parsedPercent))
